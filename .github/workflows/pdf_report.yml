@@ -1,0 +1,37 @@
+name: Generate and Submit PDF Report
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install fpdf2
+      
+      - name: Generate PDF Report
+        run: python scripts/generate_pdf_report.py
+      
+      - name: Upload PDF as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ai-news-report
+          path: reports/*.pdf
+      
+      - name: Commit and Push Reports
+        run: |
+          git config --global user.name "NeoCodeSmith"
+          git config --global user.email "120089461+NeoCodeSmith@users.noreply.github.com"
+          git add reports/ history.log
+          git commit -m "chore: update hourly PDF report and history log"
+          git push
