@@ -86,8 +86,7 @@ def generate_pdf_report():
         return pdf_path
         
     except Exception as e:
-        print(f"ERROR: {str(e)}")
-        traceback.print_exc()
+        print(f"ERROR: {traceback.format_exc()}")
         raise
 
 if __name__ == "__main__":
