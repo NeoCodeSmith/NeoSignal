@@ -8,6 +8,8 @@ on:
 jobs:
   generate-pdf:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing to /reports
     steps:
       - uses: actions/checkout@v4
       
@@ -17,7 +19,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install fpdf2
+        run: pip install fpdf2 pandas
       
       - name: Generate PDF Report
         run: python scripts/generate_pdf_report.py
@@ -32,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "NeoCodeSmith"
           git config --global user.email "120089461+NeoCodeSmith@users.noreply.github.com"
-          git add reports/ history.log
-          git commit -m "chore: update hourly PDF report and history log"
+          git add reports/
+          git commit -m "chore: update hourly PDF report"
           git push
