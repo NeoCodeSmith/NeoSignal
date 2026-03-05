@@ -8,8 +8,6 @@ on:
 jobs:
   generate-pdf:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Allow pushing to /reports
     steps:
       - uses: actions/checkout@v4
       
@@ -37,3 +35,5 @@ jobs:
           git add reports/
           git commit -m "chore: update hourly PDF report"
           git push
+    permissions:
+      contents: write
