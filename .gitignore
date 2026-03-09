@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Generated at runtime — committed by CI, not local dev
+data/news_feed.json
+reports/*.pdf
+archive/
+history.log
+
+# IDE
+.vscode/
+.idea/
+*.swp

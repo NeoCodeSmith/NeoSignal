@@ -1,0 +1,14 @@
+[MASTER]
+ignore=.git,__pycache__
+
+[MESSAGES CONTROL]
+disable=W0511
+
+[FORMAT]
+max-line-length=140
+
+[DESIGN]
+max-args=8
+
+[SIMILARITIES]
+min-similarity-lines=10

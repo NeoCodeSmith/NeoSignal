@@ -1,0 +1,48 @@
+name: NeoSignal Weekly Digest
+
+on:
+  schedule:
+    - cron: '0 20 * * 0'   # 20:00 UTC every Sunday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install system fonts
+        run: sudo apt-get install -y fonts-dejavu-core
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate weekly digest
+        run: python -m src.digest
+
+      - name: Upload digest artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-digest-${{ github.run_id }}
+          path: archive/**/*.pdf
+          if-no-files-found: warn
+
+      - name: Commit archive
+        run: |
+          git config --global user.name  "NeoSignal Bot"
+          git config --global user.email "neosignal@users.noreply.github.com"
+          git add archive/ || true
+          git diff --cached --quiet && echo "Nothing to commit." || \
+            git commit -m "auto: NeoSignal weekly digest $(date -u +'%Y-W%V')"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git

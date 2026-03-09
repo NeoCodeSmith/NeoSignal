@@ -1,0 +1,78 @@
+name: NeoSignal Daily Pipeline
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install system fonts (Unicode PDF support)
+        run: sudo apt-get install -y fonts-dejavu-core
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Prepare directories
+        run: mkdir -p data reports
+
+      - name: Run scraper
+        run: python -m src.scraper
+        # Non-zero exit only if unrecoverable. Empty feed is handled gracefully.
+
+      - name: Validate scraper output
+        run: |
+          if [ ! -f data/news_feed.json ]; then
+            echo "::error::Scraper did not produce data/news_feed.json"
+            exit 1
+          fi
+          ARTICLE_COUNT=$(python -c "import json; d=json.load(open('data/news_feed.json')); print(d['meta']['article_count'])")
+          echo "Article count: $ARTICLE_COUNT"
+          echo "ARTICLE_COUNT=$ARTICLE_COUNT" >> $GITHUB_ENV
+
+      - name: Generate PDF report
+        run: |
+          python -m src.pdf_generator
+          # Exit 0 even if no new articles — pipeline continues
+
+      - name: Validate PDF (only if articles exist)
+        if: env.ARTICLE_COUNT != '0'
+        run: |
+          if ! ls reports/*.pdf 1>/dev/null 2>&1; then
+            echo "::error::PDF generation failed — no PDF found in reports/"
+            exit 1
+          fi
+          echo "PDF validation passed."
+
+      - name: Commit and push artefacts
+        run: |
+          git config --global user.name  "NeoSignal Bot"
+          git config --global user.email "neosignal@users.noreply.github.com"
+          git add data/news_feed.json reports/ history.log || true
+          git diff --cached --quiet && echo "Nothing to commit." || \
+            git commit -m "auto: NeoSignal daily report $(date -u +'%Y-%m-%d')"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Upload debug artefacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-data-${{ github.run_id }}
+          path: |
+            data/
+            reports/
