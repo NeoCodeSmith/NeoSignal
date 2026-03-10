@@ -2,7 +2,7 @@ name: NeoSignal Weekly Digest — Sunday 9 PM IST
 
 on:
   schedule:
-    - cron: '30 15 * * 0'  # 09:00 PM IST (UTC+5:30) every Sunday
+    - cron: '30 15 * * 0'  # 09:00 PM IST every Sunday
   workflow_dispatch:
 
 permissions:
@@ -11,9 +11,10 @@ permissions:
 jobs:
   digest:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,22 +31,41 @@ jobs:
       - name: Generate weekly digest
         run: python -m src.digest
 
-      - name: Upload digest as artefact
-        uses: actions/upload-artifact@v4
-        with:
-          name: weekly-digest-${{ github.run_id }}
-          path: archive/**/*.pdf
-          if-no-files-found: warn
+      - name: Set IST date
+        run: echo "IST_DATE=$(TZ='Asia/Kolkata' date +'%Y-%m-%d %I:%M %p IST')" >> $GITHUB_ENV
 
-      - name: Commit digest to archive
+      - name: Email weekly digest
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          to: ${{ secrets.EMAIL_TO }}
+          from: NeoSignal Bot <${{ secrets.EMAIL_USERNAME }}>
+          subject: "NeoSignal Weekly Digest — AI Intelligence Summary"
+          body: |
+            Your weekly NeoSignal AI intelligence digest is attached.
+
+            This digest covers the top AI stories from the past 7 days,
+            categorised into:
+              • Model Releases & Research
+              • Strategic & Business
+              • Safety & Regulation
+              • Tools & Engineering
+
+            — NeoSignal Bot
+          attachments: archive/**/*.pdf
+        continue-on-error: true
+
+      - name: Commit digest archive
         run: |
           git config --global user.name  "NeoSignal Bot"
           git config --global user.email "neosignal@users.noreply.github.com"
+          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
           git add -f archive/ || true
-          if git diff --cached --quiet; then
-            echo "Nothing to commit."
-          else
-            IST_DATE=$(TZ='Asia/Kolkata' date +'%Y-%m-%d %I:%M %p IST')
-            git commit -m "digest: NeoSignal weekly — $IST_DATE"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          fi
+          git diff --cached --quiet && echo "Nothing to commit." || (
+            git commit -m "digest: NeoSignal weekly — ${{ env.IST_DATE }}" &&
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+          )

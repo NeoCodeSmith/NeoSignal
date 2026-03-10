@@ -3,7 +3,7 @@ name: NeoSignal Daily Report — 9 AM IST
 on:
   schedule:
     - cron: '30 3 * * *'   # 09:00 AM IST (UTC+5:30) every day
-  workflow_dispatch:         # also triggerable manually from Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history needed for rebase
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,7 +24,7 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install system fonts (required for Unicode PDF)
+      - name: Install system fonts (Unicode PDF)
         run: sudo apt-get install -y fonts-dejavu-core
 
       - name: Install Python dependencies
@@ -31,7 +33,7 @@ jobs:
       - name: Prepare directories
         run: mkdir -p data reports
 
-      - name: Run scraper
+      - name: Run multi-source scraper
         run: python -m src.scraper
 
       - name: Validate scraper output
@@ -40,35 +42,80 @@ jobs:
             echo "::error::Scraper did not produce data/news_feed.json"
             exit 1
           fi
-          ARTICLE_COUNT=$(python -c "import json; d=json.load(open('data/news_feed.json')); print(d['meta']['article_count'])")
-          echo "Article count: $ARTICLE_COUNT"
+          ARTICLE_COUNT=$(python -c "
+          import json
+          d = json.load(open('data/news_feed.json'))
+          print(d['meta']['article_count'])
+          ")
+          RAW_COUNT=$(python -c "
+          import json
+          d = json.load(open('data/news_feed.json'))
+          print(d['meta'].get('raw_count', 0))
+          ")
+          echo "Articles after scoring: $ARTICLE_COUNT  (raw scraped: $RAW_COUNT)"
           echo "ARTICLE_COUNT=$ARTICLE_COUNT" >> $GITHUB_ENV
 
       - name: Generate PDF report
         run: python -m src.pdf_generator
 
-      - name: Validate PDF was created
-        if: env.ARTICLE_COUNT != '0'
+      - name: Validate PDF
         run: |
-          PDF_COUNT=$(ls reports/*.pdf 2>/dev/null | wc -l)
+          PDF_COUNT=$(ls reports/neosignal_*.pdf 2>/dev/null | wc -l)
           if [ "$PDF_COUNT" -eq 0 ]; then
-            echo "::error::PDF generation failed — no PDF in reports/"
+            echo "::error::No PDF found in reports/ after generation"
             exit 1
           fi
-          echo "PDF OK — $PDF_COUNT report(s) in reports/"
+          PDF_PATH=$(ls -t reports/neosignal_*.pdf | head -1)
+          PDF_SIZE=$(stat -c%s "$PDF_PATH")
+          echo "PDF: $PDF_PATH  ($PDF_SIZE bytes)"
+          echo "PDF_PATH=$PDF_PATH" >> $GITHUB_ENV
 
-      - name: Commit and push report to repo
+      - name: Send PDF by email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          to: ${{ secrets.EMAIL_TO }}
+          from: NeoSignal Bot <${{ secrets.EMAIL_USERNAME }}>
+          subject: "NeoSignal Daily Report — ${{ env.ARTICLE_COUNT }} AI stories — ${{ env.IST_DATE }}"
+          body: |
+            Good morning!
+
+            Your NeoSignal AI Intelligence Report is attached.
+
+            Today's summary:
+            • ${{ env.ARTICLE_COUNT }} stories passed cross-source verification
+            • Sources: HackerNews, Reddit, TechCrunch AI, VentureBeat AI, MIT Tech Review,
+                       The Verge AI, Wired AI, ArXiv CS.AI
+
+            Stories are ranked by authenticity score — how many independent sources
+            cover the same news. VERIFIED = 3+ sources. CONFIRMED = 2 sources.
+
+            — NeoSignal Bot
+          attachments: ${{ env.PDF_PATH }}
+        continue-on-error: true   # don't fail the whole run if email bounces
+
+      - name: Set IST date for commit message
+        run: echo "IST_DATE=$(TZ='Asia/Kolkata' date +'%Y-%m-%d %I:%M %p IST')" >> $GITHUB_ENV
+
+      - name: Commit report to repository
         run: |
           git config --global user.name  "NeoSignal Bot"
           git config --global user.email "neosignal@users.noreply.github.com"
-          # Force-add: bypasses any accidental gitignore entries
+
+          # Pull latest to avoid push race condition
+          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+
           git add -f data/news_feed.json reports/ history.log || true
+
           if git diff --cached --quiet; then
-            echo "Nothing new to commit — all articles already reported."
+            echo "Nothing new to commit."
           else
-            IST_DATE=$(TZ='Asia/Kolkata' date +'%Y-%m-%d %I:%M %p IST')
-            git commit -m "report: NeoSignal daily — $IST_DATE"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git commit -m "report: NeoSignal daily — ${{ env.IST_DATE }} — ${{ env.ARTICLE_COUNT }} stories"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
             echo "Report committed and pushed."
           fi
 
