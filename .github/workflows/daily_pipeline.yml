@@ -2,7 +2,7 @@ name: NeoSignal Daily Pipeline
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 06:00 UTC daily
+    - cron: '30 3 * * *'   # 09:00 AM IST (UTC+5:30) daily
   workflow_dispatch:
 
 permissions:
