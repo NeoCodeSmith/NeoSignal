@@ -1,9 +1,9 @@
-name: NeoSignal Daily Pipeline
+name: NeoSignal Daily Report — 9 AM IST
 
 on:
   schedule:
-    - cron: '30 3 * * *'   # 09:00 AM IST (UTC+5:30) daily
-  workflow_dispatch:
+    - cron: '30 3 * * *'   # 09:00 AM IST (UTC+5:30) every day
+  workflow_dispatch:         # also triggerable manually from Actions tab
 
 permissions:
   contents: write
@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install system fonts (Unicode PDF support)
+      - name: Install system fonts (required for Unicode PDF)
         run: sudo apt-get install -y fonts-dejavu-core
 
       - name: Install Python dependencies
@@ -33,7 +33,6 @@ jobs:
 
       - name: Run scraper
         run: python -m src.scraper
-        # Non-zero exit only if unrecoverable. Empty feed is handled gracefully.
 
       - name: Validate scraper output
         run: |
@@ -46,33 +45,38 @@ jobs:
           echo "ARTICLE_COUNT=$ARTICLE_COUNT" >> $GITHUB_ENV
 
       - name: Generate PDF report
-        run: |
-          python -m src.pdf_generator
-          # Exit 0 even if no new articles — pipeline continues
+        run: python -m src.pdf_generator
 
-      - name: Validate PDF (only if articles exist)
+      - name: Validate PDF was created
         if: env.ARTICLE_COUNT != '0'
         run: |
-          if ! ls reports/*.pdf 1>/dev/null 2>&1; then
-            echo "::error::PDF generation failed — no PDF found in reports/"
+          PDF_COUNT=$(ls reports/*.pdf 2>/dev/null | wc -l)
+          if [ "$PDF_COUNT" -eq 0 ]; then
+            echo "::error::PDF generation failed — no PDF in reports/"
             exit 1
           fi
-          echo "PDF validation passed."
+          echo "PDF OK — $PDF_COUNT report(s) in reports/"
 
-      - name: Commit and push artefacts
+      - name: Commit and push report to repo
         run: |
           git config --global user.name  "NeoSignal Bot"
           git config --global user.email "neosignal@users.noreply.github.com"
-          git add data/news_feed.json reports/ history.log || true
-          git diff --cached --quiet && echo "Nothing to commit." || \
-            git commit -m "auto: NeoSignal daily report $(date -u +'%Y-%m-%d')"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          # Force-add: bypasses any accidental gitignore entries
+          git add -f data/news_feed.json reports/ history.log || true
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit — all articles already reported."
+          else
+            IST_DATE=$(TZ='Asia/Kolkata' date +'%Y-%m-%d %I:%M %p IST')
+            git commit -m "report: NeoSignal daily — $IST_DATE"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            echo "Report committed and pushed."
+          fi
 
       - name: Upload debug artefacts on failure
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: debug-data-${{ github.run_id }}
+          name: debug-${{ github.run_id }}
           path: |
             data/
             reports/

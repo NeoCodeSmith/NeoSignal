@@ -7,13 +7,10 @@ venv/
 .env
 *.egg-info/
 
-# Generated at runtime — committed by CI, not local dev
-data/news_feed.json
-reports/*.pdf
-archive/
-history.log
-
 # IDE
 .vscode/
 .idea/
 *.swp
+
+# NOTE: data/, reports/, archive/, history.log are NOT ignored.
+# They are committed by CI on every run so reports are accessible in the repo.
