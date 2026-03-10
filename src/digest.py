@@ -1,6 +1,14 @@
 """
-NeoSignal Weekly Digest Generator
-Reads history.log + news_feed.json to produce a categorised weekly summary PDF.
+NeoSignal Weekly Digest Generator v3.1
+
+Reads data/news_feed.json, categorises articles into 4 intelligence domains,
+and produces a styled weekly digest PDF saved to archive/YYYY-WWW/.
+
+Categories:
+  1. Model Releases & Research — new models, papers, benchmarks
+  2. Strategic & Business     — funding, M&A, partnerships, enterprise
+  3. Safety & Regulation      — alignment, policy, governance, risks
+  4. Tools & Engineering      — OSS, frameworks, APIs, deployment
 """
 
 import json
@@ -16,37 +24,74 @@ from fpdf import FPDF, XPos, YPos
 log = logging.getLogger(__name__)
 
 BASE_DIR     = Path(__file__).resolve().parent.parent
-HISTORY_FILE = BASE_DIR / "history.log"
 NEWS_FILE    = BASE_DIR / "data" / "news_feed.json"
 ARCHIVE_DIR  = BASE_DIR / "archive"
 
 CATEGORIES = {
-    "Model Releases & Research": ["model", "release", "paper", "benchmark", "gpt", "claude", "gemini", "llm"],
-    "Strategic & Business": ["startup", "funding", "acquisition", "partnership", "investment", "revenue"],
-    "Safety & Regulation": ["safety", "alignment", "regulation", "ban", "risk", "policy", "governance"],
-    "Tools & Engineering": ["open source", "framework", "library", "tool", "sdk", "api", "deployment"],
+    "Model Releases & Research": [
+        "model", "release", "paper", "benchmark", "arxiv", "research",
+        "gpt", "claude", "gemini", "llama", "mistral", "falcon",
+        "neural", "transformer", "diffusion", "multimodal", "fine-tun",
+    ],
+    "Strategic & Business": [
+        "startup", "funding", "raises", "acquisition", "merger", "ipo",
+        "partnership", "investment", "revenue", "valuation", "enterprise",
+        "openai", "anthropic", "google", "microsoft", "meta", "amazon",
+    ],
+    "Safety & Regulation": [
+        "safety", "alignment", "regulation", "ban", "risk", "policy",
+        "governance", "legislation", "bias", "ethics", "responsible",
+        "eu ai act", "executive order", "oversight", "accountability",
+    ],
+    "Tools & Engineering": [
+        "open source", "framework", "library", "tool", "sdk", "api",
+        "deployment", "inference", "rag", "vector", "embedding",
+        "github", "hugging face", "langchain", "llamaindex", "vllm",
+    ],
 }
 
-TTF_CANDIDATES = [
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-    "/usr/share/fonts/TTF/DejaVuSans.ttf",
-]
+TTF_REG  = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+TTF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+C_NAVY       = (10, 18, 40)
+C_WHITE      = (255, 255, 255)
+C_BG         = (245, 247, 252)
+C_DIVIDER    = (210, 215, 230)
+C_BODY       = (25, 28, 48)
+C_MUTED      = (120, 125, 145)
+C_URL        = (0, 90, 200)
+C_VERIFIED   = (16, 122, 64)
+C_CONFIRMED  = (200, 100, 0)
+C_EMERGING   = (110, 110, 130)
+
+CATEGORY_COLOURS = {
+    "Model Releases & Research": (0, 100, 210),
+    "Strategic & Business":      (0, 130, 80),
+    "Safety & Regulation":       (180, 60, 0),
+    "Tools & Engineering":       (100, 0, 180),
+    "General AI News":           (60, 60, 90),
+}
 
 
-def _sanitize(text: str) -> str:
-    """Replace smart punctuation, then strip non-Latin-1."""
-    for src, dst in {"\u2013": "-", "\u2014": "--", "\u2018": "'", "\u2019": "'",
-                     "\u201c": '"', "\u201d": '"', "\u2026": "..."}.items():
+def _sanitize(text):
+    """Replace smart punctuation, strip non-Latin-1."""
+    for src, dst in {
+        "\u2013": "-", "\u2014": "--", "\u2018": "'", "\u2019": "'",
+        "\u201c": '"', "\u201d": '"', "\u2026": "...",
+    }.items():
         text = text.replace(src, dst)
-    return unicodedata.normalize("NFKD", text).encode("latin-1", errors="ignore").decode("latin-1")
+    return unicodedata.normalize("NFKD", text).encode("latin-1", "ignore").decode("latin-1")
 
 
-def _find_ttf() -> str | None:
-    return next((p for p in TTF_CANDIDATES if os.path.exists(p)), None)
+def _find_fonts():
+    """Return (reg, bold) paths if DejaVu is available."""
+    if os.path.exists(TTF_REG) and os.path.exists(TTF_BOLD):
+        return TTF_REG, TTF_BOLD
+    return None, None
 
 
-def load_recent_articles(days: int = 7) -> list[dict]:
-    """Load articles from news_feed.json that fall within the past N days."""
+def load_recent_articles(days=7):
+    """Load articles from news_feed.json within the past N days."""
     if not NEWS_FILE.exists():
         log.warning("news_feed.json not found.")
         return []
@@ -55,127 +100,236 @@ def load_recent_articles(days: int = 7) -> list[dict]:
     except json.JSONDecodeError as exc:
         log.error("JSON parse error: %s", exc)
         return []
-
     articles = data.get("articles", []) if isinstance(data, dict) else data
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).date()
-    recent = []
-    for a in articles:
+    cutoff   = (datetime.now(timezone.utc) - timedelta(days=days)).date()
+    recent   = []
+    for art in articles:
         try:
-            if datetime.fromisoformat(a.get("date", "2000-01-01")).date() >= cutoff:
-                recent.append(a)
+            art_date = datetime.fromisoformat(art.get("date", "2000-01-01")).date()
+            if art_date >= cutoff:
+                recent.append(art)
         except ValueError:
-            recent.append(a)  # include if date unparseable
+            recent.append(art)
     log.info("Loaded %d articles from past %d days.", len(recent), days)
     return recent
 
 
-def categorize(articles: list[dict]) -> dict:
+def categorize(articles):
     """Assign each article to its first matching category."""
     result = defaultdict(list)
-    for article in articles:
-        text = (article.get("title", "") + " " + article.get("url", "")).lower()
+    for art in articles:
+        text    = (art.get("title", "") + " " + art.get("summary", "")).lower()
         matched = False
         for category, keywords in CATEGORIES.items():
             if any(kw in text for kw in keywords):
-                result[category].append(article)
+                result[category].append(art)
                 matched = True
                 break
         if not matched:
-            result["General AI News"].append(article)
+            result["General AI News"].append(art)
     return dict(result)
 
 
 class DigestPDF(FPDF):
-    """Weekly AI intelligence digest PDF."""
+    """NeoSignal weekly digest PDF."""
 
-    def __init__(self, week: str, use_unicode: bool = False, font_path: str | None = None):
+    def __init__(self, week):
         super().__init__()
         self._week = week
-        self._unicode = use_unicode
-        if use_unicode and font_path:
-            self.add_font("DejaVu", style="", fname=font_path)
-            self.add_font("DejaVu", style="B", fname=font_path)
-            self._fn = "DejaVu"
-        else:
-            self._fn = "Helvetica"
-        self.font_name = self._fn  # public alias for external access
+        self._fn   = "Helvetica"
+        self._uni  = False
+        self._load_fonts()
+        self.set_margins(14, 10, 14)
+        self.set_auto_page_break(auto=True, margin=18)
 
-    def _t(self, text: str) -> str:
-        """Return text as-is for unicode fonts, sanitised otherwise."""
-        return text if self._unicode else _sanitize(text)
+    def _load_fonts(self):
+        reg, bld = _find_fonts()
+        if reg and bld:
+            try:
+                self.add_font("DJ", style="",  fname=reg)
+                self.add_font("DJ", style="B", fname=bld)
+                self._fn  = "DJ"
+                self._uni = True
+                return
+            except Exception as exc:  # pylint: disable=broad-exception-caught
+                log.warning("DejaVu failed: %s", exc)
+
+    def _t(self, text):
+        return str(text) if self._uni else _sanitize(str(text))
 
     def header(self):
-        """Render the page header."""
-        self.set_font(self._fn, "B", 15)
-        self.set_fill_color(10, 20, 50)
-        self.set_text_color(255, 255, 255)
-        self.cell(0, 13, self._t(f"NeoSignal  |  Weekly AI Digest  |  Week {self._week}"),
-                  border=0, new_x=XPos.LMARGIN, new_y=YPos.NEXT, align="C", fill=True)
-        self.ln(5)
-        self.set_text_color(0, 0, 0)
+        if self.page_no() == 1:
+            return
+        self.set_font(self._fn, "B", 7)
+        self.set_text_color(0, 110, 230)
+        self.cell(0, 5,
+                  self._t(f"NeoSignal  ·  Weekly AI Digest  ·  {self._week}"),
+                  align="R", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.set_draw_color(*C_DIVIDER)
+        self.line(14, self.get_y(), 196, self.get_y())
+        self.ln(2)
+        self.set_text_color(*C_BODY)
 
     def footer(self):
-        """Render the page number footer."""
-        self.set_y(-12)
+        if self.page_no() == 1:
+            return
+        self.set_y(-13)
+        self.set_font(self._fn, size=7)
+        self.set_text_color(*C_MUTED)
+        self.cell(0, 6,
+                  self._t(f"NeoSignal Weekly Digest  ·  {self._week}  ·  Page {self.page_no()}"),
+                  align="C")
+        self.set_text_color(*C_BODY)
+
+    def cover_page(self, total, by_category, week_range):
+        """Digest cover page with category breakdown."""
+        self.add_page()
+
+        # Brand bar
+        self.set_fill_color(*C_NAVY)
+        self.rect(0, 0, 210, 50, "F")
+        self.set_xy(14, 9)
+        self.set_font(self._fn, "B", 24)
+        self.set_text_color(*C_WHITE)
+        self.cell(0, 10, "NeoSignal", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.set_x(14)
         self.set_font(self._fn, size=8)
-        self.set_text_color(128, 128, 128)
-        self.cell(0, 8, f"Page {self.page_no()}", align="C")
+        self.set_text_color(150, 185, 255)
+        self.cell(0, 5, self._t(f"Weekly AI Intelligence Digest  ·  {self._week}  ·  {week_range}"))
+        self.set_xy(196 - 55, 12)
+        self.set_font(self._fn, "B", 14)
+        self.set_text_color(*C_WHITE)
+        self.cell(55, 7, str(total), align="R", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.set_xy(196 - 55, 21)
+        self.set_font(self._fn, size=7)
+        self.set_text_color(150, 185, 255)
+        self.cell(55, 4, "stories this week", align="R")
 
-    def section_header(self, title: str, count: int):
-        """Render a bold category section header."""
-        self.set_font(self._fn, "B", 11)
-        self.set_fill_color(220, 230, 255)
-        self.cell(0, 9, self._t(f"  {title}  ({count})"),
-                  border=0, new_x=XPos.LMARGIN, new_y=YPos.NEXT, fill=True)
+        # Category cards
+        self.set_y(58)
+        for cat, arts in sorted(by_category.items(), key=lambda x: -len(x[1])):
+            colour = CATEGORY_COLOURS.get(cat, (80, 80, 100))
+            self.set_fill_color(*colour)
+            self.rect(14, self.get_y(), 3, 6, "F")
+            self.set_x(20)
+            self.set_font(self._fn, "B", 8)
+            self.set_text_color(*colour)
+            self.cell(110, 6, self._t(cat))
+            self.set_font(self._fn, "B", 9)
+            self.cell(0, 6, str(len(arts)), align="R",
+                      new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            self.set_x(20)
+            self.set_font(self._fn, size=7)
+            self.set_text_color(*C_MUTED)
+            # Top titles preview
+            preview = " · ".join(a["title"][:45] + "…" for a in arts[:2])
+            self.multi_cell(176, 4, self._t(preview),
+                            new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            self.ln(2)
+        self.set_text_color(*C_BODY)
+
+    def section_header(self, title, count, colour):
+        """Full-width coloured section banner."""
+        self.ln(3)
+        self.set_fill_color(*colour)
+        self.rect(0, self.get_y(), 210, 8, "F")
+        self.set_font(self._fn, "B", 8.5)
+        self.set_text_color(*C_WHITE)
+        self.cell(0, 8,
+                  self._t(f"  {title.upper()}  —  {count} {'story' if count == 1 else 'stories'}"),
+                  new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.set_text_color(*C_BODY)
         self.ln(2)
 
-    def article_entry(self, article: dict):
-        """Render a single article entry."""
-        self.set_font(self._fn, size=9)
-        title = self._t(article.get("title", "Untitled"))
-        url = self._t(article.get("url", "")[:90])
-        score = article.get("score", 0)
-        self.set_text_color(20, 20, 20)
-        self.multi_cell(0, 5, f"* {title}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.set_text_color(80, 80, 80)
-        self.cell(0, 4, f"  Score: {score}  |  {url}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.set_text_color(0, 0, 0)
-        self.ln(2)
+    def article_entry(self, article, index, alt_bg=False):
+        """Render one article entry with title, summary, meta, and URL."""
+        title  = article.get("title", "Untitled")
+        url    = article.get("url", "")
+        source = article.get("source", "?")
+        score  = article.get("score", 0)
+        auth   = article.get("authenticity_score", 0)
+        summary = article.get("summary", "")
+
+        bg = C_BG if alt_bg else (255, 255, 255)
+        self.set_fill_color(*bg)
+        self.set_draw_color(*C_DIVIDER)
+        self.set_line_width(0.15)
+
+        # Title
+        self.set_x(14)
+        self.set_font(self._fn, "B", 8.5)
+        self.set_text_color(*C_NAVY)
+        self.cell(8, 5, str(index), fill=True)
+        self.multi_cell(174, 5, self._t(title),
+                        fill=True, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+        # Summary
+        if summary:
+            self.set_x(22)
+            self.set_font(self._fn, size=7.5)
+            self.set_text_color(60, 65, 88)
+            self.multi_cell(174, 4.5, self._t(summary),
+                            fill=True, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+        # Meta row
+        self.set_x(22)
+        self.set_font(self._fn, size=6.5)
+        self.set_text_color(*C_MUTED)
+        auth_pct = f"{auth:.0%}" if auth else ""
+        meta = self._t(f"{source}  ·  {auth_pct}  {'· HN ' + str(score) if score else ''}".strip(" ·"))
+        self.cell(0, 4.5, meta, fill=True, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+        # URL
+        self.set_x(22)
+        self.set_text_color(*C_URL)
+        display_url = url if len(url) <= 90 else url[:87] + "..."
+        self.cell(0, 4.5, self._t(display_url),
+                  fill=True, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+        self.set_draw_color(*C_DIVIDER)
+        self.line(14, self.get_y(), 196, self.get_y())
+        self.ln(2.5)
+        self.set_text_color(*C_BODY)
 
 
-def generate_digest() -> str | None:
+def generate_digest():
     """Generate weekly digest PDF. Returns path or None."""
     articles = load_recent_articles()
     if not articles:
         log.warning("No articles found — skipping digest.")
         return None
 
-    categorized = categorize(articles)
-    week = datetime.now().strftime("%Y-W%W")
+    by_category = categorize(articles)
+    week        = datetime.now().strftime("%Y-W%W")
+    today       = datetime.now()
+    week_start  = today - timedelta(days=today.weekday())
+    week_range  = f"{(week_start - timedelta(days=7)).strftime('%d %b')} – {week_start.strftime('%d %b %Y')}"
+    total       = sum(len(v) for v in by_category.values())
 
-    ttf = _find_ttf()
-    pdf = DigestPDF(week=week, use_unicode=ttf is not None, font_path=ttf)
-    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf = DigestPDF(week=week)
+    pdf.cover_page(total, by_category, week_range)
+
     pdf.add_page()
+    idx = 1
+    for cat in list(CATEGORIES.keys()) + ["General AI News"]:
+        cat_arts = by_category.get(cat, [])
+        if not cat_arts:
+            continue
+        colour = CATEGORY_COLOURS.get(cat, (60, 60, 90))
+        pdf.section_header(cat, len(cat_arts), colour)
+        for i, art in enumerate(cat_arts[:12]):   # cap 12 per category
+            est_h = 5 + (len(art.get("title", "")) // 80 + 1) * 5 + 10
+            if pdf.get_y() + est_h > pdf.h - 20:
+                pdf.add_page()
+            pdf.article_entry(art, idx, alt_bg=i % 2 == 0)
+            idx += 1
 
-    total = sum(len(v) for v in categorized.values())
-    pdf.set_font(pdf.font_name, size=9)
-    pdf.set_fill_color(240, 248, 255)
-    pdf.cell(0, 7, f"  {total} AI stories categorised this week",
-             border=1, new_x=XPos.LMARGIN, new_y=YPos.NEXT, fill=True)
-    pdf.ln(5)
-
-    for category, cat_articles in sorted(categorized.items()):
-        pdf.section_header(category, len(cat_articles))
-        for article in cat_articles[:10]:  # cap at 10 per category
-            pdf.article_entry(article)
-        pdf.ln(3)
-
-    week_dir = ARCHIVE_DIR / week
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    week_dir  = ARCHIVE_DIR / week
     week_dir.mkdir(parents=True, exist_ok=True)
-    pdf_path = week_dir / f"neosignal_digest_{week}.pdf"
+    pdf_path  = week_dir / f"neosignal_digest_{week}.pdf"
     pdf.output(str(pdf_path))
-    log.info("Digest generated: %s", pdf_path)
+    log.info("Digest: %s  (%d stories across %d categories)", pdf_path, total, len(by_category))
     return str(pdf_path)
 
 

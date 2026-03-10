@@ -1,37 +1,52 @@
 # Contributing to NeoSignal
 
-## Setup
+Thank you for your interest in improving NeoSignal.
+
+---
+
+## What Counts as a Contribution
+
+- Adding a new news source (RSS feed or API)
+- Improving the authenticity scoring algorithm
+- Improving PDF layout or typography
+- Adding new keyword categories to the AI filter
+- Bug fixes with a root cause analysis
+- Documentation improvements
+
+---
+
+## Standards
+
+All contributions must pass the full CI suite:
 
 ```bash
-git clone https://github.com/NeoCodeSmith/NeoSignal.git
-cd NeoSignal
-pip install -r requirements.txt
+pytest tests/ -v          # All tests must pass
+pylint src/ tests/         # Score must be ≥ 9.0 (target: 10.0)
 ```
 
-## Before Opening a PR
+---
 
-- [ ] `pytest tests/ -v` passes
-- [ ] `pylint $(git ls-files '*.py') --fail-under=9.0` passes
-- [ ] New behaviour has a corresponding test
-- [ ] No secrets or hardcoded credentials
+## Adding a News Source
 
-## What's Welcome
+1. Add the source URL to `RSS_SOURCES` in `src/scraper.py` (for RSS/Atom)  
+   or add a new scraper function following the `scrape_hackernews()` pattern.
+2. Verify the source returns AI-relevant articles via the keyword filter.
+3. Add test coverage in `tests/test_scraper.py`.
 
-- New AI keyword patterns (with evidence they reduce false negatives)
-- Additional HN API sources or data sources
-- PDF layout improvements
-- Performance improvements to the scraper
-- Bug fixes with a reproducing test case
+---
 
-## What Won't Be Merged
+## Pull Request Checklist
 
-- Breaking changes to the `news_feed.json` schema without a migration path
-- Dependencies that are not available via pip on Python 3.11
-- Code that does not pass pylint at 9.0+
+- [ ] All 29 tests pass (`pytest tests/ -v`)
+- [ ] Pylint score ≥ 9.0 (`pylint src/ tests/`)
+- [ ] New functionality has corresponding tests
+- [ ] CHANGELOG.md updated under the `[Unreleased]` section
+- [ ] No credentials, tokens, or API keys in code or commits
 
-## Code Style
+---
 
-- Follow existing structure: `src/`, `tests/`
-- All functions must have docstrings
-- Imports: stdlib → third-party → local
-- No bare `except:` — catch specific exceptions
+## Reporting Issues
+
+- **Bug**: Include the workflow run URL, the exact error, and expected vs actual behaviour.
+- **New source request**: Include the RSS URL and a sample of 5 AI-relevant article titles.
+- **Security**: See [SECURITY.md](SECURITY.md).
