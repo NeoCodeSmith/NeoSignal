@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-28T05:12:09.035848+00:00",
-    "article_count": 43,
-    "raw_count": 64,
+    "generated_at": "2026-03-29T05:24:50.577172+00:00",
+    "article_count": 48,
+    "raw_count": 66,
     "config_version": "4.0"
   },
   "articles": [
@@ -14,8 +14,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.573172+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.924338+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -31,8 +31,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629753+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002341+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -47,9 +47,9 @@
       "summary": "Gemini Embedding 2 can project raw video directly into a 768-dimensional vector space alongside text. No transcription, no frame captioning, no intermediate text. A query like \"green car cutting me off\" is directly comparable to a 30-second video clip at the vector level. I used...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 429,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:07.035860+00:00",
+      "score": 433,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:46.852105+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -63,9 +63,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 377,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:06.560352+00:00",
+      "score": 379,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:46.677837+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -79,9 +79,9 @@
       "summary": "Connect Your AI to Institutional-Grade Market Intelligence Plug any AI client, from ChatGPT to custom agents, directly into our financial data engine. Get real-time stock prices, fundamentals, institutional trading insights, and other financial data delivered through a universal...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 322,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:04.261816+00:00",
+      "score": 331,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:44.914261+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -95,9 +95,9 @@
       "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors. So I built a CLI that lets the agent open a...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 157,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:05.674930+00:00",
+      "score": 158,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:46.151730+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -108,13 +108,61 @@
       "id": "fb601f1ac9ba",
       "title": "Show HN: A plain-text cognitive architecture for Claude Code",
       "url": "https://lab.puga.com.br/cog/",
+      "summary": "I tried OpenClaw. It is awesome, but token use killed me, and like with Claude Code scheduling, I ended up spending most of my time managing failed executions and tweaking prompts. I built OpenHelm to fix this. It’s a local macOS app that turns your high-level goals into a...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 155,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:45.705161+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "06ef185ce8c1",
+      "title": "Show HN: AI Roundtable – Let 200 models debate your question",
+      "url": "https://opper.ai/ai-roundtable/",
+      "summary": "Hey HN! After the Car Wash Test post got quite a big discussion going (400+ comments, https://news.ycombinator.com/item?id=47128138 ), I spent the past few weeks building a tool so anyone can run these kinds of questions and get structured results. No signup and free to use. You...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 114,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:46.504841+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "ea421d3d335a",
+      "title": "Show HN: Robust LLM extractor for websites in TypeScript",
+      "url": "https://github.com/lightfeed/extractor",
       "summary": "We've been building data pipelines that scrape websites and extract structured data for a while now. If you've done this, you know the drill: you write CSS selectors, the site changes its layout, everything breaks at 2am, and you spend your morning rewriting parsers. LLMs seemed...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 149,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:04.945369+00:00",
-      "authenticity_score": 0.6,
+      "score": 72,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:46.590512+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "0140e62f8de0",
+      "title": "Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents",
+      "url": "https://github.com/outworked/outworked/releases/tag/v0.3.0",
+      "summary": "Garry Tan's gstack proved you can give Claude Code a full engineering team via the SKILL.md standard. I asked: what about the PM layer? One command (/pm-run) runs the full planning cycle inside your terminal — audit → objectives → strategy → roadmap → PRD. Each skill writes a...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 47,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:47.371131+00:00",
+      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -127,9 +175,9 @@
       "summary": "Hi HN. I'm Ken, a 20-year-old Stanford CS student. I built Sup AI. I started working on this because no single AI model is right all the time, but their errors don’t strongly correlate. In other words, models often make unique mistakes relative to other models. So I run multiple...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 21,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:04.479559+00:00",
+      "score": 25,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:46.065721+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -144,8 +192,24 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 18,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:07.838442+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:47.461049+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "588b25ceebec",
+      "title": "Show HN: VizTools – 16 free tools for PMs and freelancers, deliberately no AI",
+      "url": "https://viztools.app/",
+      "summary": "I've been building AI products for a while. For this one I made a deliberate choice: none of the 16 tools use AI. Meeting cost calculators, freelance rate calculators, PRD generators, runway calculators, sprint retro boards — these problems don't need a language model. They need...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 7,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:47.202797+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -160,8 +224,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 7,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:06.150233+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.113868+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -169,15 +233,31 @@
       ]
     },
     {
-      "id": "0484e5b8bbab",
-      "title": "Show HN: Deep Hollow – A survival game where your AI runs your fortress 24/7",
-      "url": "https://www.mrphilgames.com/blog/building-an-ai-that-runs-your-game-while-you-sleep",
+      "id": "e7e3fe7af576",
+      "title": "Show HN: GitHub Copilot Technical Writing Skill",
+      "url": "https://github.com/chrisherczeg/tech_writer",
+      "summary": "Its not super fancy, but I have found it useful from small emails to larger design docs so thought I would share.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:45.261151+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "f4449d03df1d",
+      "title": "Show HN: MLForge: A Visual Machine Learning Platform",
+      "url": "https://github.com/zaina-ml/ml_forge",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 5,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:07.150974+00:00",
+      "score": 3,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:48.237549+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -185,15 +265,15 @@
       ]
     },
     {
-      "id": "05f60d34354c",
-      "title": "Show HN: DuoRAG – A dual stack RAG that self-evolves",
-      "url": "https://github.com/cagriy/duo-rag",
-      "summary": "Imagine a corpus of documents with scientist biographies. The traditional RAG works fine until you ask questions like: - \"Who was born before 1800?\" - \"How many are mathematicians?\" - \"List names and birthdays for mathematicians\" These result in an incomplete answer due to...",
+      "id": "9b11f315fed9",
+      "title": "Show HN: Bottrace – headless CLI debugger for Python, built for LLM agents",
+      "url": "https://github.com/devinvenable/bottrace",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:07.305590+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.026496+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -201,35 +281,67 @@
       ]
     },
     {
-      "id": "94f96e49a38b",
-      "title": "Show HN: OpenHelm – OpenClaw but free (using your Claude Code subscription)",
-      "url": "https://www.openhelm.ai/",
-      "summary": "Image Ranker is an open-source tool for efficiently ranking large collections of images through pairwise comparisons using a Bayesian TrueSkill-based ranking algorithm. It enables fast and scalable human-in-the-loop preference estimation without requiring exhaustive comparisons....",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:05.742830+00:00",
+      "id": "ca738cf76421",
+      "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+      "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+      "summary": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611572+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "a838d28278e8",
-      "title": "Show HN: A tool to create and evaluate document processing pipelines for RAG",
-      "url": "https://ragbandit.com",
-      "summary": "Hey HN, I built [ragbandit]( https://ragbandit.com ), a tool to help you evaluate different document processing pipelines for the retrieval stage of your RAG systems. I was a bit overwhelmed with the different ways that you can process documents to create embeddings for RAG, so...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:06.699189+00:00",
+      "id": "ec1c9d972e62",
+      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+      "summary": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611629+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "8ff0ed81be53",
+      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
+      "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+      "summary": "All but two of Musk's 11 xAI co-founders departed before this week.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611665+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "4145f0ff0990",
+      "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611698+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -240,8 +352,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401621+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611791+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -256,8 +368,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401702+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611841+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -265,15 +377,15 @@
       ]
     },
     {
-      "id": "711abe5b87b4",
-      "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
-      "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
-      "summary": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
+      "id": "348232ae1198",
+      "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
+      "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+      "summary": "Sacks will be much further from the power center in Washington than since the outset of this second Trump administration.",
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.402008+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611866+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,8 +400,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401759+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611888+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -304,8 +416,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401833+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611951+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -320,8 +432,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401867+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.611982+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -336,8 +448,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401889+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.612002+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -352,8 +464,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401928+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.612034+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -368,40 +480,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401954+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "f60c9a0c0958",
-      "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
-      "url": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
-      "summary": "Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.401984+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "ad5feb259a31",
-      "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
-      "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-      "summary": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab experiment for now.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.402038+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.612057+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,8 +496,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.532865+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.785030+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -432,8 +512,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.533517+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.785764+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -448,8 +528,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.534087+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.786331+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -464,8 +544,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.534802+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.787049+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -480,8 +560,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.535279+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.787553+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -496,8 +576,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.535738+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.787997+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -512,8 +592,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.536047+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.788298+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -528,8 +608,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.572972+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.924140+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -544,8 +624,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.573045+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.924216+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -560,12 +640,44 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.573224+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:49.924418+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "9bdc9b2cff1f",
+      "title": "Why can’t TikTok identify AI generated ads when I can?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
+      "summary": "I've been struggling to tell whether the ads appearing in my TikTok feeds have been made with generative AI tools. As someone who spends a great deal of time scrutinizing images and videos for the usual \"tells\" that something was synthetically generated, some of the promotions...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002002+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "bbbee8f5e30d",
+      "title": "Why OpenAI killed Sora",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
+      "summary": "On Tuesday morning, everything was business as usual at OpenAI. By the end of the day, the company had announced that it would scrap its video-generation app, Sora, and reverse plans for video generation inside ChatGPT; it would wind down a $1 billion Disney deal; it would...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002091+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -576,8 +688,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629478+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002149+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -592,8 +704,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629566+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002202+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -608,8 +720,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629619+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002249+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -624,8 +736,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629700+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002295+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -640,8 +752,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629812+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002385+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -656,40 +768,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629859+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "cba64467d014",
-      "title": "Meta gets ready to launch two new Ray-Ban AI glasses",
-      "url": "https://www.theverge.com/column/901314/meta-new-ray-ban-ai-glasses",
-      "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Meta and its AI glasses hardware partner EssilorLuxottica are getting ready to launch the next generation of their...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629903+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "132a9bf33faa",
-      "title": "Wikipedia bans AI-generated articles",
-      "url": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-      "summary": "Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate \"several of Wikipedia's core content policies\" as the reason for the ban. The...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-03-28",
-      "scraped_at": "2026-03-28T05:12:08.629946+00:00",
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T05:24:50.002459+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
