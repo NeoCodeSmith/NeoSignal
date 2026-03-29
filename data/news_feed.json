@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-29T05:24:50.577172+00:00",
-    "article_count": 48,
-    "raw_count": 66,
+    "generated_at": "2026-03-29T15:54:50.513188+00:00",
+    "article_count": 49,
+    "raw_count": 64,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,12 +15,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.924338+00:00",
+      "scraped_at": "2026-03-29T15:54:49.659644+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "MIT Tech Review"
+        "MIT Tech Review",
+        "TechCrunch AI"
       ]
     },
     {
@@ -32,7 +32,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002341+00:00",
+      "scraped_at": "2026-03-29T15:54:49.844003+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -49,7 +49,7 @@
       "source_type": "community",
       "score": 433,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:46.852105+00:00",
+      "scraped_at": "2026-03-29T15:54:46.251235+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -65,7 +65,7 @@
       "source_type": "community",
       "score": 379,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:46.677837+00:00",
+      "scraped_at": "2026-03-29T15:54:45.826690+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -76,12 +76,12 @@
       "id": "62ac819ba512",
       "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
       "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
-      "summary": "Connect Your AI to Institutional-Grade Market Intelligence Plug any AI client, from ChatGPT to custom agents, directly into our financial data engine. Get real-time stock prices, fundamentals, institutional trading insights, and other financial data delivered through a universal...",
+      "summary": "The stack: two agents on separate boxes. The public one (nullclaw) is a 678 KB Zig binary using ~1 MB RAM, connected to an Ergo IRC server. Visitors talk to it via a gamja web client embedded in my site. The private one (ironclaw) handles email and scheduling, reachable only...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 331,
+      "score": 334,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:44.914261+00:00",
+      "scraped_at": "2026-03-29T15:54:43.652472+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -95,9 +95,9 @@
       "summary": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors. So I built a CLI that lets the agent open a...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 158,
+      "score": 159,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:46.151730+00:00",
+      "scraped_at": "2026-03-29T15:54:44.889867+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -108,12 +108,12 @@
       "id": "fb601f1ac9ba",
       "title": "Show HN: A plain-text cognitive architecture for Claude Code",
       "url": "https://lab.puga.com.br/cog/",
-      "summary": "I tried OpenClaw. It is awesome, but token use killed me, and like with Claude Code scheduling, I ended up spending most of my time managing failed executions and tweaking prompts. I built OpenHelm to fix this. It’s a local macOS app that turns your high-level goals into a...",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 155,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:45.705161+00:00",
+      "scraped_at": "2026-03-29T15:54:44.163706+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -127,9 +127,9 @@
       "summary": "Hey HN! After the Car Wash Test post got quite a big discussion going (400+ comments, https://news.ycombinator.com/item?id=47128138 ), I spent the past few weeks building a tool so anyone can run these kinds of questions and get structured results. No signup and free to use. You...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 114,
+      "score": 115,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:46.504841+00:00",
+      "scraped_at": "2026-03-29T15:54:45.301078+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -140,12 +140,12 @@
       "id": "ea421d3d335a",
       "title": "Show HN: Robust LLM extractor for websites in TypeScript",
       "url": "https://github.com/lightfeed/extractor",
-      "summary": "We've been building data pipelines that scrape websites and extract structured data for a while now. If you've done this, you know the drill: you write CSS selectors, the site changes its layout, everything breaks at 2am, and you spend your morning rewriting parsers. LLMs seemed...",
+      "summary": "Hi HN. I'm Ken, a 20-year-old Stanford CS student. I built Sup AI. I started working on this because no single AI model is right all the time, but their errors don’t strongly correlate. In other words, models often make unique mistakes relative to other models. So I run multiple...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 72,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:46.590512+00:00",
+      "scraped_at": "2026-03-29T15:54:45.722256+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -159,9 +159,9 @@
       "summary": "Garry Tan's gstack proved you can give Claude Code a full engineering team via the SKILL.md standard. I asked: what about the PM layer? One command (/pm-run) runs the full planning cycle inside your terminal — audit → objectives → strategy → roadmap → PRD. Each skill writes a...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 47,
+      "score": 48,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:47.371131+00:00",
+      "scraped_at": "2026-03-29T15:54:47.221219+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -169,15 +169,47 @@
       ]
     },
     {
-      "id": "2c2261fc819c",
-      "title": "Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
-      "url": "https://sup.ai",
-      "summary": "Hi HN. I'm Ken, a 20-year-old Stanford CS student. I built Sup AI. I started working on this because no single AI model is right all the time, but their errors don’t strongly correlate. In other words, models often make unique mistakes relative to other models. So I run multiple...",
+      "id": "4dda693d2377",
+      "title": "Show HN: Public transit systems as data – lines, stations, railcars, and history",
+      "url": "https://publictransit.systems",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 25,
+      "score": 35,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:46.065721+00:00",
+      "scraped_at": "2026-03-29T15:54:42.411617+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "fa03269dab92",
+      "title": "Show HN: We built a multi-agent research hub. The waitlist is a reverse-CAPTCHA",
+      "url": "https://enlidea.com",
+      "summary": "Connect Your AI to Institutional-Grade Market Intelligence Plug any AI client, from ChatGPT to custom agents, directly into our financial data engine. Get real-time stock prices, fundamentals, institutional trading insights, and other financial data delivered through a universal...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 28,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T15:54:43.339829+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "39b9cebec2bd",
+      "title": "Show HN: I built an OS that is pure AI",
+      "url": "https://pneuma.computer",
+      "summary": "I built a platform where you solve tasks together with AI agents (Claude Code, Codex, Cursor — any agent via SSH). Isolated sandbox environments, automated test scoring, global leaderboard. Tasks range from easy (AI one-shots it) to hard (requires human help). Some tasks use...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 26,
+      "date": "2026-03-29",
+      "scraped_at": "2026-03-29T15:54:43.246099+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -193,7 +225,7 @@
       "source_type": "community",
       "score": 18,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:47.461049+00:00",
+      "scraped_at": "2026-03-29T15:54:47.018192+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -209,7 +241,7 @@
       "source_type": "community",
       "score": 7,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:47.202797+00:00",
+      "scraped_at": "2026-03-29T15:54:47.326834+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -217,15 +249,15 @@
       ]
     },
     {
-      "id": "86d6a6eed3a0",
-      "title": "Show HN: LLM-Gateway – Zero-Trust LLM Gateway",
-      "url": "https://github.com/openziti/llm-gateway",
-      "summary": "I built an OpenAI-compatible LLM gateway that routes requests to OpenAI, Anthropic, Ollama, vLLM, llama-server, SGLang... anything that speaks /v1/chat/completions. Single Go binary, one YAML config file, no infrastructure. It does the things you'd expect from this kind of...",
+      "id": "96bebd52efae",
+      "title": "Show HN: Cloneify – AI assistant that runs your business from WhatsApp/Slack",
+      "url": "https://cloneify.ai",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 7,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.113868+00:00",
+      "scraped_at": "2026-03-29T15:54:47.988634+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -241,7 +273,7 @@
       "source_type": "community",
       "score": 4,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:45.261151+00:00",
+      "scraped_at": "2026-03-29T15:54:45.624366+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -249,31 +281,15 @@
       ]
     },
     {
-      "id": "f4449d03df1d",
-      "title": "Show HN: MLForge: A Visual Machine Learning Platform",
-      "url": "https://github.com/zaina-ml/ml_forge",
+      "id": "ef3c42007c18",
+      "title": "Show HN: Share2ChatGPT Widgets / Buttons",
+      "url": "https://share2chatgpt.franzai.com/",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
+      "score": 2,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:48.237549+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "9b11f315fed9",
-      "title": "Show HN: Bottrace – headless CLI debugger for Python, built for LLM agents",
-      "url": "https://github.com/devinvenable/bottrace",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.026496+00:00",
+      "scraped_at": "2026-03-29T15:54:44.996654+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,7 +305,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611572+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154590+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,7 +321,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611629+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154646+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,7 +337,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611665+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154672+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -337,7 +353,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611698+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154706+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,7 +369,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611791+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154794+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -369,7 +385,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611841+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154839+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -385,7 +401,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611866+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154862+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -401,7 +417,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611888+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154884+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -417,7 +433,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611951+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154949+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -433,7 +449,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.611982+00:00",
+      "scraped_at": "2026-03-29T15:54:49.154980+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -449,7 +465,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.612002+00:00",
+      "scraped_at": "2026-03-29T15:54:49.155003+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,7 +481,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.612034+00:00",
+      "scraped_at": "2026-03-29T15:54:49.155036+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,7 +497,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.612057+00:00",
+      "scraped_at": "2026-03-29T15:54:49.155059+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -497,7 +513,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.785030+00:00",
+      "scraped_at": "2026-03-29T15:54:49.454440+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -513,7 +529,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.785764+00:00",
+      "scraped_at": "2026-03-29T15:54:49.455084+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,7 +545,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.786331+00:00",
+      "scraped_at": "2026-03-29T15:54:49.455614+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,7 +561,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.787049+00:00",
+      "scraped_at": "2026-03-29T15:54:49.456283+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,7 +577,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.787553+00:00",
+      "scraped_at": "2026-03-29T15:54:49.456736+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -577,7 +593,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.787997+00:00",
+      "scraped_at": "2026-03-29T15:54:49.457159+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -593,7 +609,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.788298+00:00",
+      "scraped_at": "2026-03-29T15:54:49.457466+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -609,7 +625,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.924140+00:00",
+      "scraped_at": "2026-03-29T15:54:49.659473+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -625,7 +641,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.924216+00:00",
+      "scraped_at": "2026-03-29T15:54:49.659541+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -641,7 +657,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:49.924418+00:00",
+      "scraped_at": "2026-03-29T15:54:49.659688+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -657,7 +673,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002002+00:00",
+      "scraped_at": "2026-03-29T15:54:49.843707+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -673,7 +689,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002091+00:00",
+      "scraped_at": "2026-03-29T15:54:49.843785+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -689,7 +705,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002149+00:00",
+      "scraped_at": "2026-03-29T15:54:49.843832+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -705,7 +721,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002202+00:00",
+      "scraped_at": "2026-03-29T15:54:49.843888+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -721,7 +737,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002249+00:00",
+      "scraped_at": "2026-03-29T15:54:49.843928+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -737,7 +753,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002295+00:00",
+      "scraped_at": "2026-03-29T15:54:49.843966+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -753,7 +769,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002385+00:00",
+      "scraped_at": "2026-03-29T15:54:49.844039+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -769,7 +785,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-03-29",
-      "scraped_at": "2026-03-29T05:24:50.002459+00:00",
+      "scraped_at": "2026-03-29T15:54:49.844074+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
