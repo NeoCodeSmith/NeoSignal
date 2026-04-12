@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-12T05:35:33.872139+00:00",
-    "article_count": 37,
-    "raw_count": 42,
+    "generated_at": "2026-04-12T16:01:27.889216+00:00",
+    "article_count": 40,
+    "raw_count": 45,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,29 +15,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.290079+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436672+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "The Verge AI",
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "9de5306ad5e2",
-      "title": "Florida launches investigation into OpenAI",
-      "url": "https://www.theverge.com/policy/909557/openai-florida-investigation",
-      "summary": "Florida Attorney General James Uthmeier is launching an investigation into OpenAI over public safety and national security risks, as reported earlier by Reuters. In a statement on Thursday, Uthmeier says there are concerns that OpenAI's data and technology are \"falling into the...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.290126+00:00",
-      "authenticity_score": 0.8,
-      "source_count": 2,
-      "all_sources": [
-        "The Verge AI",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "The Verge AI"
       ]
     },
     {
@@ -47,9 +30,9 @@
       "summary": "Built a ~9M param LLM from scratch to understand how they actually work. Vanilla transformer, 60K synthetic conversations, ~130 lines of PyTorch. Trains in 5 min on a free Colab T4. The fish thinks the meaning of life is food. Fork it and swap the personality for your own...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 912,
+      "score": 914,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:30.003371+00:00",
+      "scraped_at": "2026-04-12T16:01:24.979194+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -65,7 +48,7 @@
       "source_type": "community",
       "score": 294,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:31.025588+00:00",
+      "scraped_at": "2026-04-12T16:01:25.842422+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -76,12 +59,12 @@
       "id": "a1c084a38532",
       "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
-      "summary": "About six months ago, I started working on a project to fine-tune Whisper locally on my M2 Ultra Mac Studio with a limited compute budget. I got into it. The problem I had at the time was I had 15,000 hours of audio data in Google Cloud Storage, and there was no way I could fit...",
+      "summary": "Chunk is a native macOS menu bar app for time-blocking your day. It floats above all windows – including fullscreen apps – so your schedule is always one shortcut (Cmd+/) away without ever leaving your flow. Key things I built into it: - Drag-to-create/move/resize time blocks on...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 232,
+      "score": 233,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:30.912836+00:00",
+      "scraped_at": "2026-04-12T16:01:26.031729+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -97,7 +80,7 @@
       "source_type": "community",
       "score": 155,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:31.256963+00:00",
+      "scraped_at": "2026-04-12T16:01:25.935817+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -111,9 +94,9 @@
       "summary": "Hi HN! We're excited to share marimo pair [1] [2], a toolkit that drops AI agents into a running marimo notebook [3] session. This lets agents use marimo as working memory and a reactive Python runtime, while also making it easy for humans and agents to collaborate on...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 136,
+      "score": 138,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:26.368413+00:00",
+      "scraped_at": "2026-04-12T16:01:22.642986+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -129,8 +112,40 @@
       "source_type": "community",
       "score": 128,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:31.718708+00:00",
+      "scraped_at": "2026-04-12T16:01:26.703023+00:00",
       "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "d7b3f2cfc304",
+      "title": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
+      "url": "https://github.com/onesuper/tui-use",
+      "summary": "Hi HN, We built Sova AI https://ayconic.io/sova , an Android assistant agent that actually controls and operates your apps. It's not a chat and not another LLM wrapper. We were incredibly frustrated with the current state of mobile AI. Built-in assistants like Gemini are deeply...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 52,
+      "date": "2026-04-12",
+      "scraped_at": "2026-04-12T16:01:25.460819+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "f9e3c57ee871",
+      "title": "Show HN: QVAC SDK, a universal JavaScript SDK for building local AI applications",
+      "url": "https://news.ycombinator.com/item?id=47708697",
+      "summary": "Hi folks, today we're launching QVAC SDK [0], a universal JavaScript/TypeScript SDK for building local AI applications across desktop and mobile. The project is fully open source under the Apache 2.0 license. Our goal is to make it easier for developers to build useful...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 30,
+      "date": "2026-04-12",
+      "scraped_at": "2026-04-12T16:01:26.512046+00:00",
+      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -145,7 +160,7 @@
       "source_type": "community",
       "score": 9,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:28.504917+00:00",
+      "scraped_at": "2026-04-12T16:01:25.079728+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -159,9 +174,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 5,
+      "score": 6,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:27.065728+00:00",
+      "scraped_at": "2026-04-12T16:01:25.269503+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -169,19 +184,35 @@
       ]
     },
     {
-      "id": "2c1e3468ca1c",
-      "title": "Show HN: Lmscan – Detect AI text and fingerprint which LLM wrote it (zero deps)",
-      "url": "https://github.com/stef41/lmscan",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
+      "id": "be787719d0b6",
+      "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:31.944966+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073402+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "774fdafc2249",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-12",
+      "scraped_at": "2026-04-12T16:01:27.073449+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -193,7 +224,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.882736+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073488+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -209,7 +240,23 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.882797+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073520+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "2f0ccd6824fb",
+      "title": "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
+      "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+      "summary": "ChatGPT had reportedly been used to plan the attack that killed two and injured five at Florida State University last April. The family of one victim has said that they plan to sue OpenAI over the incident.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-12",
+      "scraped_at": "2026-04-12T16:01:27.073590+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -225,7 +272,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.882922+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073620+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -241,7 +288,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.882955+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073675+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -257,7 +304,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.882979+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073713+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -273,7 +320,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.883011+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073745+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,7 +336,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.883040+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073772+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,7 +352,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.883060+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073791+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,23 +368,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.883085+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "21d7cfcd2302",
-      "title": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support",
-      "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-      "summary": "Astropad’s Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:32.883109+00:00",
+      "scraped_at": "2026-04-12T16:01:27.073811+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,7 +384,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.062883+00:00",
+      "scraped_at": "2026-04-12T16:01:27.249270+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -369,7 +400,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.063561+00:00",
+      "scraped_at": "2026-04-12T16:01:27.249966+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -385,7 +416,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.064112+00:00",
+      "scraped_at": "2026-04-12T16:01:27.250545+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -401,7 +432,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.064823+00:00",
+      "scraped_at": "2026-04-12T16:01:27.251313+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -417,7 +448,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.065293+00:00",
+      "scraped_at": "2026-04-12T16:01:27.251841+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -433,7 +464,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.065751+00:00",
+      "scraped_at": "2026-04-12T16:01:27.252314+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -449,7 +480,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.066054+00:00",
+      "scraped_at": "2026-04-12T16:01:27.252640+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,7 +496,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.172105+00:00",
+      "scraped_at": "2026-04-12T16:01:27.317504+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,7 +512,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.172198+00:00",
+      "scraped_at": "2026-04-12T16:01:27.317585+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -497,11 +528,27 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.172255+00:00",
+      "scraped_at": "2026-04-12T16:01:27.317661+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "d12ed92eba84",
+      "title": "The AI code wars are heating up",
+      "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the AI coding and vibe-coding booms, follow David Pierce. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Writing...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-12",
+      "scraped_at": "2026-04-12T16:01:27.436265+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -513,7 +560,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.289727+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436331+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,7 +576,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.289831+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436408+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,7 +592,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.289883+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436456+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,7 +608,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.289932+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436505+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -577,7 +624,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.289978+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436556+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -593,7 +640,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-04-12",
-      "scraped_at": "2026-04-12T05:35:33.290026+00:00",
+      "scraped_at": "2026-04-12T16:01:27.436607+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
