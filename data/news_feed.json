@@ -1,11 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T05:23:57.895681+00:00",
-    "article_count": 44,
-    "raw_count": 63,
+    "generated_at": "2026-04-19T05:40:48.037502+00:00",
+    "article_count": 43,
+    "raw_count": 59,
     "config_version": "4.0"
   },
   "articles": [
+    {
+      "id": "ecfbd4f23443",
+      "title": "This charming gadget writes bad AI poetry",
+      "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
+      "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably lo-fi. If I saw it on a store shelf, I'd absolutely pick it up. But aside from...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479785+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "The Verge AI",
+        "TechCrunch AI"
+      ]
+    },
     {
       "id": "4cc31715a96c",
       "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files â no coding required",
@@ -14,13 +31,12 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.229280+00:00",
-      "authenticity_score": 1.0,
-      "source_count": 3,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.310889+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
       "all_sources": [
         "VentureBeat AI",
-        "The Verge AI",
         "TechCrunch AI"
       ]
     },
@@ -32,8 +48,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.455093+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479936+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -48,9 +64,9 @@
       "summary": "I trained a transformer in HyperCard. 1,216 parameters. 1989 Macintosh. And yes, it took a while. MacMind is a complete transformer neural network, embeddings, positional encoding, self-attention, backpropagation, and gradient descent, implemented entirely in HyperTalk, the...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 148,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:51.628921+00:00",
+      "score": 155,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:41.802588+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -61,12 +77,12 @@
       "id": "60f8df05cfde",
       "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
       "url": "https://github.com/ginlix-ai/langalpha",
-      "summary": "Built this after realizing I was spending ~$1400/week on Claude Code with almost no visibility into what was actually consuming tokens. Tools like ccusage give a cost breakdown per model and per day, but I wanted to understand usage at the task level. CodeBurn reads the JSONL...",
+      "summary": "Some technical context on what we ran into building this. MCP tools don't really work for financial data at scale. One tool call for five years of daily prices dumps tens of thousands of tokens into the context window. And data vendors pack dozens of tools into a single MCP...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 145,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:54.138776+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:43.420784+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -77,12 +93,12 @@
       "id": "e73d412f8814",
       "title": "Show HN: Libretto – Making AI browser automations deterministic",
       "url": "https://github.com/saffron-health/libretto",
-      "summary": "Libretto ( https://libretto.sh ) is a Skill+CLI that makes it easy for your coding agent to generate deterministic browser automations and debug existing ones. Key shift is going from “give an agent a prompt at runtime and hope it figures things out” to: “Use coding agents to...",
+      "summary": "I’ve been working on Pyra for the past few months and wanted to start sharing it in public. Right now it’s focused on the core package/project management workflow: Python installs, init, add/remove, lockfiles, env sync, and running commands in the managed env. The bigger thing...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 129,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:52.889145+00:00",
+      "score": 131,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:42.987111+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -93,45 +109,13 @@
       "id": "47d1c6c43628",
       "title": "Show HN: SPICE simulation → oscilloscope → verification with Claude Code",
       "url": "https://lucasgerads.com/blog/lecroy-mcp-spice-demo/",
-      "summary": "I started EDDI in 2006 as a rule-based dialog engine. Back then it was pattern matching and state machines. When LLMs showed up, the interesting question wasn't \"how do I call GPT\" but \"how do I keep control over what the AI does in production?\" My answer was: agent logic...",
+      "summary": "I built MCP servers for my oscilloscope and SPICE simulator so Claude Code can close the loop between simulation and real hardware.",
       "source": "HackerNews",
       "source_type": "community",
       "score": 119,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:51.924061+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:42.461782+00:00",
       "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "314377b46807",
-      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
-      "url": "https://github.com/dropseed/plain",
-      "summary": "I’ve been working on Pyra for the past few months and wanted to start sharing it in public. Right now it’s focused on the core package/project management workflow: Python installs, init, add/remove, lockfiles, env sync, and running commands in the managed env. The bigger thing...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 93,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:54.232939+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "e8d76afdeffb",
-      "title": "Show HN: Kelet – Root Cause Analysis agent for your LLM apps",
-      "url": "https://kelet.ai/",
-      "summary": "I've spent the past few years building 50+ AI agents in prod (some reached 1M+ sessions/day), and the hardest part was never building them — it was figuring out why they fail. AI agents don't crash. They just quietly give wrong answers. You end up scrolling through traces one by...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 47,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:55.656048+00:00",
-      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -144,9 +128,9 @@
       "summary": "Inspired by ALMA. As Claude loses money gambling on provably-fair slots, it's forced to downgrade from Opus → Sonnet → Haiku, making worse decisions and accelerating the spiral. Donations go to gambling support charities.",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 37,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:53.383397+00:00",
+      "score": 38,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:43.502086+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -154,15 +138,15 @@
       ]
     },
     {
-      "id": "d71579f2d185",
-      "title": "Show HN: Avec – iOS email app that lets you handle your Gmail inbox in seconds",
-      "url": "https://apps.apple.com/us/app/avec-email-app-for-gmail/id6742199038",
-      "summary": "Hi HN! A few friends & I have just spent the past ~2 years building a new kind of email app for iOS. It's now available in GA and we think some of you might find it interesting. Why another email app, you ask? We think that while many interesting attempts at one-upping Gmail...",
+      "id": "00c56eb15c42",
+      "title": "Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG",
+      "url": "https://github.com/yapstudios/sfsym",
+      "summary": "I found myself reaching for SF Symbols' 'Copy Image As…' quite often during agentic design sessions, so I made a command-line tool that the agent can use by itself. It exports Apple SF Symbols as SVG, PDF, or PNG. The vector paths come directly from macOS's symbol renderer....",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 21,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:55.376971+00:00",
+      "score": 24,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:41.424193+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -177,8 +161,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 17,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:53.475527+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:44.703017+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -186,47 +170,15 @@
       ]
     },
     {
-      "id": "9958a791fa34",
-      "title": "Show HN: Sudomake Friends, personalized AI personas in a Telegram group chat",
-      "url": "https://github.com/audiodude/sudomake-friends/",
-      "summary": "Virtual AI friends, personalized to you, that chat you (or don't!) on their own work/sleep schedules based on their timezones. They sometimes initiate chats. They sometimes go silent for hours. Just like real friends. I've been \"dogfooding\" this for the past week, and I think...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 7,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:55.937977+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "803ffe178ec9",
-      "title": "Show HN: Flint – A 30B model fine-tuned for less repetition",
-      "url": "https://springboards.ai/models/flint-alpha",
-      "summary": "As frontier LLMs have very little output diversity even for open ended queries. We built Flint to see if we could reverse this. It’s a finetuned Qwen3 30B model specifically trained to produce higher entropy when asked open ended questions. Flint significantly increases the...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 6,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:55.747789+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "f42ebf812750",
-      "title": "Show HN: A tool to calculate LLM model API costs when coding",
-      "url": "https://the-designengineer.com/model-cost-estimator/",
+      "id": "9af8ae64e144",
+      "title": "Show HN: Object Storage Comparisons",
+      "url": "https://storage.mixpeek.com",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:56.032663+00:00",
+      "score": 14,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:45.954860+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -234,15 +186,63 @@
       ]
     },
     {
-      "id": "8e09c617ef38",
-      "title": "Show HN: Mind-OS – First free online AI dependency self‑assessment",
-      "url": "https://iamalex-afk.github.io/human-os-patch-33-protocols/",
-      "summary": "I found myself reaching for SF Symbols' 'Copy Image As…' quite often during agentic design sessions, so I made a command-line tool that the agent can use by itself. It exports Apple SF Symbols as SVG, PDF, or PNG. The vector paths come directly from macOS's symbol renderer....",
+      "id": "d1e181232404",
+      "title": "Show HN: Llama.cpp Tutorial 2026: Run GGUF Models Locally on CPU and GPU",
+      "url": "https://news.ycombinator.com/item?id=47812127",
+      "summary": "Complete llama.cpp tutorial for 2026. Install, compile with CUDA/Metal, run GGUF models, tune all inference flags, use the API server, speculative decoding, and benchmark your hardware. https://vucense.com/dev-corner/llama-cpp-tutorial-run-gguf-m...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 10,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:42.903173+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "022fd58dc2ca",
+      "title": "Show HN: I built a Wikipedia based AI deduction game",
+      "url": "https://sleuththetruth.com/",
+      "summary": "I haven't seen anything like this so I decided to build it in a weekend. How it works: You see a bunch of things pulled from Wikipedia displayed on cards. You ask yes or no questions to figure out which card is the secret article. The AI model has access to the image and wiki...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 9,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:46.547716+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "011b3ba226dc",
+      "title": "Show HN: DOMPrompter – click a DOM element, get a structured AI coding prompt",
+      "url": "https://news.ycombinator.com/item?id=47817715",
+      "summary": "Built this because the hardest part of AI UI coding is not generating a whole page - it is telling the model exactly which element you want to change in the last-mile micro-tuning pass. DOMPrompter is a macOS tool for DOM-based UIs. You click the exact element, inspect the...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:42.202963+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "c939b632f5dc",
+      "title": "Show HN: Cogveo–Schedule AI agents to run Python on your files and email results",
+      "url": "https://cogveo.com",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:52.206202+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:45.224086+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -257,12 +257,60 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:52.489140+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:45.610052+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "002e9824464c",
+      "title": "Show HN: Coelanox – auditable inference runtime in Rust (BERT runs today)",
+      "url": "https://www.coelanox.com/",
+      "summary": "PyTorch and ONNX Runtime tell you what came out. They can't tell you what actually ran to get there — which ops executed, in what order, on what inputs. A model gets packaged into a sealed .cnox container. SHA-256 is verified before a single op executes. Inference walks a fixed...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:41.721318+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "3995272c70d9",
+      "title": "AI chip startup Cerebras files for IPO",
+      "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+      "summary": "In recent months, the company announced an agreement with Amazon Web Services to use Cerebras chips in Amazon data centers, as well as a deal with OpenAI reportedly worth more than $10 billion.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240112+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "a28f9084e018",
+      "title": "Anthropic’s relationship with the Trump administration seems to be thawing",
+      "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
+      "summary": "Despite recently being designated a supply-chain risk by the Pentagon, Anthropic is still talking to high-level members of the Trump administration.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240172+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -273,8 +321,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047354+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240235+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,8 +337,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047603+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240419+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,8 +353,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047486+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240329+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,8 +369,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047581+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240400+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -337,8 +385,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047627+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240442+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,8 +401,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047647+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240476+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -369,8 +417,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047679+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240510+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -385,8 +433,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047730+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240556+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -401,56 +449,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047753+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "46640866f5f8",
-      "title": "Roblox’s AI assistant gets new agentic tools to plan, build, and test games",
-      "url": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
-      "summary": "The new tools are designed to help creators throughout the entire development process.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047776+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "3ae6dbbb2e5e",
-      "title": "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster",
-      "url": "https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/",
-      "summary": "Runway’s CEO says AI could help studios make dozens of films for the cost of one, betting volume will boost hit-making odds.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047805+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "0a5540ba135e",
-      "title": "Meta raises Quest 3 and Quest 3S prices due to RAM shortage",
-      "url": "https://techcrunch.com/2026/04/16/meta-raises-quest-3-and-quest-3s-prices-due-to-ram-shortage/",
-      "summary": "Starting April 19, the price of the Meta Quest 3S (128GB) and Meta Quest 3S (256GB) will go up by $50 to $349.99 and $449.99, respectively. The price of the Meta Quest 3 is going up by $100 to $599.99.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.047829+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.240576+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,8 +465,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.226872+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.308360+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,8 +481,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.227536+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.309060+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -497,8 +497,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.228090+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.309651+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -513,8 +513,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.228807+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.310370+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,8 +529,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.229806+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.311355+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,8 +545,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.230118+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.311679+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,8 +561,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.364040+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.381646+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -577,8 +577,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.364127+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.381733+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -593,8 +593,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.364172+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.381774+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -609,8 +609,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.454771+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479648+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -625,24 +625,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.454867+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "ecfbd4f23443",
-      "title": "This charming gadget writes bad AI poetry",
-      "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
-      "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably lo-fi. If I saw it on a store shelf, I'd absolutely pick it up. But aside from...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.454917+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479740+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -657,8 +641,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.454963+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479824+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -673,8 +657,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.455006+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479862+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -689,8 +673,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.455050+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479900+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -705,8 +689,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-18",
-      "scraped_at": "2026-04-18T05:23:57.455146+00:00",
+      "date": "2026-04-19",
+      "scraped_at": "2026-04-19T05:40:47.479973+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
