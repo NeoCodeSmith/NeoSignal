@@ -1,28 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T05:28:03.980499+00:00",
-    "article_count": 38,
-    "raw_count": 50,
+    "generated_at": "2026-04-26T05:56:10.555795+00:00",
+    "article_count": 40,
+    "raw_count": 51,
     "config_version": "4.0"
   },
   "articles": [
-    {
-      "id": "dfc26bba2f75",
-      "title": "Show HN: I'm 15 and built a cryptographic accountability layer for AI agents",
-      "url": "https://github.com/arian-gogani/nobulex",
-      "summary": "i'm 15 and a sophomore in high school in california. for the past two weeks i've been building a protocol that lets you prove what an AI agent actually did. not just log it. prove it. signed receipts before and after each action, hash chained, verifiable by anyone. this week...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 4,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:27:59.805254+00:00",
-      "authenticity_score": 0.9,
-      "source_count": 2,
-      "all_sources": [
-        "HackerNews",
-        "TechCrunch AI"
-      ]
-    },
     {
       "id": "1e2d02e388e8",
       "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
@@ -31,8 +14,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.441116+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:10.049171+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -48,8 +31,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.441319+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:10.049344+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -58,15 +41,15 @@
       ]
     },
     {
-      "id": "3be633274bdc",
-      "title": "Show HN: GoModel – an open-source AI gateway in Go",
-      "url": "https://github.com/ENTERPILOT/GOModel/",
-      "summary": "Hi, I’m Jakub, a solo founder based in Warsaw. I’ve been building GoModel since December with a couple of contributors. It's an open-source AI gateway that sits between your app and model providers like OpenAI, Anthropic or others. I built it for my startup to solve a few...",
+      "id": "8d6bab97a4c9",
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "url": "https://github.com/nex-crm/wuphf",
+      "summary": "I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet. It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you. The shape is...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 207,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:00.349525+00:00",
+      "score": 229,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:03.979168+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -74,15 +57,15 @@
       ]
     },
     {
-      "id": "12b360bbaf26",
-      "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
-      "url": "https://mediator.ai/",
-      "summary": "Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered...",
+      "id": "3be633274bdc",
+      "title": "Show HN: GoModel – an open-source AI gateway in Go",
+      "url": "https://github.com/ENTERPILOT/GOModel/",
+      "summary": "Describe a task, and AI will give you a breakdown of whether it can do your task well, poorly, or somewhere in between. I built it mostly because I kept getting asked \"what is AI even good for\" and fumbling the answer. The most fun use is testing it on things you already know it...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 160,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:00.695942+00:00",
+      "score": 213,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:06.464209+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -96,26 +79,10 @@
       "summary": "Hey HN, We got tired of browser frameworks restricting the LLM, so we removed the framework and gave the LLM maximum freedom to do whatever it's trained on. We gave the harness the ability to self correct and add new tools if the LLM wants (is pre-trained on) that. Our Browser...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 94,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:27:57.865922+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "0a3099478234",
-      "title": "Show HN: Ctx – a /resume that works across Claude Code and Codex",
-      "url": "https://github.com/dchu917/ctx",
-      "summary": "ctx is a local SQLite-backed skill for Claude Code and Codex that stores context as a persistent workstream that can be continued across agent sessions. Each workstream can contain multiple sessions, notes, decisions, todos, and resume packs. It essentially functions as a...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 72,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:00.862648+00:00",
-      "authenticity_score": 0.5,
+      "score": 119,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:04.171453+00:00",
+      "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -128,9 +95,9 @@
       "summary": "Hey folks, I built Hisorty, a small daily game where you sort historical events in chronological order (strongly inspired by Wordle mechanics). Each day you get 6 events and 3 attempts to place them correctly. I found it surprisingly tricky to design those puzzles so the...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 64,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:27:59.912005+00:00",
+      "score": 72,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:06.661639+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -138,15 +105,15 @@
       ]
     },
     {
-      "id": "3ca04e787c42",
-      "title": "Show HN: Atomic – Local-first, AI-augmented personal knowledge base",
-      "url": "https://atomicapp.ai/",
-      "summary": "Hey HN - I first posted about my knowledge base product, Atomic, here around a month ago; since then, a viral tweet by Karpathy has produced a torrent of AI powered knowledge base projects. meanwhile I've been shipping like crazy, here are some of the new features shipped in the...",
+      "id": "0da6f73d6012",
+      "title": "Show HN: Claude Code Manager",
+      "url": "https://claude.ldlework.com/",
+      "summary": "I built this for myself but I figured why not share. The aim of CCM is to be able to fully manage all Claude Code configuration files, both globally and those in your project. Some neat features: - Manages your CLAUDE.md, rules, hooks, agents, memories and so on. - Elevate...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 58,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:00.435293+00:00",
+      "score": 11,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:07.523190+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -154,63 +121,47 @@
       ]
     },
     {
-      "id": "f8401d110b84",
-      "title": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
-      "url": "https://locallllm.fly.dev",
-      "summary": "I built localLLLM: a small community project for running local models. Live: https://locallllm.fly.dev The goal is simple: if someone has model + OS + GPU + RAM, they should get steps that actually work (ideally one liner) I need help populating and validating guides. If you run...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 12,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:00.944702+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "bd5bbe6dd63f",
-      "title": "Show HN: Nimbus – Browser with Claude Code UX",
-      "url": "https://usenimbus.app/",
-      "summary": "Hi HN, I'm Anil. Nimbus is a desktop browser with an AI agent built into it. The UX is shamelessly inspired by Claude Code: a chat bar at the bottom, an agent log above it, and the webpage itself when its needed. This is mainly a UX experiment for me. And also the reason it...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 8,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:27:58.289973+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "57f9dfef040b",
-      "title": "Show HN: Chestnut – The antidote to AI-induced skill atrophy",
-      "url": "https://www.chestnut.so/",
-      "summary": "I come from a machine learning background - PyTorch code, leaving a training job running overnight, and Jupyter Notebooks. I hadn't touched much frontend before diving deep into start-ups. It was similar for my co-founder Nick, who spent time working on semiconductors. I started...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 7,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:02.760418+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "47b1222633d7",
-      "title": "Show HN: No AI – My Express.js codebase handled over $50M in prod",
-      "url": "https://github.com/AnthonyBudd/express-ts-api-template",
+      "id": "311ba52588ba",
+      "title": "Show HN: FalsoAI – Detect influence/manipulation patterns in content",
+      "url": "https://www.falsoai.com/",
       "summary": "I built this tool because I believe AI can be used to protect people from social engineering and influence/manipulation patterns. In a way, it is similar to what an antivirus does for a computer, but applied to human cognition. This simple project is mainly an MVP proof of...",
       "source": "HackerNews",
       "source_type": "community",
+      "score": 10,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.146592+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "487888def556",
+      "title": "Show HN: Built an AI that maps 17 facial dimensions and shows what to improve",
+      "url": "https://realsmile.online",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 7,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:07.904564+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "9457301dd543",
+      "title": "Show HN: AI Visibility Monitor – Track if your site gets cited by GPT/Claude",
+      "url": "https://github.com/WorkSmartAI-alt/ai-visibility-monitor",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
       "score": 5,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:27:59.312422+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:04.931450+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -224,13 +175,109 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:01.030818+00:00",
+      "score": 5,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:08.571098+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "48d1f5ebc2d4",
+      "title": "Show HN: DDoS detection in 0.9s, tested against a 48 Gbps attack live",
+      "url": "https://flowtriq.com/blog/lorikeet-security-case-study",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:03.884616+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "ad89dc074a8b",
+      "title": "Show HN: A faster, drop-in replacement for Tailscale's DERP relay",
+      "url": "https://hyper-derp.dev/blog/hyper-derp-announcement/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:05.125305+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "ca25ff6609e8",
+      "title": "Show HN: SVG Fitter – Rust+WASM Vectorizer",
+      "url": "https://svg.axk.sh",
+      "summary": "I went crazy with a tool that helps me tracing raster images. Thought other might like it. It doesn't auto vectorize image, but rather allow for guided process. Final SVG still should be edited. Few fun features like genetic algorithm fit optimization, semi-manual tracing and...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:05.502328+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "367b31bf76ac",
+      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692035+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "294d5b0ace06",
+      "title": "Maine’s governor vetoes data center moratorium",
+      "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+      "summary": "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692094+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "a9f2a353e7a4",
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692128+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -241,8 +288,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041177+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692178+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -257,8 +304,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041248+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692204+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -273,8 +320,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041278+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692229+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,8 +336,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041317+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692266+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,8 +352,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041359+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692301+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,8 +368,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041411+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692350+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -337,8 +384,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041432+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692371+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,24 +400,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041452+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "898e3a0f2978",
-      "title": "AI galaxy hunters are adding to the global GPU crunch",
-      "url": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
-      "summary": "Astronomers are turning to GPUs to find needles in the galactic haystack.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.041523+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.692390+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -385,8 +416,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.257785+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.863717+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -401,8 +432,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.258557+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.864372+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -417,8 +448,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.259156+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.864931+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -433,8 +464,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.259917+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.865624+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -449,8 +480,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.260450+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.866124+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,8 +496,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.260928+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.866567+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,8 +512,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.261258+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.866886+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -497,8 +528,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.372120+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.940805+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -513,8 +544,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.372190+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.940863+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,8 +560,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.372269+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.940926+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,8 +576,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.372307+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:09.940966+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,8 +592,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.440981+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:10.049036+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -577,8 +608,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.441055+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:10.049105+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -593,8 +624,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.441174+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:10.049242+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -609,8 +640,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-04-25",
-      "scraped_at": "2026-04-25T05:28:03.441280+00:00",
+      "date": "2026-04-26",
+      "scraped_at": "2026-04-26T05:56:10.049302+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
