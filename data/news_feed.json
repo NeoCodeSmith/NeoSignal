@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T05:53:50.280451+00:00",
-    "article_count": 42,
-    "raw_count": 50,
+    "generated_at": "2026-05-03T06:16:09.586620+00:00",
+    "article_count": 44,
+    "raw_count": 52,
     "config_version": "4.0"
   },
   "articles": [
@@ -14,59 +14,43 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.350664+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.792737+00:00",
       "authenticity_score": 1.0,
       "source_count": 3,
       "all_sources": [
-        "TechCrunch AI",
+        "MIT Tech Review",
         "The Verge AI",
-        "MIT Tech Review"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "c6fd7c1ea8dd",
-      "title": "Elon Musk confirms xAI used OpenAI’s models to train Grok",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
-      "summary": "In a federal courtroom in California on Thursday, Elon Musk testified that his own AI startup, xAI, has used OpenAI's models to improve its own. The matter at question is model distillation, a common industry practice by which one larger AI model acts as a \"teacher\" of sorts to...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.473956+00:00",
-      "authenticity_score": 0.8,
+      "id": "9321b54d6812",
+      "title": "Show HN: Loopsy, a way for terminals and AI agents on different machines to talk",
+      "url": "https://github.com/leox255/loopsy",
+      "summary": "I've always had the urge to have my two macbooks communicate. Having one idle while working on the other felt like underutilization of resources. So I built Loopsy. Initially the goal was to do file transfer via local network, and then came running commands. I then tried running...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 54,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:05.467439+00:00",
+      "authenticity_score": 0.9,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "HackerNews"
       ]
     },
     {
       "id": "3c17ff50ca58",
       "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
       "url": "https://github.com/dirac-run/dirac",
-      "summary": "I've always had the urge to have my two macbooks communicate. Having one idle while working on the other felt like underutilization of resources. So I built Loopsy. Initially the goal was to do file transfer via local network, and then came running commands. I then tried running...",
+      "summary": "Scored 65.2% vs google's official 47.8%, and the existing top closed source model Junie CLI's 64.3%. Since there are a lot of reports of deliberate cheating on TerminalBench 2.0 lately ( https://debugml.github.io/cheating-agents/ ), I would like to also clarify a few things 1....",
       "source": "HackerNews",
       "source_type": "community",
       "score": 392,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:46.077123+00:00",
-      "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "8c646063d27b",
-      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
-      "url": "https://github.com/browser-use/browser-harness",
-      "summary": "Hey HN, We got tired of browser frameworks restricting the LLM, so we removed the framework and gave the LLM maximum freedom to do whatever it's trained on. We gave the harness the ability to self correct and add new tools if the LLM wants (is pre-trained on) that. Our Browser...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 133,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:48.404904+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:06.852293+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -80,9 +64,41 @@
       "summary": "Hi HN, I'm Zach, one of the co-founders of Adam ( https://adam.new ). We've been on HN twice before with text-to-CAD/3D experiments [1][2]. The honest takeaway from those threads: prompt-to-3D model web apps are fun, but serious mechanical engineers don't want a black box that...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 80,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:42.271664+00:00",
+      "score": 93,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:05.147399+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "8e5ccadaf546",
+      "title": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "summary": "I've been building computer-use tools for a while, and I quietly launched this about a month ago (122 Stars on GH). I figured it was worth sharing here. Over the last few months, a lot of computer-use agents have come out: Codex, Claude Code, CUA, and others. Most of them seem...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 93,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:05.714279+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "192c673fb36e",
+      "title": "Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks",
+      "url": "https://mljar.com/",
+      "summary": "Hi HN, I’ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio. The idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 64,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:04.834762+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -96,9 +112,9 @@
       "summary": "When building workflows that rely on LLMs, we commonly use structured output for programmatic use cases like converting an invoice into rows or meeting transcripts into tickets or even complex PDFs into database entries. The model may return the schema you want, but with...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 58,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:44.308652+00:00",
+      "score": 59,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:06.044720+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -112,9 +128,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 37,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:44.864887+00:00",
+      "score": 38,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:06.606785+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -128,9 +144,9 @@
       "summary": "My dad makes the questions, I made the site. I think the genre and the level of difficulty is suited for HN. Hope you enjoy. (I promise no AI-generated questions, they are all hand made!).",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 36,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:46.736197+00:00",
+      "score": 38,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.090179+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -138,31 +154,15 @@
       ]
     },
     {
-      "id": "8a1d41e0df0f",
-      "title": "Show HN: Throwaway – open-source disposable email checker and API",
-      "url": "https://github.com/sslboard/throwaway",
+      "id": "8a2262b25d7c",
+      "title": "Show HN: Which public repos are friendliest to an AI coding agent?",
+      "url": "https://www.agentfriendlycode.com/",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 14,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:46.193875+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "85eb44d6bf59",
-      "title": "Show HN: Gemini free tier is all you need",
-      "url": "https://juanpabloaj.com/2026/04/30/gemini-free-tier-is-all-you-need/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 7,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:47.955579+00:00",
+      "score": 5,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:07.527124+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -177,8 +177,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 4,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:42.958044+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:07.842421+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -186,19 +186,67 @@
       ]
     },
     {
-      "id": "66e204b9241d",
-      "title": "Show HN: Turn Docker Compose files into airgap-ready UDS Packages",
-      "url": "https://github.com/defenseunicorns-labs/compose-bridge-uds",
+      "id": "0a68be6fedad",
+      "title": "Show HN: High perfomance database - Graph, vector, array, columnar, KV",
+      "url": "https://github.com/nodedb-lab/nodedb",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 2,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:43.515015+00:00",
+      "score": 3,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:05.835770+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "dd8a5aedcf50",
+      "title": "Show HN: I built Male Hormone Lab Interpreter that does what LLMs can't",
+      "url": "https://www.longevity-tools.com/male-hormones-interpreter",
+      "summary": "Hi, My name is Zsolt. I build clinical tools for labs and longevity clinics, and I release some of them as free public tools. The Male Hormone Lab Interpreter unique feature is that it visualizes the testosterone production and feedback pathway on HPG axis to identify the true...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:06.666105+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "9fc6c5acd63b",
+      "title": "AI-generated actors and scripts are now ineligible for Oscars",
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+      "summary": "Bad news for Tilly Norwood.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.494936+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "8e3f7fcfe513",
+      "title": "The best AI dictation apps, tested and ranked",
+      "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+      "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.494989+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -209,8 +257,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065186+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495096+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -225,8 +273,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065225+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495142+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -241,8 +289,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065255+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495176+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -257,8 +305,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065281+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495199+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -273,8 +321,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065308+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495220+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,8 +337,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065333+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495240+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,8 +353,24 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065355+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495260+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "f9076aef88cb",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495279+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,8 +385,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065396+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495301+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -337,8 +401,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065418+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495322+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,8 +417,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065438+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495342+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -369,40 +433,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065459+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "d3b7c61320b5",
-      "title": "X announces a rebuilt ad platform powered by AI",
-      "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
-      "summary": "X is rolling out a rebuilt ads platform powered by AI as it works to grow revenue again.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065478+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "96e9456d1ff7",
-      "title": "Meta says its business AI now facilitates 10 million conversations a week",
-      "url": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
-      "summary": "Meta said over 8 billion advertisers have used at least one of its GenAI tools",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.065496+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.495367+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -417,8 +449,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.227471+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.713742+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -433,8 +465,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.228128+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.714411+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -449,8 +481,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.228670+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.714962+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,8 +497,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.229370+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.715669+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,8 +513,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.229862+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.716171+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -497,8 +529,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.230315+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.716615+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -513,8 +545,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.230616+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.716929+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,8 +561,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.350397+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.792482+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,8 +577,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.350460+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.792553+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,8 +593,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.350517+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.792599+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -577,8 +609,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.350702+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.792775+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -593,8 +625,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.350625+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.792699+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -609,8 +641,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.473724+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.934761+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -625,8 +657,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.473835+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.934854+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -641,8 +673,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.473892+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.934909+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -657,8 +689,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.474006+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.935035+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -673,8 +705,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-02",
-      "scraped_at": "2026-05-02T05:53:49.474094+00:00",
+      "date": "2026-05-03",
+      "scraped_at": "2026-05-03T06:16:08.935158+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
