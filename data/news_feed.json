@@ -1,11 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-05-30T06:36:11.721333+00:00",
-    "article_count": 40,
-    "raw_count": 53,
+    "generated_at": "2026-05-31T07:10:28.274496+00:00",
+    "article_count": 42,
+    "raw_count": 55,
     "config_version": "4.0"
   },
   "articles": [
+    {
+      "id": "431ba8b726a1",
+      "title": "Show HN: Tab Council – turn your AI tabs into a model council",
+      "url": "https://github.com/vaddisrinivas/tab-council",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A reality check on the AI jobs hysteria Despite the growing hysteria over AI’s threat to white-collar jobs, there’s still scant evidence that...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:25.585892+00:00",
+      "authenticity_score": 0.9,
+      "source_count": 2,
+      "all_sources": [
+        "MIT Tech Review",
+        "HackerNews"
+      ]
+    },
     {
       "id": "ae60fd18906c",
       "title": "This AI startup will clean your home for free to train future robots",
@@ -14,8 +31,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.185254+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.675797+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -30,9 +47,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 376,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:03.485983+00:00",
+      "score": 380,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:21.624100+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -43,12 +60,28 @@
       "id": "f055bf0aeadd",
       "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
       "url": "https://github.com/jmaczan/tiny-vllm",
-      "summary": "I've been experimenting since 2019 with ways to minimize RAM usage for tiny MLP inference on microcontrollers. [0] This project is the result of that exploration: a fully static-allocation approach to MLP inference in ANSI C, using a simple 2-slot ring buffer to keep memory...",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 126,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:02.266981+00:00",
+      "score": 187,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:20.455042+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "e6d39ad90aa9",
+      "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
+      "url": "https://helios.southlondonscientific.com/",
+      "summary": "Plug-in solar panels (no electrician needed) have just become legal in the UK and will go on sale soon. Helios estimates how much electricity a typical installation could generate at a given address and what that's worth against your tariff. It uses UK government LIDAR data to...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 118,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:20.216423+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -59,12 +92,12 @@
       "id": "d78ca37ea18b",
       "title": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS",
       "url": "https://tinycld.org/",
-      "summary": "Hi, I’m Kenny, I’ve been building aislop. I starting working on this after using Claude Code, codex and opencode several times and noticing some slops. They aren’t syntax and passes most tests, they are patterns like empty catch blocks, useless comments, duplicated helpers, dead...",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 109,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:04.929888+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:23.296703+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -79,8 +112,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 82,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:06.252193+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:23.645791+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -88,15 +121,15 @@
       ]
     },
     {
-      "id": "f426a04d0d28",
-      "title": "Show HN: skills-for-humanity – 171 structured reasoning skills for Claude Code",
-      "url": "https://github.com/human-avatar/skills-for-humanity",
-      "summary": "",
+      "id": "711a6f62116c",
+      "title": "Show HN: Open-Source AI Racing Harness",
+      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+      "summary": "Hi, I’m Kenny, I’ve been building aislop. I starting working on this after using Claude Code, codex and opencode several times and noticing some slops. They aren’t syntax and passes most tests, they are patterns like empty catch blocks, useless comments, duplicated helpers, dead...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 28,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:08.895634+00:00",
+      "score": 75,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:22.489415+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -104,47 +137,15 @@
       ]
     },
     {
-      "id": "bb638ed2ac2f",
-      "title": "Show HN: htop for the airwaves — a live 802.11 RF dashboard in your terminal",
-      "url": "https://github.com/yeet-src/airtop",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 9,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:07.651738+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "b1f8f1477a8b",
-      "title": "Show HN: Hodor – a 701KB native macOS prompt launcher for AI tools",
-      "url": "https://hodor.design",
-      "summary": "Hodor is a tiny macOS app that launches saved AI prompts into any text field — from the screen edge, keyboard shortcut, or keyword such as ;git. I work with different AI tools every day, and had prompts scattered across Raycast snippets, Apple Notes, and Notion — notes that kept...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 9,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.352709+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "8fe08b1e5ccf",
-      "title": "Show HN: Gaia Atlas – Local Stellar Map",
-      "url": "https://valhovey.github.io/gaia-atlas/",
-      "summary": "Hi there! I made the fan-created Project Hail Mary Star Map and had so much fun with the initial version that I decided to create a v2 that lets you explore our local star system and travel to many more stars. This new version lets you visit dozens of named stars, plan...",
+      "id": "9aa758c2c52b",
+      "title": "Show HN: I made a Gemma 4 Mac app that names screenshots with local AI",
+      "url": "https://snapname.app",
+      "summary": "I made my first macOS utility app that ships with a bundled Gemma 4 model, specifically the Gemma E4B one. It made my app DMG have 5.3 GB in size, but I think it is a small size for the power that this free local model can provide. It runs fine on CPU, but can also run on Apple...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 6,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:05.048337+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:20.789593+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -152,15 +153,31 @@
       ]
     },
     {
-      "id": "473a0a507d17",
-      "title": "Show HN: Imagine Kickstarter, but doubters get paid if the project flops",
-      "url": "https://trypieces.com/p/as9wuvhp1qwb4NvpMGG2FU",
-      "summary": "",
+      "id": "37e239684622",
+      "title": "Show HN: I brought back Airbnb categories",
+      "url": "https://www.vibebnb.fyi/",
+      "summary": "I miss airbnb categories. It was fun and I loved being able to just browse thorugh cool listings. I'm not exactly sure why they removed it. Then, a couple weeks ago, they hit me with some A/B test and I had access to a \"what\" freeform textbox to custom filter results. Now...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 6,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:08.625413+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:23.994248+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "89f91c0ab0b9",
+      "title": "Show HN: AionOS – self-healing microkernel in Zig (boots on real hardware)",
+      "url": "https://github.com/rodancz/aion",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:23.416737+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -175,8 +192,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 5,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:05.989482+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:25.812870+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -191,8 +208,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 4,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:04.385309+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:24.671650+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -200,19 +217,67 @@
       ]
     },
     {
-      "id": "054388834145",
-      "title": "Show HN: AI Skill to port PostgreSQL extensions to MySQL",
-      "url": "https://github.com/villagesql/villagesql-skills",
-      "summary": "Agent skills for working with VillageSQL. Skills run in Claude Code, Gemini CLI, agy, Codex, Cursor, Amp, and Kiro.",
+      "id": "95b87ab19542",
+      "title": "Show HN: A Claude Code skill that scopes problems like Peter Naur",
+      "url": "https://github.com/spinchange/cartographer-skill/blob/main/skills/cartographer/SKILL.md",
+      "summary": "Based on Naur's \"Programming as Theory Building\" (1985) Asks agent to create a problem-theory artifact before writing code.",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:09.711690+00:00",
+      "score": 2,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:24.450435+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "1efe203b14b6",
+      "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "summary": "The golden age of Microsoft's Github Copilot appears to be at an end.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.330927+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "7dd884f95267",
+      "title": "Meta is reportedly developing an AI pendant",
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "summary": "Meta seems to be making big bets on AI-powered hardware.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.330982+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "c8cc986f256e",
+      "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "summary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331014+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -223,8 +288,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.774902+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331052+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -239,8 +304,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.774947+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331077+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -255,8 +320,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.774999+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331132+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -271,8 +336,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775030+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331159+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -287,8 +352,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775055+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331181+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -303,8 +368,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775119+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331235+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -319,8 +384,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775148+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331258+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -335,8 +400,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775170+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331278+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -351,8 +416,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775191+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331297+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -367,8 +432,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775217+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331321+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -383,56 +448,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775243+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "c29f42f50837",
-      "title": "How long is Anthropic’s lease with SpaceX? Opinions vary",
-      "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
-      "summary": "Elon Musk is publicly reframing xAI’s massive Anthropic compute deal as short-term and cancellable, despite SpaceX’s own S-1 filing describing payments through May 2029.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775353+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "02afb9fd322e",
-      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
-      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-      "summary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775381+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "15b14c3d2651",
-      "title": "Sneak peek at new Siri app reveals Apple’s plans to take on ChatGPT and more",
-      "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
-      "summary": "New renders offer a closer look at Apple’s planned AI overhaul for iOS 27, including a redesigned Siri experience and standalone Siri app.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.775405+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.331342+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -447,8 +464,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.902525+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.479515+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -463,8 +480,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.903154+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.480209+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -479,8 +496,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.903717+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.480772+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -495,8 +512,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.904418+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.481428+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -511,8 +528,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.904888+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.481910+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -527,8 +544,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:10.905353+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.482338+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -543,8 +560,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.090695+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.586285+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -552,15 +569,15 @@
       ]
     },
     {
-      "id": "48ba231e4abe",
-      "title": "The Download: puncturing the AI jobs panic",
-      "url": "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A reality check on the AI jobs hysteria Despite the growing hysteria over AI’s threat to white-collar jobs, there’s still scant evidence that...",
+      "id": "22449302bcd7",
+      "title": "The Download: keeping up with AI, and the future of IVF",
+      "url": "https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Stay on top of what’s going on in AI this summer Here at MIT Technology Review, we understand exactly how relentless the pace of news from...",
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.090933+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.586445+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -575,8 +592,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.090815+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.586409+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -591,12 +608,28 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.090896+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.586480+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "ba76f749469d",
+      "title": "AI grifters are creating fake Black people to sell Shein junk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "summary": "Aliyah, a light-skinned Black woman dressed in country-western gear, is struggling to sell metal buckles she handmade on TikTok. In a video for the social media platform from March, she cries to the camera and pleads for views: \"Even as a black woman, I have more faith that...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.675690+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -607,8 +640,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.185451+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.675923+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -623,8 +656,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.185403+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.675884+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -639,8 +672,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-05-30",
-      "scraped_at": "2026-05-30T06:36:11.185496+00:00",
+      "date": "2026-05-31",
+      "scraped_at": "2026-05-31T07:10:27.675958+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
