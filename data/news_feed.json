@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-07T07:42:09.056601+00:00",
-    "article_count": 36,
-    "raw_count": 46,
+    "generated_at": "2026-06-07T16:52:31.858760+00:00",
+    "article_count": 38,
+    "raw_count": 51,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,12 +15,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.180839+00:00",
+      "scraped_at": "2026-06-07T16:52:31.232256+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "VentureBeat AI",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "VentureBeat AI"
       ]
     },
     {
@@ -32,12 +32,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306019+00:00",
+      "scraped_at": "2026-06-07T16:52:31.375723+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "The Verge AI",
-        "MIT Tech Review"
+        "MIT Tech Review",
+        "The Verge AI"
       ]
     },
     {
@@ -47,9 +47,9 @@
       "summary": "Finally made something I've always wanted, using the model we built. • SOTA omni embedding model, fully local, indexes text, PDF, image, audio, and video • Swift-native app UI + mlx-swift-transformer core. No Python. • Tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. All work...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 149,
+      "score": 150,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:00.394832+00:00",
+      "scraped_at": "2026-06-07T16:52:25.050264+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -65,8 +65,24 @@
       "source_type": "community",
       "score": 103,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:04.265795+00:00",
+      "scraped_at": "2026-06-07T16:52:28.395169+00:00",
       "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "01d2ad680db4",
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "summary": "Hey HN! Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand ( gasp )...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 88,
+      "date": "2026-06-07",
+      "scraped_at": "2026-06-07T16:52:22.278462+00:00",
+      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -79,9 +95,9 @@
       "summary": "To my knowledge, this is the first formally verified implementation of an intersection algorithm for polygons. The experience of working with AI agents on this project changed a lot with recent model releases, as I describe in the readme. Opus 4.8 is able to provide algorithm...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 86,
+      "score": 87,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:00.252342+00:00",
+      "scraped_at": "2026-06-07T16:52:24.906346+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -92,12 +108,12 @@
       "id": "b63cdf6a80f3",
       "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
       "url": "https://github.com/zaydmulani09/mnemo",
-      "summary": "",
+      "summary": "My team uses Claude Code daily, and the sessions have become some of the most useful artifacts we produce. But they're trapped in ~/.claude/projects/ on whichever laptop they happened on. There's no good way to hand a colleague \"the session where I untangled the migration\" so...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 59,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:04.693451+00:00",
+      "scraped_at": "2026-06-07T16:52:29.268330+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -105,47 +121,31 @@
       ]
     },
     {
-      "id": "79821a6d4d87",
-      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
-      "url": "https://github.com/s2-streamstore/replaya",
-      "summary": "Hi HN, I'm one of the founders of s2.dev. RePlaya ( https://github.com/s2-streamstore/replaya ) is a self-hosted browser session replay tool using rrweb ( https://github.com/rrweb-io/rrweb ). It occurred to me that a durable stream per session would be a much neater...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 50,
-      "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:04.837162+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "9e96ea19fc3f",
-      "title": "Show HN: Build Your Own AI Agent CLI in 150 Lines",
-      "url": "https://go-micro.dev/blog/11",
-      "summary": "Hi HN, I am co-founder of Persist AI. Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of Linkedin and email lists and also you can bring your own list of customers...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 33,
-      "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:06.417302+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "dc441d5b604c",
-      "title": "Show HN: Intencion – Product analytics that improves your AI agents continuously",
-      "url": "https://intencion.io",
+      "id": "b046dcb643dd",
+      "title": "Show HN: Papernews – self-hosted daily newspaper PDF for your reMarkable",
+      "url": "https://github.com/marcj/papernews",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 9,
+      "score": 11,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:07.842292+00:00",
+      "scraped_at": "2026-06-07T16:52:30.292895+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "377a5f26adf9",
+      "title": "Show HN: Sub-Agent MCP: LLM delegation and sub-agent orchestration via MCP",
+      "url": "https://github.com/stormaref/Sub-Agent-MCP",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 6,
+      "date": "2026-06-07",
+      "scraped_at": "2026-06-07T16:52:29.856383+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -161,23 +161,7 @@
       "source_type": "community",
       "score": 5,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:02.688965+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "377a5f26adf9",
-      "title": "Show HN: Sub-Agent MCP: LLM delegation and sub-agent orchestration via MCP",
-      "url": "https://github.com/stormaref/Sub-Agent-MCP",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 5,
-      "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:03.268096+00:00",
+      "scraped_at": "2026-06-07T16:52:29.119926+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -193,11 +177,59 @@
       "source_type": "community",
       "score": 4,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:05.127519+00:00",
+      "scraped_at": "2026-06-07T16:52:30.585041+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "4c8917a35934",
+      "title": "Show HN: Create and Maintain Filesystem Structures for LLMs [v1.0.11 Out]",
+      "url": "https://pypi.org/project/seed-cli/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-06-07",
+      "scraped_at": "2026-06-07T16:52:24.174426+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "50ab90204799",
+      "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
+      "url": "https://persist.chat",
+      "summary": "Hi HN, I am co-founder of Persist AI. Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of Linkedin and email lists and also you can bring your own list of customers...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-06-07",
+      "scraped_at": "2026-06-07T16:52:26.351798+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "5fcaae68980a",
+      "title": "OpenAI is still working on that ‘super app’",
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "summary": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-07",
+      "scraped_at": "2026-06-07T16:52:31.148622+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -209,7 +241,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099020+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148685+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -225,7 +257,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099084+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148727+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -241,7 +273,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099114+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148756+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -257,7 +289,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099165+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148805+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -273,7 +305,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099198+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148838+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,7 +321,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099231+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148871+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,7 +337,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099253+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148895+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,7 +353,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099285+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148930+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -337,7 +369,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.099344+00:00",
+      "scraped_at": "2026-06-07T16:52:31.148990+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,7 +385,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.178805+00:00",
+      "scraped_at": "2026-06-07T16:52:31.230297+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -369,7 +401,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.179479+00:00",
+      "scraped_at": "2026-06-07T16:52:31.230956+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -385,7 +417,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.180068+00:00",
+      "scraped_at": "2026-06-07T16:52:31.231527+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -401,7 +433,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.181345+00:00",
+      "scraped_at": "2026-06-07T16:52:31.232750+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -417,7 +449,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.181829+00:00",
+      "scraped_at": "2026-06-07T16:52:31.233197+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -433,7 +465,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.262596+00:00",
+      "scraped_at": "2026-06-07T16:52:31.315313+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -449,7 +481,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.262469+00:00",
+      "scraped_at": "2026-06-07T16:52:31.315151+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,7 +497,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.262673+00:00",
+      "scraped_at": "2026-06-07T16:52:31.315394+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,11 +513,27 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.262710+00:00",
+      "scraped_at": "2026-06-07T16:52:31.315428+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "4e80a276de0e",
+      "title": "AI ‘content creators’ are getting harder to spot",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started At first, AI influencers were...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-07",
+      "scraped_at": "2026-06-07T16:52:31.375622+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -497,7 +545,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306088+00:00",
+      "scraped_at": "2026-06-07T16:52:31.375772+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -513,7 +561,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306138+00:00",
+      "scraped_at": "2026-06-07T16:52:31.375819+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,7 +577,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306198+00:00",
+      "scraped_at": "2026-06-07T16:52:31.375875+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,7 +593,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306257+00:00",
+      "scraped_at": "2026-06-07T16:52:31.375933+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,23 +609,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306303+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "ec8685f9af80",
-      "title": "Let us filter AI slop, you cowards",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok",
-      "summary": "It's almost impossible to avoid seeing AI-generated content online, but it doesn't have to be this way. YouTube, Instagram, TikTok, and more have ramped up content authentication efforts over the last year, with many now automatically applying labels to distinguish AI-generated...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-07",
-      "scraped_at": "2026-06-07T07:42:08.306346+00:00",
+      "scraped_at": "2026-06-07T16:52:31.375977+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
