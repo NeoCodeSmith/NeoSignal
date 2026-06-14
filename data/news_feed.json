@@ -1,11 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T07:10:11.643830+00:00",
-    "article_count": 41,
-    "raw_count": 52,
+    "generated_at": "2026-06-14T08:03:01.664841+00:00",
+    "article_count": 37,
+    "raw_count": 51,
     "config_version": "4.0"
   },
   "articles": [
+    {
+      "id": "42e662bb79ec",
+      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "summary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report,...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998573+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "The Verge AI",
+        "TechCrunch AI"
+      ]
+    },
     {
       "id": "6fa8e1a92f0d",
       "title": "Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’",
@@ -14,13 +31,13 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069458+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998866+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TechCrunch AI"
       ]
     },
     {
@@ -31,24 +48,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 400,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:08.365834+00:00",
-      "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "330152dc23cf",
-      "title": "Show HN: HelixDB – A graph database built on object storage",
-      "url": "https://github.com/HelixDB/helix-db/tree/main",
-      "summary": "Hey HN, it’s been just over a year since we launched HelixDB ( https://news.ycombinator.com/item?id=43975423 ), a project a friend and I started in college. It’s an OLTP graph database built on object-storage, with native vector search and full-text search (FTS). Why graph,...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 153,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:05.448447+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:59.499369+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -62,9 +63,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 140,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:04.062174+00:00",
+      "score": 301,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:52.724911+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -72,16 +73,32 @@
       ]
     },
     {
-      "id": "eb338154cc6c",
-      "title": "Show HN: Command Center, the AI coding env for people who care about quality",
-      "url": "https://www.cc.dev/",
-      "summary": "Hi HN! We’re Jimmy and Ray. Jimmy is a Thiel Fellow with a Ph. D. from MIT who has worked on programming tools for 15 years; Ray became VP of Sales at a $2B company when he was 19 and has built side-businesses vibe-coding. Last year, we set to answer the question “If AI can...",
+      "id": "330152dc23cf",
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "summary": "Hey HN, it’s been just over a year since we launched HelixDB ( https://news.ycombinator.com/item?id=43975423 ), a project a friend and I started in college. It’s an OLTP graph database built on object-storage, with native vector search and full-text search (FTS). Why graph,...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 67,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:09.678823+00:00",
-      "authenticity_score": 0.5,
+      "score": 156,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:54.906113+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "28455cf910be",
+      "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+      "url": "https://github.com/Paca-AI/paca",
+      "summary": "I built Paca out of pure passion—a free and lightweight Jira alternative written in Go where humans and AI agents work together as equal teammates to plan sprints and assign tasks to each other. It is fully customizable with custom views, fields, and a WASM-based plugin...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 147,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:51.994040+00:00",
+      "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -91,12 +108,12 @@
       "id": "828362904289",
       "title": "Show HN: macOS menu bar gauges for your Claude Code quota",
       "url": "https://github.com/grzegorz-raczek-unit8/claude-quota",
-      "summary": "Hey HN, I built this a side project because I'm a soccer fan that has been vibing and tokenmaxxing with Claude Code maybe too much. So, the World Cup is here and it was the perfect excuse to build and ship something from 0 to 1. Enter Claudinho, a CLI and MCP that puts World Cup...",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 66,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:07.446262+00:00",
+      "score": 67,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:58.336656+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -104,15 +121,15 @@
       ]
     },
     {
-      "id": "41de764bb5ad",
-      "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
-      "url": "https://github.com/sig-id/nucleus",
-      "summary": "I started off with a simple goal: port the game Soldat to Typescript. I ended up not only with the game, but with a full system to train AI bots to play my own game, building a neural net to train new bot AIs from tens of thousands of simulated matches with different strategies....",
+      "id": "4c311250afec",
+      "title": "Show HN: Script to bulk delete Claude chats from the web UI",
+      "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "summary": "I haven't found a way to delete all chats in bulk like you can on Chatgpt. With Claude, you have to scroll to the bottom, select everything, and delete. The problem is, if you have a lot of chats, it becomes impossible. I created this script. It does it alone. I hope it helps...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 39,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:08.274581+00:00",
+      "score": 59,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:55.192672+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -127,8 +144,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 9,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:06.856480+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:59.660045+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -136,47 +153,15 @@
       ]
     },
     {
-      "id": "7ad6724c1b13",
-      "title": "Show HN: Squishy & Friends – Claude Fabel 5 coded a game and it is good",
-      "url": "https://squishy.franzai.com/",
+      "id": "3b6086291579",
+      "title": "Show HN: IssunDB – a new embedded graph database with vector and text search",
+      "url": "https://github.com/IssunDB/issun-db",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 4,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:06.343659+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "99cc22212582",
-      "title": "Show HN: 800x faster Linter and TypeScript-Go toolchain for plugins like typia",
-      "url": "https://github.com/samchon/ttsc",
-      "summary": "As a developer of typia, have to alive in the new typescript-go era, I made a new toolchain for tsgo. Making the ttsc, I understood that the new plugin toolchain system can dramatically reduce lint rule checking time by integrating into the typescript-go. So made `@ttsc/lint`,...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:07.052378+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "b51a89600ddb",
-      "title": "Show HN: Visualize an Obsidian/gbrain vault as an interactive graph and timeline",
-      "url": "https://vladignatyev.github.io/brain-map-skill/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:04.249639+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:57.196982+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -190,9 +175,9 @@
       "summary": "I've been using the popular React Markdown renderers with Katex and Prism.js for rendering my Markdown and LaTeX, but was tired of having to bundle 300kb+ of min+gzip JS only for this (1.2MB+ of plain JS!). So I created a small Markdown renderer that does it all in a tiny...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 2,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:04.625591+00:00",
+      "score": 4,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:55.907073+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -200,15 +185,15 @@
       ]
     },
     {
-      "id": "5d9835d57cff",
-      "title": "Show HN: Nenya – A lightweight, highly secure AI API Gateway/Proxy written in Go",
-      "url": "https://github.com/gumieri/nenya",
+      "id": "09bcd19f784e",
+      "title": "Show HN: Cortex – local-first encrypted memory for AI agents (Rust, MCP)",
+      "url": "https://github.com/gambletan/cortex",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 2,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:06.240019+00:00",
+      "score": 4,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:56.765006+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -216,19 +201,67 @@
       ]
     },
     {
-      "id": "e472af4a8b21",
-      "title": "Show HN: Crowfly.golf – Zero-backend GPS round tracking (localStorage)",
-      "url": "https://crowfly.golf",
-      "summary": "crowfly is a single-html-file golf round GPS tracker. Hit your shot, tap \"log shot\", walk to your ball, repeat. Shots and rounds are stored in localStorage. Distance markers. CSV export. Zero account, zero backend. Short-term roadmap: - Mandatory login - AI club recommendation -...",
+      "id": "b51a89600ddb",
+      "title": "Show HN: Visualize an Obsidian/gbrain vault as an interactive graph and timeline",
+      "url": "https://vladignatyev.github.io/brain-map-skill/",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 2,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:06.433574+00:00",
+      "score": 3,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:02:58.051519+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "f8a0f0f35f8f",
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711366+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "a8f0e15c4370",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711423+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "7263fcd1238a",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711475+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -239,8 +272,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549605+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711550+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -255,8 +288,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549675+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711587+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -271,8 +304,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549705+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711617+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -287,8 +320,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549734+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711648+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -303,8 +336,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549822+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711712+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -319,8 +352,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549861+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711745+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -335,8 +368,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549884+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711774+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -351,88 +384,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549942+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "b1281cfbcec8",
-      "title": "DoorDash’s new AI chatbot lets you order with prompts and photos",
-      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
-      "summary": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549974+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "d207a3772a3e",
-      "title": "Opendoor’s India exit is fueling a bigger conversation about AI and outsourcing",
-      "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
-      "summary": "The decision comes as India emerges as the world’s largest GCC market.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.549993+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "2a2f00753a37",
-      "title": "Anthropic’s Dario Amodei has just one direct report",
-      "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
-      "summary": "If founders and other business leaders weren't already envious of Dario Amodei, who sits atop one of the world's fastest-growing AI companies, they're going to be seriously envious now.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.550016+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "01d0cd217dab",
-      "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
-      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-      "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.550036+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "05b4043cecc0",
-      "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
-      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
-      "summary": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.550055+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.711836+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -447,8 +400,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.746099+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.800869+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -463,8 +416,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.746789+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.801570+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -479,8 +432,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.747334+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.802160+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -495,8 +448,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.748042+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.803003+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -511,8 +464,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.748516+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.803560+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -527,8 +480,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.748968+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.804045+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -543,8 +496,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.885070+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.881617+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -559,12 +512,60 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:10.885160+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.881681+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "8f1f29bdfb2d",
+      "title": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "summary": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998654+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "f0150c7ee994",
+      "title": "Apple’s new AI photo editing tools mostly work, for better and worse",
+      "url": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "summary": "The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But […]",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998703+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "382c5c4f32e1",
+      "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "summary": "For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998753+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -575,8 +576,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069358+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998807+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -591,72 +592,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069502+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "2d31cdcabcde",
-      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-      "summary": "Anthropic has apologized for stealthily throttling its new AI model, Claude Fable 5, with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The company says it is reversing course and will be more transparent about when the...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069554+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "8621da7d797c",
-      "title": "Deezer launches an AI music detector for other streaming services",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
-      "summary": "Deezer will now scan your playlists on other streaming platforms to detect AI-generated music. Deezer was the first of the big streaming services to start labeling AI-generated music. It even offered its tech to other platforms, but it doesn't seem like it had many buyers. Qobuz...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069592+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "95eef9cebe56",
-      "title": "Claude Fable won’t answer basic biology questions",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
-      "summary": "Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069631+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "d80cbe4e1868",
-      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
-      "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
-      "summary": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-06-13",
-      "scraped_at": "2026-06-13T07:10:11.069668+00:00",
+      "date": "2026-06-14",
+      "scraped_at": "2026-06-14T08:03:00.998908+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
