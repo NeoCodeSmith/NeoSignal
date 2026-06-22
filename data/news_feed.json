@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-21T17:05:56.450404+00:00",
-    "article_count": 41,
-    "raw_count": 47,
+    "generated_at": "2026-06-22T09:29:21.499894+00:00",
+    "article_count": 42,
+    "raw_count": 52,
     "config_version": "4.0"
   },
   "articles": [
@@ -14,8 +14,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948248+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931192+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -31,8 +31,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948420+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931366+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -48,8 +48,24 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 235,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:49.574660+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:17.238054+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "d065e88e7396",
+      "title": "Show HN: Recall – Local project memory for Claude Code",
+      "url": "https://github.com/raiyanyahya/recall",
+      "summary": "I built a UI framework named Domphy because I could not learn React although I tried many times. I mean I could not understand React code which is hidden behind multiple layers, especially when some of them use React ecosystem libs. Maybe I am an architect turned developer, so I...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 111,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:15.452646+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -60,12 +76,12 @@
       "id": "fbc48a327c9b",
       "title": "Show HN: We post-trained a model that pen tests instead of refusing",
       "url": "https://www.argusred.com/cli",
-      "summary": "Hi I have been working on persistent memory. I wanted to see whether a brain like graph-based memory system could be used and more importantly how much we could save on llm tokens. FERNme uses fuzzy edge with Hebbian co-occurrence rule to create memory tags. I think FERNme could...",
+      "summary": "Anthropic and OpenAI's publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities. AI can be used as both an adversarial and...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 88,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:48.283191+00:00",
+      "score": 90,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:16.907108+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -73,47 +89,15 @@
       ]
     },
     {
-      "id": "903b9984e35e",
-      "title": "Show HN: Lean bulk, cut, body recomp. Calculate maintenance calories",
-      "url": "https://macrocodex.app/",
-      "summary": "A very simple idea: when you eat more than your maintenance calories, you gain weight; when you eat less than your maintenance calories, you lose weight. By using an algorithm, we can accurately figure out your maintenance calories more accurately than traditional regression...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 27,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:52.001891+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "51dda1803afd",
-      "title": "Show HN: Domphy – plain-object UI for tool apps, AI-correctable output",
-      "url": "https://news.ycombinator.com/item?id=48593346",
-      "summary": "I built a UI framework named Domphy because I could not learn React although I tried many times. I mean I could not understand React code which is hidden behind multiple layers, especially when some of them use React ecosystem libs. Maybe I am an architect turned developer, so I...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 10,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:49.828185+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "e5f43af1c3f6",
-      "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "url": "https://github.com/JustVugg/nanoeuler",
+      "id": "69ba4788a20d",
+      "title": "Show HN: Brain Frog – Can you be random enough for 11 lines of JavaScript?",
+      "url": "https://brainfrog.lol",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 6,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:54.214976+00:00",
+      "score": 14,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:16.038017+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -121,15 +105,31 @@
       ]
     },
     {
-      "id": "7c8a750f2805",
-      "title": "Show HN: Tiny.Place – AI Social network for orchestration, payments & jobs",
-      "url": "https://github.com/tinyhumansai/tiny.place",
+      "id": "c3c4fe9809ef",
+      "title": "Show HN: Chainstack Self-Hosted, hosting your own blockchain nodes made simple",
+      "url": "https://docs.chainstack.com/docs/self-hosted/introduction",
+      "summary": "Hi HN, Alexey from Chainstack here. We built Chainstack Self-Hosted to package everything we’ve learned from 8+ years of running blockchain nodes into a single control panel. The goal we’re building this product around is to make blockchain infrastructure boring to operate. The...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 9,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:17.320758+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "b7251d339024",
+      "title": "Show HN: DebugBrief – turn debugging sessions into reports, no AI",
+      "url": "https://github.com/harihkk/Debug-Brief",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:53.571376+00:00",
+      "score": 8,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:16.740046+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -137,47 +137,63 @@
       ]
     },
     {
-      "id": "6f71bc6c2640",
-      "title": "Show HN: Autonomy – Self-Harness/Self-Directed AI Agent Core Under Development",
-      "url": "https://autonomy-landing-page.vercel.app/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 4,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:54.739766+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "cc26fabfe0f5",
-      "title": "Show HN: Domvault – self-hostable second brain with consent-based note sharing",
-      "url": "https://github.com/dys5315/domvault",
-      "summary": "Hi HN, wanted to translate this into a more human-readable post - please see below and would love any and all feedback! What is it: A second brain you self-host and engine to compound itself and spark new ideas, from your own ideas. Why: ROI on your own knowledge, actually...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:50.082039+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "feed67e79b73",
-      "title": "Show HN: AlphaVibe – AI that reads your DeFi wallet live via DeBank",
-      "url": "https://quantarena.xyz/",
+      "id": "bac1cf40da0e",
+      "title": "Show HN: GreyFox – Free self-hosted AI proxy, token quotas, and local cache",
+      "url": "https://github.com/skillful-fox-studio/grey-fox-community",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:54.351247+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:17.747034+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "cec0e560de6d",
+      "title": "Show HN: Vitrus – the company brain that tells you what it doesn't know",
+      "url": "https://github.com/ahmetvural79/Vitrus",
+      "summary": "Vitrus — the company brain that tells you what it doesn't know",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.201440+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "56f9352f8274",
+      "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
+      "url": "https://github.com/vishal-dehurdle/state-harness",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:16.376643+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "a4e7f878c027",
+      "title": "Show HN: Typevia live LaTeX editing with AI assistance",
+      "url": "https://www.typevia.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:16.547786+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -192,8 +208,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.568956+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.515979+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -208,8 +224,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569014+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516037+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -224,8 +240,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569091+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516065+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -240,8 +256,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569144+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516085+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -256,8 +272,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569192+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516105+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -272,8 +288,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569306+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516178+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,8 +304,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569394+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516250+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -297,15 +313,15 @@
       ]
     },
     {
-      "id": "61de6d3d4f65",
-      "title": "The CEO of Allbirds’ new AI biz has a plan, but no team",
+      "id": "b990c421bc0a",
+      "title": "The CEO of Allbirds’ new AI biz has a plan. Now she needs a “brand-new team”",
       "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
       "summary": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569416+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516269+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -320,8 +336,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569446+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516300+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -336,8 +352,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569468+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516340+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -352,8 +368,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569490+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516361+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -368,8 +384,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569510+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516381+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -384,8 +400,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569534+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516400+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -400,8 +416,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.569556+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.516418+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,8 +432,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.712758+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.694916+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -432,8 +448,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.713443+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.695619+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -448,8 +464,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.713996+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.696199+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -464,8 +480,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.714705+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.696942+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -480,8 +496,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.715201+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.697484+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -496,8 +512,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.715648+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.697962+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -512,8 +528,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.843557+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.808574+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -528,8 +544,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.843631+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.808641+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -544,8 +560,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.843686+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.808688+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -560,8 +576,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.843758+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.808760+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -576,8 +592,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948344+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931280+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -592,8 +608,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948468+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931408+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -608,8 +624,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948515+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931448+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -624,8 +640,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948565+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931489+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -640,8 +656,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948616+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931526+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -656,8 +672,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-06-21",
-      "scraped_at": "2026-06-21T17:05:55.948658+00:00",
+      "date": "2026-06-22",
+      "scraped_at": "2026-06-22T09:29:20.931561+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
