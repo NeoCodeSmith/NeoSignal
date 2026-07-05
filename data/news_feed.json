@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T06:34:53.677888+00:00",
-    "article_count": 44,
-    "raw_count": 54,
+    "generated_at": "2026-07-05T06:55:01.635340+00:00",
+    "article_count": 45,
+    "raw_count": 53,
     "config_version": "4.0"
   },
   "articles": [
@@ -14,13 +14,13 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124626+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.277946+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TechCrunch AI"
       ]
     },
     {
@@ -30,9 +30,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 105,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:48.222588+00:00",
+      "score": 106,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:58.351852+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -46,9 +46,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 90,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:47.394175+00:00",
+      "score": 91,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:59.278097+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -62,9 +62,9 @@
       "summary": "3 weeks ago I had a nasty accident and fractured my vertebrae. As I lay in bed I needed something to take my mind off it all so built \"Claudoro\". Claudoro is a pomodoro timer built right into the Claude Code status line, as well as can be directly controlled from Claude Code and...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 49,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:48.432429+00:00",
+      "score": 50,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:58.679647+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -75,12 +75,28 @@
       "id": "cc43dbe7987c",
       "title": "Show HN: I built an open-source alternative to Claude Cowork",
       "url": "https://github.com/valmishq/valmis",
-      "summary": "Hey HN, A few months ago, I tried to automate some of my work with the popular AI agent OpenClaw, and then I quickly realized how difficult it is to get it to work with APIs and third-party services securely, which is essential for a lot of work-related tasks. Then I realized...",
+      "summary": "Definitely one of those \"20 minute adventure gone wrong\" projects where all I wanted initially was a quick wireless rubber ducky for bitlocker keys and the like and then I kept adding stuff like AES-256..... Currently working on adding WebAuthn/FIDO support because the hardware...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 36,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:49.376743+00:00",
+      "score": 38,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.216122+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "2e4d11bec43d",
+      "title": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining",
+      "url": "https://github.com/adam-s/car-diagnosis",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 34,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:55.007884+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -94,9 +110,9 @@
       "summary": "deptrust is a CLI that checks package versions for known vulnerabilities across npm, PyPI, crates.io, Go modules, RubyGems, NuGet, Maven, Packagist, pub.dev, CocoaPods, Hex.pm, Hackage, GitHub Actions, and more. It runs locally as a CLI and as an MCP server. It calls public...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 23,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:45.323820+00:00",
+      "score": 26,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:57.851287+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -111,40 +127,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 8,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:45.432183+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "908262163a72",
-      "title": "Show HN: Pull Claude Code transcripts into your Codex session, and vice versa",
-      "url": "https://contextify.sh/",
-      "summary": "Claude Fable has been incredible, however the plan usage runs out too fast, especially if you use ultracode mode (Claude Code's workflow feature, where the model writes small JavaScript programs that orchestrate subagents) and let the agents go brrr. I want Fable to focus on...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 6,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:47.082508+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "31022c855bad",
-      "title": "Show HN: Gavio: open-source interceptor pipeline for production LLM applications",
-      "url": "https://github.com/manojmallick/gavio",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:46.310586+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.013407+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -158,9 +142,57 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
+      "score": 6,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.544917+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "81385d57b89f",
+      "title": "Show HN: Gemma 3 inference in pure C++ with Metal acceleration",
+      "url": "https://github.com/ybubnov/metalchat",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:57.411198+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "8a8ae441627d",
+      "title": "Show HN: Routing24 – free route optimization agent for Claude Cowork/WebMCP",
+      "url": "https://github.com/routing24/skill",
+      "summary": "I've been building https://routing24.com for a while, a free route optimization and planning app for businesses. One of the things that bothered me for quite a time is inability of browser agents to work with Routing24. We have tons of natural tasks for AI: - data ingestion, to...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:58.413968+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "bff4b96f2116",
+      "title": "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device",
+      "url": "https://www.local-mcp.com/en",
+      "summary": "I kept hitting the same wall: AI assistants are great until they need my context — the email thread, the calendar, the iMessage, the file on my disk. Cloud connectors can only reach things with a public API, so they physically can't touch the stuff that lives only on my machine....",
+      "source": "HackerNews",
+      "source_type": "community",
       "score": 3,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:47.185738+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:54.584566+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -168,15 +200,15 @@
       ]
     },
     {
-      "id": "aba855a6c916",
-      "title": "Show HN: StayThere.ai - Book directly at over 96k short term rentals",
-      "url": "https://staythere.ai/",
-      "summary": "Hi HN, I manage short term rentals and always send guests my direct booking. I see others constantly post on reddit asking for tips for direct booking and how to do it. So I have been aggregating the free direct booking sites PMS's give their hosts into one large booking site...",
+      "id": "6a71d0e5a920",
+      "title": "Show HN: AI Interview Coach – practice with honest hiring-manager-grade feedback",
+      "url": "https://aiinterviewcoaches.com",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:47.486947+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:58.290681+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -184,15 +216,15 @@
       ]
     },
     {
-      "id": "ffca663262da",
-      "title": "Show HN: SmolSignal – signal copilot for Flipper Zero files",
-      "url": "https://github.com/SmolNero/SmolSignal",
+      "id": "f898dca20f72",
+      "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
+      "url": "https://github.com/tadelstein9/two-tier-memory",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 2,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:45.189646+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:54:54.887160+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -200,51 +232,67 @@
       ]
     },
     {
-      "id": "27d265b91ee5",
-      "title": "Show HN: DoodleMeme – Animated Memes from Your Hand Drawn Doodles (No GenAI)",
-      "url": "https://doodlemate.com/meme",
-      "summary": "I like doodling, and I like character animation. I made a little tool that can animate your hand drawn characters and put them into an animated meme. It's free, there's no login needed, and it uses an animation pipeline (not generative AI) to create the outputs. Works on desktop...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:46.743008+00:00",
+      "id": "5ae6f6ce3936",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861572+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "2479b74f6449",
-      "title": "Show HN: Mlx-serve – LLM inference server for Apple Silicon, written in Zig",
-      "url": "https://mlxserve.com/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:49.166567+00:00",
+      "id": "6b9e4b21f92f",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861628+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "7b5615502382",
-      "title": "Show HN: Auto-continue Claude Fable 5 the second your 5-hour limit lifts",
-      "url": "https://github.com/wavever/CCLimitPing",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:50.677192+00:00",
+      "id": "4d3671c83bf6",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861657+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "bfce489026e0",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861688+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -255,8 +303,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601567+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861714+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -271,8 +319,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601642+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861751+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -287,8 +335,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601669+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861780+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -303,8 +351,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601728+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861842+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -319,8 +367,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601751+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861869+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -335,8 +383,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601789+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861902+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -351,8 +399,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601809+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861924+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -367,8 +415,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601843+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861957+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -383,8 +431,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601862+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.861978+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -399,40 +447,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601881+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "46d8262a3c53",
-      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
-      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
-      "summary": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601916+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "e22a21b332a5",
-      "title": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
-      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
-      "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.601948+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:00.862000+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -447,8 +463,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.769515+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.064795+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -463,8 +479,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.770184+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.065459+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -479,8 +495,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.770728+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.066013+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -495,8 +511,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.771421+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.066722+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -511,8 +527,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.771894+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.067197+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -527,8 +543,8 @@
       "source": "VentureBeat AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.772413+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.067661+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -543,8 +559,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.908709+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.197993+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -559,8 +575,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.908839+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.198126+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -575,8 +591,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.908797+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.198086+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -591,12 +607,28 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:52.908875+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.198171+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "2fe9bdb81400",
+      "title": "The fanfiction community is at war with AI — and itself",
+      "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude,...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.277865+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -607,8 +639,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124711+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.278003+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -623,8 +655,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124755+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.278051+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -639,8 +671,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124798+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.278109+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -655,8 +687,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124838+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.278188+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -671,8 +703,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124889+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.278252+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -687,24 +719,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124925+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "80b557bf00ba",
-      "title": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
-      "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-      "summary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-07-04",
-      "scraped_at": "2026-07-04T06:34:53.124972+00:00",
+      "date": "2026-07-05",
+      "scraped_at": "2026-07-05T06:55:01.278294+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
