@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-19T06:13:45.200787+00:00",
-    "article_count": 37,
-    "raw_count": 44,
+    "generated_at": "2026-07-19T16:27:14.246546+00:00",
+    "article_count": 42,
+    "raw_count": 56,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,7 +15,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005292+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046867+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -32,56 +32,8 @@
       "source_type": "community",
       "score": 119,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:40.326146+00:00",
+      "scraped_at": "2026-07-19T16:27:12.168046+00:00",
       "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "39e4a2f84a30",
-      "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
-      "url": "https://github.com/Danau5tin/ai-trains-ai",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 107,
-      "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:40.770576+00:00",
-      "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "c1233193a642",
-      "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
-      "url": "https://github.com/jbwinters/jacquard-lang",
-      "summary": "I'm fascinated by the generative AI wave rolling over us, and wondered if AI could create a language that it might prefer using over the ones created by and for humans. To create the design, I had AI analyze the ASTs of several mainstream languages plus a few of the conceptually...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 102,
-      "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:40.918231+00:00",
-      "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "4ff8439b8dd5",
-      "title": "Show HN: Sx 2.0 – Share AI skills with your team through a Dropbox folder",
-      "url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
-      "summary": "Hi all, author here. SX started as a CLI to let developers share skills across AI clients without having to rely on git for storage. This allowed sharing at the Repo/Team/Org and Personal level. However, the more we spoke to users the more we realized that non-technical users...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 44,
-      "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:42.537721+00:00",
-      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -96,7 +48,7 @@
       "source_type": "community",
       "score": 38,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:40.476135+00:00",
+      "scraped_at": "2026-07-19T16:27:12.275144+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -107,12 +59,28 @@
       "id": "9fa287e7171a",
       "title": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
       "url": "https://libretto.sh/debug-agents",
-      "summary": "TL;DR: Turn hours of raw GoPro footage + a .fit file into a 60-second highlight reel with ride telemetry burned in. Every second of the ride is scanned by gemini-3.5-flash, as is the clip ranking + curation. The whole thing costs about $0.04 per ride and takes 10 minutes. Longer...",
+      "summary": "Hello all, I'm a software developer. Over the last few months more and more of my work has turned into using coding agents instead of typing the whole code myself. Usually a few claude sessions at once, sometimes codex, one per feature or per revealed bug. I ran them in a split...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 22,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:39.135886+00:00",
+      "scraped_at": "2026-07-19T16:27:11.867959+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "d4d68483f3a2",
+      "title": "Show HN: LoopGain – Stop agent loops with control theory, not max_iterations",
+      "url": "https://github.com/loopgain-ai/loopgain",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 16,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:06.680079+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -126,25 +94,9 @@
       "summary": "I wanted to take kimi k3 for a spin. It turned my simple one sentence prompt to this. Repo here. https://github.com/praveer13/ilya-papers-quest Well, I'm mindblown. Very humbling for me as a software engineer. Took couple hours for it to build this completely autonomously. And...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 5,
+      "score": 6,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:35.598420+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "30853312d8c5",
-      "title": "Show HN: The Port Index – 3,804 seaports and 9,640 airports, scored",
-      "url": "https://www.theportindex.online",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 4,
-      "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:43.124365+00:00",
+      "scraped_at": "2026-07-19T16:27:10.553046+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -158,9 +110,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
+      "score": 5,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:35.754719+00:00",
+      "scraped_at": "2026-07-19T16:27:08.535344+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -168,19 +120,179 @@
       ]
     },
     {
-      "id": "ec5ebb6e7238",
-      "title": "Show HN: Flightwake – a flight recorder for AI coding agents, not a navigator",
-      "url": "https://github.com/kaiwutech-TW/flightwake",
+      "id": "ebf062ef3bef",
+      "title": "Show HN: ride-recap, teaching a LLM my taste to automate cycling highlights",
+      "url": "https://www.iandmacomber.com/blog/gopro-garmin-gemini-ride-recap/",
+      "summary": "TL;DR: Turn hours of raw GoPro footage + a .fit file into a 60-second highlight reel with ride telemetry burned in. Every second of the ride is scanned by gemini-3.5-flash, as is the clip ranking + curation. The whole thing costs about $0.04 per ride and takes 10 minutes. Longer...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:10.959715+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "91f8473f230d",
+      "title": "Show HN: Zlvox – 25 Free Developer Tools (AI, JSON, PDF) with Zero Tracking",
+      "url": "https://zlvox.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:09.037870+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "0df607d7c78f",
+      "title": "Show HN: Regularly, hand-picked daily logic and number puzzles, no ads",
+      "url": "https://regularly.co",
+      "summary": "Hi HN. I wanted to present to you Regularly ( https://regularly.co ), a daily logic/math puzzle website I made to scratch my own itch: can we have a fun and engaging puzzle app that doesn't eventually devolve into an iap blockaded mess? For background, a few years ago I released...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:07.154812+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "34b568627523",
+      "title": "Show HN: FlexInference LLM Router",
+      "url": "https://www.flexinference.com",
+      "summary": "Hey everyone, just added Bedrock and Vertex support to FlexInference. It now can do provider fallback on 429 and 5xx. Plus there is upstream retries you can setup via SDK. This way you can do routing for free through OpenAI, Anthropic, Google, Vertex, and Bedrock. Working on...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:08.352762+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "6480aaf75e66",
+      "title": "Show HN: Knowledge graph skill for Claude/Kimi Code",
+      "url": "https://org-edge.com/sysedge.html",
+      "summary": "Working with multiple Claude Code instances I found issues with requirements traceability, test coverage, and inter-instance communication. I was working with knowledge graphs so built a knowledge graph skill for Claude Code - every user story, use-case, feature, test-case is a...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:06.455989+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "bfc6f794e549",
+      "title": "Show HN: AI Buddy – Free STT and Screenshot Tool for Mac (Requires Gemini)",
+      "url": "https://claudete.co/ai-buddy",
+      "summary": "I created this tool because I honestly didn't want to pay a monthly subscription fee for other apps, and I also needed it to be a bit more reliable and wanted to be able to take screenshots in a particular way that's useful for working with Claude Code.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:07.462839+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "3a800363fcae",
+      "title": "Show HN: AI mock interview tool that scores your answers – free, no signup",
+      "url": "https://interviewpracticeai.com",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 2,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:35.310988+00:00",
+      "scraped_at": "2026-07-19T16:27:08.082512+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "b49b1757a7d4",
+      "title": "Show HN - Online developer profiles with embedded AI hypeman",
+      "url": "https://engineerprofiles.com",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:09.256364+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "1e03ec1aef3a",
+      "title": "Show HN: Wave – Talk to AI. Meet the human on the other side",
+      "url": "https://www.getonwave.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:09.356213+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "edddcf8f0d32",
+      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "summary": "\"Everybody knows the Greeks are inside.\"",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:13.046593+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "bbf9625c9b17",
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-07-19",
+      "scraped_at": "2026-07-19T16:27:13.046650+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -192,7 +304,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005001+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046689+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -208,7 +320,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005093+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046712+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -224,7 +336,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005135+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046733+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -240,7 +352,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005194+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046798+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -256,7 +368,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005342+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046898+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -272,7 +384,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005455+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046970+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,7 +400,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005489+00:00",
+      "scraped_at": "2026-07-19T16:27:13.046993+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -304,7 +416,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005516+00:00",
+      "scraped_at": "2026-07-19T16:27:13.047011+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -320,7 +432,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005584+00:00",
+      "scraped_at": "2026-07-19T16:27:13.047060+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -336,39 +448,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005615+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "47626f6ad013",
-      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
-      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
-      "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005641+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "e064d5bfc81e",
-      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
-      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
-      "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.005674+00:00",
+      "scraped_at": "2026-07-19T16:27:13.047086+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -384,7 +464,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.086759+00:00",
+      "scraped_at": "2026-07-19T16:27:13.325820+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -400,7 +480,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.087625+00:00",
+      "scraped_at": "2026-07-19T16:27:13.326884+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,7 +496,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.089640+00:00",
+      "scraped_at": "2026-07-19T16:27:13.329483+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -432,7 +512,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.090212+00:00",
+      "scraped_at": "2026-07-19T16:27:13.330290+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -448,7 +528,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.173538+00:00",
+      "scraped_at": "2026-07-19T16:27:13.537189+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -464,7 +544,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.173654+00:00",
+      "scraped_at": "2026-07-19T16:27:13.537304+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -480,7 +560,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.173713+00:00",
+      "scraped_at": "2026-07-19T16:27:13.537348+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -496,7 +576,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.173834+00:00",
+      "scraped_at": "2026-07-19T16:27:13.537438+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -512,7 +592,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.350712+00:00",
+      "scraped_at": "2026-07-19T16:27:13.659581+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -528,7 +608,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.350829+00:00",
+      "scraped_at": "2026-07-19T16:27:13.659675+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -544,7 +624,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.350941+00:00",
+      "scraped_at": "2026-07-19T16:27:13.659758+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -560,7 +640,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.350992+00:00",
+      "scraped_at": "2026-07-19T16:27:13.659799+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -576,7 +656,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.351065+00:00",
+      "scraped_at": "2026-07-19T16:27:13.659835+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -592,7 +672,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-07-19",
-      "scraped_at": "2026-07-19T06:13:44.351150+00:00",
+      "scraped_at": "2026-07-19T16:27:13.659891+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
