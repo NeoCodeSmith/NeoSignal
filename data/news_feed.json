@@ -1,26 +1,43 @@
 {
   "meta": {
-    "generated_at": "2026-08-02T06:18:37.031871+00:00",
-    "article_count": 48,
-    "raw_count": 61,
+    "generated_at": "2026-08-02T16:29:09.533953+00:00",
+    "article_count": 46,
+    "raw_count": 57,
     "config_version": "4.0"
   },
   "articles": [
     {
-      "id": "c8470160b404",
-      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
-      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "id": "5212a65dc147",
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "url": "https://marbleos.com/demo",
       "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 134,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449319+00:00",
-      "authenticity_score": 0.8,
+      "scraped_at": "2026-08-02T16:29:03.468992+00:00",
+      "authenticity_score": 1.0,
       "source_count": 2,
       "all_sources": [
-        "The Verge AI",
-        "TechCrunch AI"
+        "HackerNews",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "60d100937023",
+      "title": "Show HN: TamedTable, AI ETL in Natural Language",
+      "url": "https://www.tamedtable.com/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to make large language models fully secure against hacks...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:02.995907+00:00",
+      "authenticity_score": 0.9,
+      "source_count": 2,
+      "all_sources": [
+        "HackerNews",
+        "MIT Tech Review"
       ]
     },
     {
@@ -32,7 +49,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449275+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855589+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -47,25 +64,9 @@
       "summary": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 165,
+      "score": 166,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:33.218099+00:00",
-      "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "5212a65dc147",
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "url": "https://marbleos.com/demo",
-      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 131,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:32.458343+00:00",
+      "scraped_at": "2026-08-02T16:29:04.208171+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -79,9 +80,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 20,
+      "score": 21,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:32.538036+00:00",
+      "scraped_at": "2026-08-02T16:29:03.992651+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -92,12 +93,60 @@
       "id": "2314fe336e1b",
       "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
       "url": "https://costperprompt.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 20,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:04.940093+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "8be79bb52f1b",
+      "title": "Show HN: Symbio self fine-tuning AI loop",
+      "url": "https://github.com/huyedits/Symbio",
+      "summary": "It trains based off the mistakes it made with the solution you gave OR what it got. Thank you for reading",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 9,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:05.145723+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "6b5255cacea9",
+      "title": "Show HN: Btfy – a blockchain that uses weather observations",
+      "url": "https://github.com/kotagit75/btfy",
+      "summary": "Hi HN, I built Btfy, an experimental blockchain that uses weather observations as a source of unpredictability for consensus The motivation is simple. Proof of Work generates uncertainty by performing computations. I wanted to explore whether we could obtain some of that...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 8,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:02.579409+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "9317687c7cb4",
+      "title": "Show HN: Wienerdog – memory and self-improving skills for Claude Code/Codex",
+      "url": "https://github.com/wienerdog-ai/wienerdog/",
       "summary": "The idea of Wienerdog was born out of my experience setting up my own simple but effective system of memory, self-improving skills and hooks for Claude Code and Codex. As I was teaching my friends and colleagues how to set up their own I found myself automating more and more of...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 13,
+      "score": 8,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:31.875944+00:00",
+      "scraped_at": "2026-08-02T16:29:06.151852+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -105,47 +154,15 @@
       ]
     },
     {
-      "id": "3c7799ff36f5",
-      "title": "Show HN: Aurora – AI Gateway built in Go",
-      "url": "https://github.com/aurorallm/aurora",
-      "summary": "Every Ai project needs the same infra - API keys, providers SDKs, retry logic, cost tracking. it should be infra layer. Aurora is a Go gateway that handles that layer, ~15MB binary, no dependencies. It proxies requests to OpenaAI, Anthropic, Gemini etc, and can convert between...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 7,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:35.702258+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "3819705f01f8",
-      "title": "Show HN: Wage Against the Machine – MacWages Index for AI Tasks",
-      "url": "https://watm.ddyo.dev/",
-      "summary": "One page to showcase everything you've built. Server-rendered pages with dynamic OG image generation, built-in privacy-preserving analytics (no raw IPs), email capture, and custom domains. Free to build/preview, one-time payment to publish ($25/yr or $45 lifetime). Stack: React...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 7,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:32.394718+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "d027bdebde9c",
-      "title": "Show HN: Voris: privacy-first analytics for the AI-influenced web",
-      "url": "https://voris.ai/",
+      "id": "e10fadfbfa0f",
+      "title": "Show HN: I made 70K+ hand-drawn icons using AI",
+      "url": "https://koboyo.com/icons",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 4,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:33.887581+00:00",
+      "scraped_at": "2026-08-02T16:29:06.364383+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -153,15 +170,15 @@
       ]
     },
     {
-      "id": "09cb4297c001",
-      "title": "Show HN: Free AI Prompt Gen – A local-first, open-source prompt engineering tool",
-      "url": "https://freeaipromptgen.com/",
+      "id": "f057223c3c4b",
+      "title": "Show HN: CaLLMar – play a text-based adventure game in an LLM chat",
+      "url": "https://github.com/lascauje/callmar",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:34.864120+00:00",
+      "scraped_at": "2026-08-02T16:29:02.891454+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -169,95 +186,47 @@
       ]
     },
     {
-      "id": "8ff073827c5a",
-      "title": "Show HN: Pronto – real‑time wire for AI agents (70k+ feeds connected)",
-      "url": "https://pronto.stream/",
+      "id": "306afd8ae4b0",
+      "title": "Show HN: FirstEmployee.ai – Start a Business",
+      "url": "https://firstemployee.ai/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:05.636648+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "0efa32c8e9d1",
+      "title": "Show HN: Documan – AI Powered Requirement Management Workspace",
+      "url": "https://github.com/bbayer/DocuMan",
+      "summary": "That is a tool that I have developed based on my own needs since it was a shame not to use AI for requirement generation. There are ancient tools like IBM DOORS but they require buying seat licences and they don't have any support for LLMs. I see that requirement management is a...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:03.097045+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "7481048dc4a2",
+      "title": "Show HN: Run multiple Claude desktop accounts in isolated windows (Mac/Windows)",
+      "url": "https://deckspace.dev/claude-accounts/",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 2,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:33.361407+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "245b03e999b2",
-      "title": "Show HN: Check technical fit for B2B prospects without questionnaires",
-      "url": "https://tryscoped.com/demo",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:33.496443+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "46accd895409",
-      "title": "Show HN: Lumaris – AI biotech intelligence briefs (sample: EGFR resistance)",
-      "url": "https://lumaris.nanocorp.app/reports/egfr-resistance-nsclc-2026",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:33.635750+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "0a88485071a5",
-      "title": "Show HN: BugDetect AI – AI-powered code debugging assistant",
-      "url": "https://bugdetectai.com",
-      "summary": "“How should AI change software debugging in the next 5 years",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:34.346451+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "10dd37028946",
-      "title": "Show HN: Cross-platform AirDrop replacement but over internet using Iroh",
-      "url": "https://github.com/chad/iroh-drop",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:34.473262+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "36ee84ae6ac9",
-      "title": "Show HN: AllMCPs – Directory of MCP Servers",
-      "url": "https://allmcps.com",
-      "summary": "Browse, submit, and upvote unique or useful MCP servers to incorporate in your daily workflows.",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:34.929754+00:00",
+      "scraped_at": "2026-08-02T16:29:04.625264+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -273,7 +242,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.132990+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165233+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -289,7 +258,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133048+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165317+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -305,7 +274,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133077+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165352+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -321,7 +290,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133112+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165384+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -337,7 +306,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133143+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165414+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -353,7 +322,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133209+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165478+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -369,7 +338,23 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133240+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165507+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "9ef40dd3ec66",
+      "title": "Siri AI could come with a paywall for power users",
+      "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:08.165529+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -385,7 +370,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133287+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165553+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -401,7 +386,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133309+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165573+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -417,7 +402,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133411+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165667+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -433,7 +418,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133433+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165689+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -449,7 +434,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133455+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165710+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -465,7 +450,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133482+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165734+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -481,7 +466,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133504+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165754+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -497,7 +482,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.133531+00:00",
+      "scraped_at": "2026-08-02T16:29:08.165780+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -513,7 +498,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.359522+00:00",
+      "scraped_at": "2026-08-02T16:29:08.468161+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -529,7 +514,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.360202+00:00",
+      "scraped_at": "2026-08-02T16:29:08.468939+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -545,7 +530,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.360769+00:00",
+      "scraped_at": "2026-08-02T16:29:08.469576+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -561,7 +546,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.361457+00:00",
+      "scraped_at": "2026-08-02T16:29:08.470253+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -577,7 +562,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.361949+00:00",
+      "scraped_at": "2026-08-02T16:29:08.470719+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -593,27 +578,11 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.362406+00:00",
+      "scraped_at": "2026-08-02T16:29:08.471131+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "VentureBeat AI"
-      ]
-    },
-    {
-      "id": "fd28ef7bc18e",
-      "title": "The Download: tricking LLMs, and reviving geothermal plants",
-      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to make large language models fully secure against hacks...",
-      "source": "MIT Tech Review",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.399038+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "MIT Tech Review"
       ]
     },
     {
@@ -625,7 +594,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.399092+00:00",
+      "scraped_at": "2026-08-02T16:29:08.661518+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -641,7 +610,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.399182+00:00",
+      "scraped_at": "2026-08-02T16:29:08.661598+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -657,11 +626,27 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.399222+00:00",
+      "scraped_at": "2026-08-02T16:29:08.661634+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "a2adcc2a0c95",
+      "title": "Is paying artists enough to convince them to embrace AI?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "summary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T16:29:08.855276+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -673,7 +658,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449007+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855377+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -689,7 +674,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449075+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855421+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -705,7 +690,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449128+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855467+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -721,7 +706,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449179+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855508+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -737,7 +722,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449226+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855546+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -753,23 +738,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449375+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "8028d63b4d9b",
-      "title": "Google DeepMind’s new AI model can control a robot’s entire body",
-      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
-      "summary": "Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips,...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-08-02",
-      "scraped_at": "2026-08-02T06:18:36.449421+00:00",
+      "scraped_at": "2026-08-02T16:29:08.855675+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
