@@ -1,28 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-08-09T04:48:21.824856+00:00",
-    "article_count": 31,
-    "raw_count": 42,
+    "generated_at": "2026-08-09T15:58:03.787723+00:00",
+    "article_count": 35,
+    "raw_count": 45,
     "config_version": "4.0"
   },
   "articles": [
-    {
-      "id": "5212a65dc147",
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "url": "https://marbleos.com/demo",
-      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 138,
-      "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:18.975258+00:00",
-      "authenticity_score": 1.0,
-      "source_count": 2,
-      "all_sources": [
-        "VentureBeat AI",
-        "HackerNews"
-      ]
-    },
     {
       "id": "ce3ada81870e",
       "title": "Here’s why AI agents lie and cheat to reach their goals",
@@ -32,13 +15,30 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.059789+00:00",
+      "scraped_at": "2026-08-09T15:58:03.206469+00:00",
       "authenticity_score": 1.0,
       "source_count": 3,
       "all_sources": [
         "MIT Tech Review",
         "The Verge AI",
         "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "32da4778f589",
+      "title": "Show HN: HUD, an open-source minimal terminal UI for ClaudeCode, Codex, OpenCode",
+      "url": "https://github.com/adrida/hud-mode",
+      "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems â trained in just four days using 48 of Nvidia's...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 26,
+      "date": "2026-08-09",
+      "scraped_at": "2026-08-09T15:58:02.110972+00:00",
+      "authenticity_score": 0.9,
+      "source_count": 2,
+      "all_sources": [
+        "VentureBeat AI",
+        "HackerNews"
       ]
     },
     {
@@ -50,7 +50,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.969116+00:00",
+      "scraped_at": "2026-08-09T15:58:03.089389+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -59,20 +59,35 @@
       ]
     },
     {
-      "id": "4cc31715a96c",
-      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files â no coding required",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users â and according to company insiders, the team built the entire feature in approximately a week and a half, largely using...",
-      "source": "VentureBeat AI",
-      "source_type": "media",
-      "score": 0,
+      "id": "6dd49679aad8",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "summary": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 170,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.970395+00:00",
-      "authenticity_score": 0.8,
-      "source_count": 2,
+      "scraped_at": "2026-08-09T15:58:02.716655+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
       "all_sources": [
-        "VentureBeat AI",
-        "TechCrunch AI"
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "5212a65dc147",
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "url": "https://marbleos.com/demo",
+      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 139,
+      "date": "2026-08-09",
+      "scraped_at": "2026-08-09T15:58:01.663885+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
       ]
     },
     {
@@ -82,9 +97,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 137,
+      "score": 138,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:17.513124+00:00",
+      "scraped_at": "2026-08-09T15:58:00.830730+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -100,8 +115,24 @@
       "source_type": "community",
       "score": 119,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:18.386615+00:00",
+      "scraped_at": "2026-08-09T15:58:01.772141+00:00",
       "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "fd808a7c3b06",
+      "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
+      "url": "https://github.com/pradipta/wallfacer",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 36,
+      "date": "2026-08-09",
+      "scraped_at": "2026-08-09T15:58:01.944711+00:00",
+      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -114,9 +145,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 10,
+      "score": 13,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:12.262987+00:00",
+      "scraped_at": "2026-08-09T15:57:58.192684+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -124,35 +155,35 @@
       ]
     },
     {
-      "id": "caf5acdbc104",
-      "title": "Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet",
-      "url": "https://benzi.fly.dev/about",
-      "summary": "Hi y'all. Been working on something that should've been made a long time ago imo. It compiles codebases into O(1) hashmaps that the agent queries to discover the structure of your code/answer questions/write code. It also does complete static analysis checks on any writes the...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 5,
-      "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:12.406173+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "1ae2486e7094",
-      "title": "Show HN: Faaah – Filesystem as an AI Handler",
-      "url": "https://github.com/sebastiancarlos/faaah",
+      "id": "8d9a56b0a74e",
+      "title": "Show HN: ExpertCache – Run the Full GPT-OSS 120B (63GB) on a 16GB M1 Pro",
+      "url": "https://github.com/amos-labs/expertcache",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 2,
+      "score": 4,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:12.736439+00:00",
+      "scraped_at": "2026-08-09T15:57:58.533522+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "dba5d0d3794a",
+      "title": "The AI safety test is becoming a safety risk",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-08-09",
+      "scraped_at": "2026-08-09T15:58:02.992793+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -164,7 +195,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.875918+00:00",
+      "scraped_at": "2026-08-09T15:58:02.992845+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -180,7 +211,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.875981+00:00",
+      "scraped_at": "2026-08-09T15:58:02.992874+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -196,7 +227,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876012+00:00",
+      "scraped_at": "2026-08-09T15:58:02.992903+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -212,7 +243,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876040+00:00",
+      "scraped_at": "2026-08-09T15:58:02.992928+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -228,7 +259,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876062+00:00",
+      "scraped_at": "2026-08-09T15:58:02.992953+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -244,7 +275,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876118+00:00",
+      "scraped_at": "2026-08-09T15:58:02.992995+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -260,7 +291,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876171+00:00",
+      "scraped_at": "2026-08-09T15:58:02.993042+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -276,7 +307,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876203+00:00",
+      "scraped_at": "2026-08-09T15:58:02.993069+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -292,7 +323,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876274+00:00",
+      "scraped_at": "2026-08-09T15:58:02.993107+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -308,7 +339,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876313+00:00",
+      "scraped_at": "2026-08-09T15:58:02.993141+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -324,7 +355,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.876339+00:00",
+      "scraped_at": "2026-08-09T15:58:02.993164+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -340,7 +371,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.967815+00:00",
+      "scraped_at": "2026-08-09T15:58:03.088201+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -356,7 +387,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.968528+00:00",
+      "scraped_at": "2026-08-09T15:58:03.088845+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -372,7 +403,23 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:20.969851+00:00",
+      "scraped_at": "2026-08-09T15:58:03.090095+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "VentureBeat AI"
+      ]
+    },
+    {
+      "id": "4cc31715a96c",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files â no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users â and according to company insiders, the team built the entire feature in approximately a week and a half, largely using...",
+      "source": "VentureBeat AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-08-09",
+      "scraped_at": "2026-08-09T15:58:03.090567+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -388,7 +435,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.059749+00:00",
+      "scraped_at": "2026-08-09T15:58:03.206433+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -404,11 +451,27 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.059706+00:00",
+      "scraped_at": "2026-08-09T15:58:03.206394+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "0399e351893d",
+      "title": "AI detectors are creating a new era of distrust",
+      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-08-09",
+      "scraped_at": "2026-08-09T15:58:03.263989+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -420,7 +483,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.117346+00:00",
+      "scraped_at": "2026-08-09T15:58:03.264068+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -436,7 +499,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.117428+00:00",
+      "scraped_at": "2026-08-09T15:58:03.264119+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -452,7 +515,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.117481+00:00",
+      "scraped_at": "2026-08-09T15:58:03.264167+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -468,7 +531,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.117530+00:00",
+      "scraped_at": "2026-08-09T15:58:03.264209+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -484,7 +547,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.117577+00:00",
+      "scraped_at": "2026-08-09T15:58:03.264250+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -500,7 +563,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-09",
-      "scraped_at": "2026-08-09T04:48:21.117623+00:00",
+      "scraped_at": "2026-08-09T15:58:03.264293+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
