@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T09:25:56.628701+00:00",
-    "article_count": 44,
-    "raw_count": 55,
+    "generated_at": "2026-08-30T18:44:10.104661+00:00",
+    "article_count": 40,
+    "raw_count": 51,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,7 +15,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009911+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273854+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -32,7 +32,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.010024+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273993+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -49,29 +49,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.848640+00:00",
+      "scraped_at": "2026-08-30T18:44:08.880548+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "VentureBeat AI"
-      ]
-    },
-    {
-      "id": "68d0d7629189",
-      "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
-      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been...",
-      "source": "MIT Tech Review",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935788+00:00",
-      "authenticity_score": 0.8,
-      "source_count": 2,
-      "all_sources": [
-        "TechCrunch AI",
-        "MIT Tech Review"
+        "VentureBeat AI",
+        "TechCrunch AI"
       ]
     },
     {
@@ -81,9 +64,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 684,
+      "score": 689,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:49.152555+00:00",
+      "scraped_at": "2026-08-30T18:44:03.230658+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -94,12 +77,28 @@
       "id": "eefd07110991",
       "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
       "url": "https://picomq.com/",
-      "summary": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a...",
+      "summary": "1endpoint is a unified AI inference gateway. We support OpenAI Chat Completions, Responses API and Anthropic Messages, so existing tools and agents can usually point to 1endpoint without changing much of their integration. The other thing we've been focusing heavily on is cost....",
       "source": "HackerNews",
       "source_type": "community",
       "score": 159,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:53.658835+00:00",
+      "scraped_at": "2026-08-30T18:44:07.311561+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "372a440e4f7b",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "summary": "I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn't want to pay subscriptions for things that...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 118,
+      "date": "2026-08-30",
+      "scraped_at": "2026-08-30T18:44:07.839530+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -115,7 +114,7 @@
       "source_type": "community",
       "score": 88,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:51.201717+00:00",
+      "scraped_at": "2026-08-30T18:44:05.596393+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -131,7 +130,7 @@
       "source_type": "community",
       "score": 38,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:53.004118+00:00",
+      "scraped_at": "2026-08-30T18:44:07.152517+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -145,9 +144,9 @@
       "summary": "I often find interesting things in Hacker News posts and comments, but threads are often long and take a lot of time to go through. I built Rundown for this. It's a cross-platform desktop app with Claude Code and Codex integration that gives me a rundown of the post and...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 11,
+      "score": 13,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:50.629617+00:00",
+      "scraped_at": "2026-08-30T18:44:04.884869+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -155,47 +154,15 @@
       ]
     },
     {
-      "id": "d227d4c0405c",
-      "title": "Show HN: OpenLayer – local Photoshop plugin for ComfyUI (inpaint/outpaint demo)",
-      "url": "https://github.com/MehranMarxian/OpenLayer",
+      "id": "f6dc5ea594ee",
+      "title": "Show HN: Get your free AI search visibility scan",
+      "url": "https://www.visiscan.app",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 7,
+      "score": 4,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:54.723958+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "6ed55864a9b4",
-      "title": "Show HN: Tokensift, an open-sourced token-efficiency linter for LLM prompts",
-      "url": "https://github.com/ritenv/tokensift",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 6,
-      "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:54.001998+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "6debebaa08c0",
-      "title": "Show HN: I read 648 banks' exchange boards daily to show what they charge",
-      "url": "https://myratefx.com/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 5,
-      "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:53.230829+00:00",
+      "scraped_at": "2026-08-30T18:44:02.240592+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -211,7 +178,7 @@
       "source_type": "community",
       "score": 4,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:51.681628+00:00",
+      "scraped_at": "2026-08-30T18:44:07.981298+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -219,19 +186,35 @@
       ]
     },
     {
-      "id": "a7f59ab45478",
-      "title": "Show HN: Visual workspace to design and operate daily multi-agent workflows",
-      "url": "https://github.com/ringlochid/oh-my-subagents",
-      "summary": "",
+      "id": "23a1ef0b1ec8",
+      "title": "Show HN: Train 300M/32-Layer Model in 1.5GB RAM on Base M1 Mac",
+      "url": "https://news.ycombinator.com/item?id=49497451",
+      "summary": "Hello again! Since my last post about Ullis, the project has gone through several changes as I was searching for the right architecture. As it turned out, KAN and Hyena were quite resource-heavy, and I couldn't get anything viable out of them. Then I tried RWKV, specifically the...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
+      "score": 2,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:52.018483+00:00",
+      "scraped_at": "2026-08-30T18:44:02.795783+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "7ec80d3d5389",
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-08-30",
+      "scraped_at": "2026-08-30T18:44:08.683238+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -243,7 +226,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687158+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683291+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -259,7 +242,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687229+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683331+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -275,7 +258,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687261+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683375+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -291,7 +274,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687283+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683403+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -307,7 +290,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687305+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683429+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -323,7 +306,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687328+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683451+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -339,7 +322,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687348+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683474+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -355,7 +338,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687367+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683496+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -371,7 +354,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687390+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683520+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -387,7 +370,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687478+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683602+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -403,7 +386,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687497+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683627+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -419,23 +402,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687536+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "36c6ad342ce7",
-      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
-      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.687577+00:00",
+      "scraped_at": "2026-08-30T18:44:08.683674+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -451,7 +418,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.848200+00:00",
+      "scraped_at": "2026-08-30T18:44:08.880110+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -467,7 +434,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.848826+00:00",
+      "scraped_at": "2026-08-30T18:44:08.880750+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -483,7 +450,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.849369+00:00",
+      "scraped_at": "2026-08-30T18:44:08.881427+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -499,7 +466,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.849983+00:00",
+      "scraped_at": "2026-08-30T18:44:08.882136+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -515,23 +482,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935710+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "MIT Tech Review"
-      ]
-    },
-    {
-      "id": "c3376547db97",
-      "title": "The inside story on why OpenAI agents hacked Hugging Face",
-      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a...",
-      "source": "MIT Tech Review",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935834+00:00",
+      "scraped_at": "2026-08-30T18:44:09.189300+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -547,7 +498,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935871+00:00",
+      "scraped_at": "2026-08-30T18:44:09.189467+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -563,7 +514,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935903+00:00",
+      "scraped_at": "2026-08-30T18:44:09.189512+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -579,7 +530,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935937+00:00",
+      "scraped_at": "2026-08-30T18:44:09.189547+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -595,7 +546,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:55.935968+00:00",
+      "scraped_at": "2026-08-30T18:44:09.189582+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -603,15 +554,15 @@
       ]
     },
     {
-      "id": "144493baddc9",
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
+      "id": "b447a337009a",
+      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance...",
+      "summary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for...",
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009716+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273602+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -627,7 +578,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009793+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273671+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -643,7 +594,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009834+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273722+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -659,7 +610,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009875+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273801+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -675,7 +626,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009945+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273900+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -691,23 +642,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.009986+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "790ce95c01f8",
-      "title": "Adobe is adding more AI to Photoshop",
-      "url": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
-      "summary": "Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based image editor,...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-08-30",
-      "scraped_at": "2026-08-30T09:25:56.010090+00:00",
+      "scraped_at": "2026-08-30T18:44:09.273946+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
