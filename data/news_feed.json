@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-06T08:05:14.085564+00:00",
-    "article_count": 32,
-    "raw_count": 40,
+    "generated_at": "2026-09-06T17:39:07.675145+00:00",
+    "article_count": 33,
+    "raw_count": 41,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,12 +15,12 @@
       "source_type": "community",
       "score": 13,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:54.316820+00:00",
+      "scraped_at": "2026-09-06T17:38:48.538561+00:00",
       "authenticity_score": 0.9,
       "source_count": 2,
       "all_sources": [
-        "MIT Tech Review",
-        "HackerNews"
+        "HackerNews",
+        "MIT Tech Review"
       ]
     },
     {
@@ -32,12 +32,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597446+00:00",
+      "scraped_at": "2026-09-06T17:39:07.128867+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "The Verge AI",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "The Verge AI"
       ]
     },
     {
@@ -49,12 +49,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.544656+00:00",
+      "scraped_at": "2026-09-06T17:39:07.013030+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "MIT Tech Review",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "MIT Tech Review"
       ]
     },
     {
@@ -64,9 +64,9 @@
       "summary": "I love research and development, you may have heard of me because of PJON (Padded Jittering Operative Network). It is a network protocol I started developing in 2010, which was recently implemented in silicon by the ETH Zurich university thanks to the research of Pius Sieber. I...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 197,
+      "score": 203,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:51.242816+00:00",
+      "scraped_at": "2026-09-06T17:38:45.440361+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -82,7 +82,7 @@
       "source_type": "community",
       "score": 7,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:54.427613+00:00",
+      "scraped_at": "2026-09-06T17:38:48.907730+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -98,7 +98,7 @@
       "source_type": "community",
       "score": 6,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:53.779572+00:00",
+      "scraped_at": "2026-09-06T17:38:48.447469+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -114,7 +114,39 @@
       "source_type": "community",
       "score": 5,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:56.599615+00:00",
+      "scraped_at": "2026-09-06T17:38:50.598645+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "4cc837dc40e3",
+      "title": "Show HN: I stopped using an LLM gateway and put rate-limits/fallback in-process",
+      "url": "https://github.com/LakBud/vernLLM",
+      "summary": "Sup HN. I built VernLLM cuz every LLM gateaway I looked at, meant adding a network hop just to get rate limiting, multi provider fallback, circuit breaking and other features. Needing to take a whole seperate service just to deploy, monitor and trust with my API keys is just...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-09-06",
+      "scraped_at": "2026-09-06T17:38:45.350136+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "feb4e34729d0",
+      "title": "Show HN: Wayfinder – A reference implementation for evaluating AI applications",
+      "url": "https://github.com/DivakarUngatla/wayfinder",
+      "summary": "Testing is critical to software applications — first to make sure they reliably serve the purpose they were built for, and then to make sure they stay that way as they grow, evolve and change. The same applies to AI applications as well. But testing AI applications is very...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-09-06",
+      "scraped_at": "2026-09-06T17:38:45.633139+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -130,7 +162,7 @@
       "source_type": "community",
       "score": 3,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:55.950212+00:00",
+      "scraped_at": "2026-09-06T17:38:50.503614+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -146,7 +178,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977410+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373239+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -162,7 +194,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977463+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373285+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -178,7 +210,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977494+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373314+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -194,7 +226,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977586+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373361+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -210,7 +242,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977616+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373388+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -226,7 +258,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977726+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373491+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -242,7 +274,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977758+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373522+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -258,7 +290,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977791+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373556+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -274,7 +306,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977813+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373577+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -290,7 +322,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977842+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373607+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -306,7 +338,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977867+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373635+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -322,23 +354,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977888+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "d71fa25e5967",
-      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
-      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
-      "summary": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:04:57.977934+00:00",
+      "scraped_at": "2026-09-06T17:38:51.373658+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -354,7 +370,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.544724+00:00",
+      "scraped_at": "2026-09-06T17:39:07.013102+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -370,7 +386,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.544768+00:00",
+      "scraped_at": "2026-09-06T17:39:07.013146+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -386,7 +402,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.544827+00:00",
+      "scraped_at": "2026-09-06T17:39:07.013210+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -402,7 +418,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.544948+00:00",
+      "scraped_at": "2026-09-06T17:39:07.013327+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -418,7 +434,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.544982+00:00",
+      "scraped_at": "2026-09-06T17:39:07.013366+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -434,7 +450,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597310+00:00",
+      "scraped_at": "2026-09-06T17:39:07.128689+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -450,7 +466,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597378+00:00",
+      "scraped_at": "2026-09-06T17:39:07.128758+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -466,7 +482,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597497+00:00",
+      "scraped_at": "2026-09-06T17:39:07.128930+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -482,7 +498,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597577+00:00",
+      "scraped_at": "2026-09-06T17:39:07.128979+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -498,7 +514,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597644+00:00",
+      "scraped_at": "2026-09-06T17:39:07.129042+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -514,7 +530,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-06",
-      "scraped_at": "2026-09-06T08:05:13.597703+00:00",
+      "scraped_at": "2026-09-06T17:39:07.129099+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
