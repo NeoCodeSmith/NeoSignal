@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T08:30:44.502864+00:00",
-    "article_count": 33,
-    "raw_count": 48,
+    "generated_at": "2026-09-13T18:18:23.296161+00:00",
+    "article_count": 34,
+    "raw_count": 47,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,12 +15,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.150908+00:00",
+      "scraped_at": "2026-09-13T18:18:22.910765+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TechCrunch AI"
       ]
     },
     {
@@ -32,12 +32,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.150960+00:00",
+      "scraped_at": "2026-09-13T18:18:22.910822+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TechCrunch AI"
       ]
     },
     {
@@ -49,12 +49,12 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.150829+00:00",
+      "scraped_at": "2026-09-13T18:18:22.910698+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TechCrunch AI"
       ]
     },
     {
@@ -64,9 +64,9 @@
       "summary": "For fun, I wrote a c compiler (non-optimizing) in Java targeting modern C (C23) using claude. I developed a c shell similar to jshell in java. The compiler also bundles a built in an assembler for x86. A linker is planned for end-to-end compilation. There is still a lot of work...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 200,
+      "score": 201,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:24.412210+00:00",
+      "scraped_at": "2026-09-13T18:18:00.325328+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -77,12 +77,12 @@
       "id": "2bc393ad30ef",
       "title": "Show HN: LLM Attention Visualization",
       "url": "https://ishamf.dev/p/llm-attention-visualizer/",
-      "summary": "We built a comprehensive system that connects directly to the AI agents through MCP for writing, managing most type of browser automations. Purpose is for automated testing or automating browser based workflows. It provides notifications, scheduling, pre/post hooks, IAM...",
+      "summary": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explore this space. This is my first post about it. The journey began on a beefed up machine I purchased...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 173,
+      "score": 175,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:27.086002+00:00",
+      "scraped_at": "2026-09-13T18:18:04.476893+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -98,7 +98,7 @@
       "source_type": "community",
       "score": 50,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:27.464787+00:00",
+      "scraped_at": "2026-09-13T18:18:05.114446+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -109,44 +109,28 @@
       "id": "da867fd59270",
       "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
       "url": "https://github.com/Atomburstofficial/geiger",
-      "summary": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first:...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 48,
-      "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:27.728078+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "3bbff0e88436",
-      "title": "Show HN: Clawfight.ai MCP-driven agentic game play",
-      "url": "https://clawfight.ai/agents.md",
-      "summary": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explore this space. This is my first post about it. The journey began on a beefed up machine I purchased...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 13,
-      "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:26.534421+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "3efea5cf4579",
-      "title": "Show HN: Spanda – Sub-microsecond LLM epistemic uncertainty in Rust",
-      "url": "https://github.com/Adarshent/Spnda",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 13,
+      "score": 49,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.214236+00:00",
+      "scraped_at": "2026-09-13T18:18:06.658568+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "53c4298e01ed",
+      "title": "Show HN: Everything a web page can learn about you, in plain English",
+      "url": "https://sessioncontext.org",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 11,
+      "date": "2026-09-13",
+      "scraped_at": "2026-09-13T18:17:59.419217+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -160,9 +144,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 6,
+      "score": 7,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:23.776842+00:00",
+      "scraped_at": "2026-09-13T18:18:00.028664+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -170,15 +154,47 @@
       ]
     },
     {
-      "id": "861abd281797",
-      "title": "Show HN: DiskTriage – A simple CLI tool to reclaim space on your Win C drive",
-      "url": "https://github.com/ricardoborges/DiskTriage",
-      "summary": "",
+      "id": "e9bb01e75e26",
+      "title": "Show HN: Claude Read Aloud – Hear Claude's Replies Instead of Reading",
+      "url": "https://github.com/MichaelPGifford/claude-read-aloud",
+      "summary": "When I'm working all day sometimes my eyes get tired and I don't read Claude's replies fully and understand them. So I made Claude Read Aloud to read Claude's replies for me. It's very helpful for when I'm running on low energy and I think it can also be helpful for people who...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 5,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:23.868842+00:00",
+      "scraped_at": "2026-09-13T18:18:06.362831+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "da90c3a19b11",
+      "title": "Show HN: A Technical Book for the Age of AI",
+      "url": "https://codeberg.org/juurej/p4cu",
+      "summary": "As AI increasingly answers \"how,\" this book focuses on \"why.\" Rather than focusing on how to build software, it asks why programming matters.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-09-13",
+      "scraped_at": "2026-09-13T18:18:02.954833+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "5feec2a3296e",
+      "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
+      "url": "https://github.com/takaakit/astah-pro-mcp",
+      "summary": "This MCP plugin implements a \"Programmatic Tool Calling\" mode, inspired by the idea described in this Anthropic article ( https://www.anthropic.com/engineering/advanced-tool-use ).",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-09-13",
+      "scraped_at": "2026-09-13T18:17:59.879195+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -194,7 +210,7 @@
       "source_type": "community",
       "score": 4,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:23.586365+00:00",
+      "scraped_at": "2026-09-13T18:18:02.236939+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -202,15 +218,15 @@
       ]
     },
     {
-      "id": "e9bb01e75e26",
-      "title": "Show HN: Claude Read Aloud – Hear Claude's Replies Instead of Reading",
-      "url": "https://github.com/MichaelPGifford/claude-read-aloud",
-      "summary": "When I'm working all day sometimes my eyes get tired and I don't read Claude's replies fully and understand them. So I made Claude Read Aloud to read Claude's replies for me. It's very helpful for when I'm running on low energy and I think it can also be helpful for people who...",
+      "id": "045060559c6d",
+      "title": "Show HN: Open-sourced solution to AI manage Playwright automations",
+      "url": "https://github.com/rakutentech/sorify",
+      "summary": "We built a comprehensive system that connects directly to the AI agents through MCP for writing, managing most type of browser automations. Purpose is for automated testing or automating browser based workflows. It provides notifications, scheduling, pre/post hooks, IAM...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
+      "score": 2,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:27.834408+00:00",
+      "scraped_at": "2026-09-13T18:18:03.893302+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -218,19 +234,19 @@
       ]
     },
     {
-      "id": "25a05af795be",
-      "title": "Show HN: I wrote a book on using AI in game design production (free on GitHub)",
-      "url": "https://github.com/eremes81/game-design-ai-practice-en",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
+      "id": "61df42b35379",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:27.370780+00:00",
+      "scraped_at": "2026-09-13T18:18:07.444953+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
@@ -242,7 +258,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482734+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445049+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -258,7 +274,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482771+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445081+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -274,7 +290,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482843+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445154+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -290,7 +306,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482917+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445224+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -306,7 +322,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482943+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445248+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -322,7 +338,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482967+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445272+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -338,7 +354,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.482996+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445301+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -354,7 +370,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.483041+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445345+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -370,7 +386,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.483062+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445363+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -386,7 +402,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.483083+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445383+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -402,7 +418,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:28.483111+00:00",
+      "scraped_at": "2026-09-13T18:18:07.445407+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -418,7 +434,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.037789+00:00",
+      "scraped_at": "2026-09-13T18:18:22.803529+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -434,7 +450,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.037886+00:00",
+      "scraped_at": "2026-09-13T18:18:22.803626+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -450,7 +466,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.037954+00:00",
+      "scraped_at": "2026-09-13T18:18:22.803698+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -466,7 +482,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.037997+00:00",
+      "scraped_at": "2026-09-13T18:18:22.803743+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -482,7 +498,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.151025+00:00",
+      "scraped_at": "2026-09-13T18:18:22.910911+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -498,7 +514,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.151073+00:00",
+      "scraped_at": "2026-09-13T18:18:22.910961+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -514,7 +530,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.151122+00:00",
+      "scraped_at": "2026-09-13T18:18:22.911009+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -530,7 +546,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-13",
-      "scraped_at": "2026-09-13T08:30:44.151193+00:00",
+      "scraped_at": "2026-09-13T18:18:22.911053+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
