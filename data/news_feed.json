@@ -1,26 +1,60 @@
 {
   "meta": {
-    "generated_at": "2026-09-19T08:15:35.415134+00:00",
-    "article_count": 35,
-    "raw_count": 46,
+    "generated_at": "2026-09-20T08:47:17.713948+00:00",
+    "article_count": 32,
+    "raw_count": 45,
     "config_version": "4.0"
   },
   "articles": [
     {
-      "id": "0a16a0bf923e",
-      "title": "Security researchers used Claude to help them hack into OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-      "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called...",
+      "id": "5e9dacf3f75e",
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was...",
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760865+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462560+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
         "TechCrunch AI",
         "The Verge AI"
+      ]
+    },
+    {
+      "id": "31344c3b69d6",
+      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress should be slowed. OpenAI CEO Sam Altman responded on X: “I...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.385181+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "TechCrunch AI",
+        "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "27882857a3dc",
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.385301+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "The Verge AI",
+        "MIT Tech Review"
       ]
     },
     {
@@ -30,9 +64,9 @@
       "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 234,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:13.267173+00:00",
+      "score": 242,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:46:56.614760+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -46,9 +80,9 @@
       "summary": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished work shows up in Unread, and anything waiting on your approval...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 59,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:16.232179+00:00",
+      "score": 61,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:46:59.962328+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -56,15 +90,63 @@
       ]
     },
     {
-      "id": "a6be9e7d0cd2",
-      "title": "Show HN: AutoBot – live voice control for long-running AI work",
-      "url": "https://github.com/demeyer1/Autobot",
-      "summary": "I wanted to manage long horizon agentic workstreams via voice, then put my phone down, and have a harness manage completion - extending into full computer use. I was trying to build a personal Jarvis, so I benchmarked AutoBot to see how close I could get: - OSWorld: 32.41%...",
+      "id": "520dbf607b10",
+      "title": "Show HN: Craigslist for agent skills, curated by a human",
+      "url": "https://skillbay.sh/",
+      "summary": "hey, i'm nick (@skeptrune on X). i have been using ai for a lot of things i'm not an expert in and thought it would be nice to try and buy paid skills for helping it accomplish those tasks more efficiently. for example, redlining contracts, creating ai generated videos,...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 19,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:16.556755+00:00",
+      "score": 27,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:46:59.154978+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "2d5c4a1841a0",
+      "title": "Show HN: KillSwitch – a programming language designed to be difficult for LLMs",
+      "url": "https://killswitch-lang.org",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 9,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:46:58.462828+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "4e32bdf01540",
+      "title": "Show HN: A model index from the AI Gateways",
+      "url": "https://www.computesdk.com/benchmarks/ai-gateway/models",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 7,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.532185+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "e49b5756e1d2",
+      "title": "Show HN: Reader – I made a Mac workspace for books, browser tabs, notes, and AI",
+      "url": "https://github.com/Marvy101/reader-source",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:46:58.906593+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -78,9 +160,9 @@
       "summary": "I built an open source python dependency scanner that will scan and flag packages with known exploit CVEs(CISA's Known Exploited list and FIRST EPSS) and unmaintained packages that have not had a release or commit in 2 years. Theres also claude hook that will make your AI agent...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:13.370609+00:00",
+      "score": 4,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:00.712213+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -88,35 +170,51 @@
       ]
     },
     {
-      "id": "14061688f72f",
-      "title": "Show HN: Continuity – project state your AI sessions can't silently contradict",
-      "url": "https://github.com/vikcena01/ai-continuity-plugin",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:17.397559+00:00",
+      "id": "07654ef39977",
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854071+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "c79707f6b9da",
-      "title": "Show HN: App Launch: GrabThat (NLP Launcher for Windows)",
-      "url": "https://grabthat.ai/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:15.601476+00:00",
+      "id": "0302379d55c3",
+      "title": "AI safety conversations have gotten unbelievable",
+      "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+      "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854168+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "5e3ce300ecd8",
+      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "summary": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854190+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -127,8 +225,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.226899+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854214+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -143,8 +241,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.226947+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854230+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -159,8 +257,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.226970+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854258+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -175,8 +273,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.226991+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854273+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -191,8 +289,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227008+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854290+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -207,8 +305,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227032+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854310+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -223,24 +321,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227054+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "eadce529e8e4",
-      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
-      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-      "summary": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227074+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854327+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -255,8 +337,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227121+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854393+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -271,8 +353,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227159+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854429+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -287,92 +369,12 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227175+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:01.854445+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "ee49c963ee77",
-      "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
-      "summary": "Nvidia's Nader Khalil and Sydney Sykes discuss one of the decisions shaping next-gen startups on the Builders Stage at TechCrunch Disrupt 2026.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227194+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "5407049cdae2",
-      "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
-      "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-      "summary": "Muse is now available on the Mac, where it can work with your files and apps to take action on your behalf.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227209+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "5221c37c6437",
-      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
-      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-      "summary": "The round values the data center giant at $30.9 billion.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227255+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "1e1019b4d6ef",
-      "title": "Google DeepMind launches institute to widen the AGI debate",
-      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-      "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:19.227278+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "27882857a3dc",
-      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
-      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess...",
-      "source": "MIT Tech Review",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.676625+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "MIT Tech Review"
       ]
     },
     {
@@ -383,24 +385,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.676653+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "MIT Tech Review"
-      ]
-    },
-    {
-      "id": "31344c3b69d6",
-      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
-      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
-      "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress should be slowed. OpenAI CEO Sam Altman responded on X: “I...",
-      "source": "MIT Tech Review",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.676505+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.385326+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -415,8 +401,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.676573+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.385248+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -431,12 +417,28 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.676598+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.385273+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "9bb4dde0482b",
+      "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462629+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -447,8 +449,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760696+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462699+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -463,8 +465,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760757+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462742+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -479,8 +481,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760791+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462772+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -495,8 +497,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760836+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462803+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -504,63 +506,15 @@
       ]
     },
     {
-      "id": "bb17a1f51b61",
-      "title": "The AI Superintelligence Slowdown",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are...",
+      "id": "0a16a0bf923e",
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called...",
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760910+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "590e8b720dc3",
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760939+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "88ef76a94d5c",
-      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-      "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
-      "summary": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation. It should come as no surprise that Mustafa has strong opinions on how AI should be built and...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760969+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "812a2a5f8c17",
-      "title": "AI is feared globally as the destroyer of jobs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
-      "summary": "Pew Research has published a new global survey that sheds light on how people view AI, including its impact on jobs, life in general, and income inequality. The survey questioned 42,151 people across 37 countries from February 8th to May 13th - well ahead of recent apocalyptic...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-19",
-      "scraped_at": "2026-09-19T08:15:34.760995+00:00",
+      "date": "2026-09-20",
+      "scraped_at": "2026-09-20T08:47:17.462830+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
