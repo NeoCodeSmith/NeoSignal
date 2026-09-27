@@ -1,38 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T09:29:21.603443+00:00",
-    "article_count": 37,
+    "generated_at": "2026-09-27T19:10:48.469819+00:00",
+    "article_count": 35,
     "raw_count": 46,
     "config_version": "4.0"
   },
   "articles": [
     {
-      "id": "d68c58df663e",
-      "title": "Meta is going to let you build games with AI right on your phone",
-      "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
-      "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043794+00:00",
-      "authenticity_score": 0.8,
-      "source_count": 2,
-      "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
-      ]
-    },
-    {
       "id": "9973a2dc1fa6",
       "title": "Show HN: Koi.rest – watch some fish and regain your balance",
       "url": "https://koi.rest",
-      "summary": "Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too. A few sessions later, I had a system that takes my...",
+      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 223,
+      "score": 225,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:28:56.599688+00:00",
+      "scraped_at": "2026-09-27T19:10:29.627742+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -48,7 +31,7 @@
       "source_type": "community",
       "score": 149,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:28:58.970357+00:00",
+      "scraped_at": "2026-09-27T19:10:30.119946+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -62,9 +45,9 @@
       "summary": "Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on \"guardrails\" after the fact. It runs the two in series instead: 1. A pure-Python Rete engine evaluates YAML rules...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 88,
+      "score": 90,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:28:56.161313+00:00",
+      "scraped_at": "2026-09-27T19:10:29.468926+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -72,15 +55,15 @@
       ]
     },
     {
-      "id": "14ee44ebaec2",
-      "title": "Show HN: Training a model to identify AI web content from structure alone",
-      "url": "https://arxiv.org/abs/2609.15369",
-      "summary": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (TUM). With Sitefire (YC W26), we help marketing teams get...",
+      "id": "b82ccc2f650d",
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "summary": "Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too. A few sessions later, I had a system that takes my...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 73,
+      "score": 75,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:28:59.407881+00:00",
+      "scraped_at": "2026-09-27T19:10:29.300424+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -96,23 +79,7 @@
       "source_type": "community",
       "score": 56,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:00.437098+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "aaab29b491dd",
-      "title": "Show HN: Jevgpt – reinventing the wheel with another wheel",
-      "url": "https://news.ycombinator.com/item?id=49823332",
-      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 25,
-      "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:28:58.076876+00:00",
+      "scraped_at": "2026-09-27T19:10:31.807688+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -128,7 +95,7 @@
       "source_type": "community",
       "score": 6,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:00.142621+00:00",
+      "scraped_at": "2026-09-27T19:10:31.642429+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -136,31 +103,15 @@
       ]
     },
     {
-      "id": "daca3c7213d4",
-      "title": "Show HN: Tenjin – A Jev based x402 tool router for Claude Code",
-      "url": "https://github.com/BackTrackCo/tenjin-agent",
-      "summary": "Hey HN! We're Ali And Vrajang. We just created a tool router for Claude Code built on Jev. It basically gives your agent superpowers. You keep working like you always do. When Jev thinks a tool would help, it provides it to your agent and your agent uses it. It watches your...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 4,
-      "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:01.474323+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "5dac0999321b",
-      "title": "Show HN: BuyerCue – Find potential customer by paid-placement evidence",
-      "url": "https://www.buyercue.io",
+      "id": "0f56c2c1784b",
+      "title": "Show HN: Interactive Phaistos Disc workbench, rotation ergonomics, null models",
+      "url": "https://lessthanzero.github.io/phaistos-disk/",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:01.619302+00:00",
+      "scraped_at": "2026-09-27T19:10:28.200203+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -168,51 +119,35 @@
       ]
     },
     {
-      "id": "b7eb9ab1a557",
-      "title": "Show HN: CiteRank, track whether ChatGPT and Perplexity cite your site",
-      "url": "https://citerank.thecompound.tech",
+      "id": "27ccd2118850",
+      "title": "Show HN: Sixb, a TypeScript ontology framework for modeling your domain",
+      "url": "https://docs.sixb.ai",
       "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:03.077470+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "043de0ad16f6",
-      "title": "Show HN: Ctxfw – In-memory AST pruner and token firewall for Cursor and Claude",
-      "url": "https://github.com/heuristicolab/ctxfw",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 3,
-      "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:03.388643+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "ba06a4654437",
-      "title": "Show HN: Xtriever – offline RAG retrieval on a phone",
-      "url": "https://github.com/mirth/xtriever",
-      "summary": "For anyone doing local (or not) RAG: I built Xtriever, the retrieval half of the problem, designed to run on the device with no server. Usable from Rust, Python, Swift and Kotlin. There are demo apps for iOS and Android and a Python CLI. It’s not production ready yet so for now...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 2,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:03.241083+00:00",
+      "scraped_at": "2026-09-27T19:10:30.444627+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "604a9c5c6c80",
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "summary": "\"AI is the devil and I its maker.\"",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T19:10:32.540077+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -224,7 +159,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555167+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540123+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -240,7 +175,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555217+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540150+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -256,7 +191,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555257+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540194+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -272,7 +207,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555275+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540217+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,7 +223,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555306+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540262+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -304,7 +239,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555328+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540295+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -320,7 +255,23 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555383+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540362+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "6d988fd0cda4",
+      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+      "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+      "summary": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T19:10:32.540405+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -336,7 +287,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555477+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540467+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -352,7 +303,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555491+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540491+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -368,7 +319,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555509+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540517+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -384,7 +335,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:04.555528+00:00",
+      "scraped_at": "2026-09-27T19:10:32.540544+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -400,7 +351,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:20.931144+00:00",
+      "scraped_at": "2026-09-27T19:10:47.962954+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,7 +367,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:20.931242+00:00",
+      "scraped_at": "2026-09-27T19:10:47.963061+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -432,7 +383,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:20.931296+00:00",
+      "scraped_at": "2026-09-27T19:10:47.963141+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -448,7 +399,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:20.931359+00:00",
+      "scraped_at": "2026-09-27T19:10:47.963232+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -464,11 +415,27 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:20.931389+00:00",
+      "scraped_at": "2026-09-27T19:10:47.963274+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "951e0dae5727",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T19:10:48.074714+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -480,7 +447,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043499+00:00",
+      "scraped_at": "2026-09-27T19:10:48.074784+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -496,7 +463,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043563+00:00",
+      "scraped_at": "2026-09-27T19:10:48.074837+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -512,7 +479,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043611+00:00",
+      "scraped_at": "2026-09-27T19:10:48.074924+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -528,7 +495,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043644+00:00",
+      "scraped_at": "2026-09-27T19:10:48.074974+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -544,7 +511,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043674+00:00",
+      "scraped_at": "2026-09-27T19:10:48.075019+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -560,7 +527,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043710+00:00",
+      "scraped_at": "2026-09-27T19:10:48.075071+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -576,7 +543,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043741+00:00",
+      "scraped_at": "2026-09-27T19:10:48.075114+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -592,7 +559,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-09-27",
-      "scraped_at": "2026-09-27T09:29:21.043768+00:00",
+      "scraped_at": "2026-09-27T19:10:48.075155+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
