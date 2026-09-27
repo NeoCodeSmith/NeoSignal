@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T08:48:05.977590+00:00",
-    "article_count": 34,
-    "raw_count": 47,
+    "generated_at": "2026-09-27T09:29:21.603443+00:00",
+    "article_count": 37,
+    "raw_count": 46,
     "config_version": "4.0"
   },
   "articles": [
@@ -14,41 +14,25 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466518+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043794+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "The Verge AI",
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "63eed2ef454b",
-      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
-      "url": "https://github.com/volotat/mini-AGI/",
-      "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit. So, first...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 277,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:45.938019+00:00",
-      "authenticity_score": 0.6,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
+        "TechCrunch AI",
+        "The Verge AI"
       ]
     },
     {
       "id": "9973a2dc1fa6",
       "title": "Show HN: Koi.rest – watch some fish and regain your balance",
       "url": "https://koi.rest",
-      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and...",
+      "summary": "Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too. A few sessions later, I had a system that takes my...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 216,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:42.882908+00:00",
+      "score": 223,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:28:56.599688+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -62,9 +46,9 @@
       "summary": "Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake lookalike projects really perform in comparison. Jev-class models return bounded choices and probabilities instead of text, and are disruptively faster and cheaper...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 147,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:45.025616+00:00",
+      "score": 149,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:28:58.970357+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -78,9 +62,9 @@
       "summary": "Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on \"guardrails\" after the fact. It runs the two in series instead: 1. A pure-Python Rete engine evaluates YAML rules...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 84,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:42.678191+00:00",
+      "score": 88,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:28:56.161313+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -94,9 +78,9 @@
       "summary": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (TUM). With Sitefire (YC W26), we help marketing teams get...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 72,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:46.070750+00:00",
+      "score": 73,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:28:59.407881+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -111,8 +95,24 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 56,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:42.777609+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:00.437098+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "aaab29b491dd",
+      "title": "Show HN: Jevgpt – reinventing the wheel with another wheel",
+      "url": "https://news.ycombinator.com/item?id=49823332",
+      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 25,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:28:58.076876+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -127,8 +127,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 6,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:43.814738+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:00.142621+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -136,15 +136,31 @@
       ]
     },
     {
-      "id": "f5cbc0f15a20",
-      "title": "Show HN: A benchmark comparison of C++ vs. Node.js performance",
-      "url": "https://vikky2810.github.io/blog/cpp-vs-node/",
+      "id": "daca3c7213d4",
+      "title": "Show HN: Tenjin – A Jev based x402 tool router for Claude Code",
+      "url": "https://github.com/BackTrackCo/tenjin-agent",
+      "summary": "Hey HN! We're Ali And Vrajang. We just created a tool router for Claude Code built on Jev. It basically gives your agent superpowers. You keep working like you always do. When Jev thinks a tool would help, it provides it to your agent and your agent uses it. It watches your...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:01.474323+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "5dac0999321b",
+      "title": "Show HN: BuyerCue – Find potential customer by paid-placement evidence",
+      "url": "https://www.buyercue.io",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 5,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:48.306839+00:00",
+      "score": 3,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:01.619302+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -159,8 +175,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:45.529367+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:03.077470+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -168,15 +184,15 @@
       ]
     },
     {
-      "id": "08aefe87bea2",
-      "title": "Show HN: Can an AI agent bypass a post-quantum signed authorization policy?",
-      "url": "https://github.com/max-russo-com/MAX_AUTHORIZATION_SANDBOX",
+      "id": "043de0ad16f6",
+      "title": "Show HN: Ctxfw – In-memory AST pruner and token firewall for Cursor and Claude",
+      "url": "https://github.com/heuristicolab/ctxfw",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:47.787782+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:03.388643+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -191,12 +207,44 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 2,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:45.662275+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:03.241083+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "0c8805d33323",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555167+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "17525535f767",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555217+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -207,8 +255,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583273+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555257+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -223,8 +271,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583333+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555275+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -239,8 +287,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583367+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555306+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -255,8 +303,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583389+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555328+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -271,8 +319,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583447+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555383+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -287,8 +335,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583550+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555477+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -303,8 +351,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583563+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555491+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -319,8 +367,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583581+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555509+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -335,40 +383,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583599+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "20d6537fe28b",
-      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
-      "summary": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583628+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "c163bc779274",
-      "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
-      "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:47:49.583649+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:04.555528+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -383,8 +399,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.366421+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:20.931144+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -399,8 +415,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.366521+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:20.931242+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -415,8 +431,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.366572+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:20.931296+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -431,8 +447,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.366634+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:20.931359+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -447,12 +463,44 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.366663+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:20.931389+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "b918d7842be5",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043499+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "98da68fadf9e",
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043563+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -463,8 +511,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466281+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043611+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -479,8 +527,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466359+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043644+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -495,8 +543,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466396+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043674+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -511,8 +559,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466434+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043710+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -527,8 +575,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466464+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043741+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -543,8 +591,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-26",
-      "scraped_at": "2026-09-26T08:48:05.466491+00:00",
+      "date": "2026-09-27",
+      "scraped_at": "2026-09-27T09:29:21.043768+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
