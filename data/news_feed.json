@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T10:07:04.850140+00:00",
-    "article_count": 178,
-    "raw_count": 240,
+    "generated_at": "2026-09-29T10:05:05.474699+00:00",
+    "article_count": 182,
+    "raw_count": 244,
     "config_version": "4.0"
   },
   "articles": [
@@ -10,12 +10,12 @@
       "id": "9973a2dc1fa6",
       "title": "Show HN: Koi.rest – watch some fish and regain your balance",
       "url": "https://koi.rest",
-      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and...",
+      "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win! Click on any of the matches to spectate...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 226,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:42.356946+00:00",
+      "score": 227,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:45.102361+00:00",
       "authenticity_score": 1.0,
       "source_count": 2,
       "all_sources": [
@@ -30,13 +30,65 @@
       "summary": "Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake lookalike projects really perform in comparison. Jev-class models return bounded choices and probabilities instead of text, and are disruptively faster and cheaper...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 150,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:43.782944+00:00",
+      "score": 152,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:45.989427+00:00",
       "authenticity_score": 1.0,
       "source_count": 2,
       "all_sources": [
         "HackerNews",
+        "ArXiv CS.AI"
+      ]
+    },
+    {
+      "id": "57bddaf01c97",
+      "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "summary": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167901+00:00",
+      "authenticity_score": 1.0,
+      "source_count": 3,
+      "all_sources": [
+        "TechCrunch AI",
+        "ArXiv CS.AI",
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "fc921da07b5d",
+      "title": "Quantum Diffusion Models for Medical Image Analysis",
+      "url": "https://arxiv.org/abs/2609.31070",
+      "summary": "arXiv:2609.31070v1 Announce Type: cross Abstract: Quantum Machine Learning is a novel field of research aimed at devising machine learning approaches exploiting principles of quantum mechanics, such as superposition, entanglement and interference. In this context, we present a...",
+      "source": "ArXiv CS.AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427569+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "TechCrunch AI",
+        "ArXiv CS.AI"
+      ]
+    },
+    {
+      "id": "09a5dd04cd22",
+      "title": "Accounting for Bias Enables Sustainable LLM Evaluation",
+      "url": "https://arxiv.org/abs/2609.31184",
+      "summary": "arXiv:2609.31184v1 Announce Type: new Abstract: LLM-as-a-judge has become the de facto standard for scalable, subjective evaluation, yet current leaderboards compensate for systematic measurement bias by running ever more comparisons, an approach that is both statistically...",
+      "source": "ArXiv CS.AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425114+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "TechCrunch AI",
         "ArXiv CS.AI"
       ]
     },
@@ -48,8 +100,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 90,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:41.981810+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:44.785249+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -57,15 +109,47 @@
       ]
     },
     {
-      "id": "b82ccc2f650d",
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
-      "url": "https://github.com/brumar/chess-postmortem-skills",
-      "summary": "Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too. A few sessions later, I had a system that takes my...",
+      "id": "6098d1fd6733",
+      "title": "Show HN: OpenAPPA – open-source deterministic guardrails that don't break agents",
+      "url": "https://www.openappa.com/",
+      "summary": "Hey there! We are building SuperCMO Skills, open source tools which allow agents (Claude Code, Cursor, Codex, etc.) to research, plan and create video and image campaigns end-to-end right out of your terminal or IDE. We got tired of paying for expensive AI subscriptions and...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 75,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:43.208847+00:00",
+      "score": 23,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:44.299969+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "03e43ade35c1",
+      "title": "Show HN: A never-ending chess match between Claude and Codex",
+      "url": "https://claudevcodex.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:42.943096+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "63c8ce327e13",
+      "title": "Show HN: Enterprise Postgres for AI and more, from prototype to production",
+      "url": "https://www.pgedge.com/products/starfleet",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:43.021320+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -80,8 +164,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 5,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:39.233776+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:45.180335+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -96,8 +180,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 4,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:40.565147+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:45.861832+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -105,15 +189,15 @@
       ]
     },
     {
-      "id": "4f1bda8b59e6",
-      "title": "Show HN: InkVec Studio – In-browser, SOTA, WASM based (rust) vectorizer",
-      "url": "https://logolabs-inkvec.static.hf.space/studio/index.html",
+      "id": "5ba62dd95e9f",
+      "title": "Show HN: Android-on-Device Harness – N8N Meets Tasker Meets AI",
+      "url": "https://github.com/ankurCES/Mahout",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:40.754004+00:00",
+      "score": 3,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:43.981296+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -121,31 +205,15 @@
       ]
     },
     {
-      "id": "66eef53d4f62",
-      "title": "Show HN: Squint – Drag a box on your screen and ask AI about it",
-      "url": "https://heysquint.com/",
-      "summary": "It improves the usual workflow: take a screenshot, switch to a chat tab, upload it, switch back. - Built with Rust and Tauri v2, including a built-in native screenshot solution for maximum performance and stability. - Answers come from OpenAI models. Fast, the default, usually...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 4,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:41.317382+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "cc5b8e5e7e3a",
-      "title": "Show HN: Asimov's 4 Laws for AI Contexts",
-      "url": "https://github.com/davidsonff/asimov4laws",
-      "summary": "For community and agent comments, thoughts, refinements, critiques, pull requests, and use.",
+      "id": "4430d0342e05",
+      "title": "Show HN: Kern Sandbox, run LLM-generated code locally, no cloud, no daemon",
+      "url": "https://getkern.dev/guide/sandbox.html",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:41.412798+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:44.463220+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -160,8 +228,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:40.175032+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.311516+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -169,31 +237,239 @@
       ]
     },
     {
-      "id": "0f56c2c1784b",
-      "title": "Show HN: Interactive Phaistos Disc workbench, rotation ergonomics, null models",
-      "url": "https://lessthanzero.github.io/phaistos-disk/",
+      "id": "be0adbc64dc3",
+      "title": "Show HN: Jylus – give AI systems evidence from changing data.",
+      "url": "https://jylus.ai/try",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:42.638107+00:00",
+      "score": 2,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:42.627499+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
+      ]
+    },
+    {
+      "id": "915a078b85fc",
+      "title": "Show HN: PHNTM ONE: Self healing AI assistant running on a Raspberry Pi5",
+      "url": "https://www.phntmcore.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:43.175846+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "3926e8923655",
+      "title": "Show HN: Open-source agent runtime using your ChatGPT or Claude subscription",
+      "url": "https://github.com/noclickapp/noclick",
+      "summary": "Hey HN! Sharing my work on an open-source agent runtime (like n8n, but for agents). It's OSI open-source under AGPL-3. People have been using it to build agents that handle support queries, automated resolution, WhatsApp chatbots, etc.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:43.332232+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "c4c73aef08f6",
+      "title": "Show HN: Redthread – autonomous LLM pentesting with proof-of-concept exploits",
+      "url": "https://millenniums.ai/docs",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 2,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:44.866617+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "c1c404d69785",
+      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596761+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "7c13d7d16efc",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596815+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "6534baaa6dae",
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596838+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "f3375fd5ad41",
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596865+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "3bec44b4fd23",
+      "title": "The AI boom took over Climate Week and not everyone is happy about it",
+      "url": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+      "summary": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596880+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "52b48bf7e3e3",
+      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "summary": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596921+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "ce2f7d61115b",
+      "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+      "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596937+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "55252e356ed2",
+      "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
+      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "summary": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596953+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "d4b39d4f7873",
+      "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.596987+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "1b890246d465",
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.597031+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
       "id": "65f72c6df97b",
       "title": "Anthropic’s CEO is about to have dinner with President Trump",
       "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump.",
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223156+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:04:46.597067+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -201,207 +477,63 @@
       ]
     },
     {
-      "id": "604a9c5c6c80",
-      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
-      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-      "summary": "\"AI is the devil and I its maker.\"",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223230+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "0c8805d33323",
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223251+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "17525535f767",
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223269+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "0436c4959e9f",
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223302+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "d8a31bf5b3f0",
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223322+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "e18e723990e7",
-      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-      "summary": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223349+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "46b156232e2f",
-      "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-      "summary": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive AI data center buildout.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223371+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "67e4ac0ca85d",
-      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes...",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223426+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "6d988fd0cda4",
-      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-      "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-      "summary": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223459+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "f51695853bba",
-      "title": "Meta’s AI Tamagotchi bet is…working?",
-      "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
-      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes...",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223501+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "50bc7180bbb9",
-      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-      "summary": "The latest unauthorized agent swarms were discovered by researchers.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223515+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "1c895c76180c",
-      "title": "Anthropic’s founders seek voting control ahead of IPO",
-      "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-      "summary": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:06:45.223533+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "9ac45d926129",
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on...",
+      "id": "97a3c7f21217",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by...",
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.267930+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.064384+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "5dbb2108c213",
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.064440+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "74fe8b933123",
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.064472+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "aa697b07a4f6",
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.064552+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,8 +548,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.267988+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.064580+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -432,8 +564,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.268041+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.064631+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -441,19 +573,83 @@
       ]
     },
     {
-      "id": "0e4277e87240",
-      "title": "The AI Hype Index: AI loves cheating",
-      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have...",
-      "source": "MIT Tech Review",
+      "id": "d41d97ec48e7",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup...",
+      "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.268104+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167658+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "MIT Tech Review"
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "23d05325de11",
+      "title": "OpenAI’s AI agents need to catch up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167743+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "c3b5215d833b",
+      "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+      "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167784+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "e9df21c1a34a",
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot,...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167819+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "914ebe179114",
+      "title": "OpenAI keeps bulldozing mathematicians",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+      "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI's latest attempt...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167849+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -464,136 +660,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427650+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "951e0dae5727",
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427725+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "b918d7842be5",
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427762+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "98da68fadf9e",
-      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
-      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
-      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427799+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "c430d908098d",
-      "title": "Sony and UMG are suing Suno again",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-      "summary": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427842+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "59949e2bab89",
-      "title": "One company is at the center of a wave of rogue AI attacks",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
-      "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427871+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "68cae9a85717",
-      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-      "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427902+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "f40c0df7e9cb",
-      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
-      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-      "summary": "After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427937+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "ffe8c2db5b10",
-      "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
-      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.427966+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.167932+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -608,8 +676,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976488+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427943+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -624,8 +692,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.971587+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423073+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -640,8 +708,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979854+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431314+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -656,8 +724,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975969+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427433+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -672,8 +740,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.971753+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423237+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -688,8 +756,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.971796+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423279+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -704,8 +772,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972899+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424385+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -720,8 +788,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.971892+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423387+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -736,8 +804,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.971949+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423444+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -752,8 +820,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.971986+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423481+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -768,8 +836,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972039+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423533+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -784,8 +852,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972094+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423582+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -800,8 +868,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972144+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423631+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -816,8 +884,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977872+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429305+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -832,8 +900,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977106+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428577+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -848,8 +916,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972292+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423769+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -864,8 +932,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972348+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423828+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -880,8 +948,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972384+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423862+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -896,8 +964,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972422+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.423900+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -912,8 +980,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974883+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426328+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -928,8 +996,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980215+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431680+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -944,8 +1012,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972610+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424081+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -960,8 +1028,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972659+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424128+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -976,8 +1044,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972705+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424175+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -992,8 +1060,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973293+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424765+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1008,8 +1076,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972791+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424263+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1024,8 +1092,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972831+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424303+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1040,8 +1108,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972862+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424334+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1056,8 +1124,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.972949+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424436+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1072,8 +1140,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974841+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426286+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1088,8 +1156,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973045+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424531+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1104,8 +1172,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973099+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424584+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1120,8 +1188,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977766+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429202+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1136,8 +1204,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973190+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424677+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1152,8 +1220,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973249+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424724+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1168,8 +1236,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973347+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424818+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1184,8 +1252,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973391+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424863+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1200,8 +1268,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973434+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424906+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1216,8 +1284,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973495+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.424964+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1232,8 +1300,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973546+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425014+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1248,8 +1316,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978479+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429908+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1264,8 +1332,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973697+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425161+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1280,8 +1348,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973740+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425206+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1296,8 +1364,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973788+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425254+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1312,8 +1380,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973826+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425290+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1328,8 +1396,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977700+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429137+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1344,8 +1412,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.973957+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425432+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1360,8 +1428,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974006+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425479+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1376,8 +1444,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974050+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425521+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1388,12 +1456,12 @@
       "id": "8cf9ea12023d",
       "title": "UQ-LOB: Uncertainty-Aware Limit Order Book Mid-Price Forecasting",
       "url": "https://arxiv.org/abs/2609.31491",
-      "summary": "arXiv:2609.31491v1 Announce Type: new Abstract: Forecasting short-horizon mid-price movements from limit order book (LOB) data is central to algorithmic trading, yet most deep LOB forecasters are point predictors: they output a direction or a displacement, but never indicate...",
+      "summary": "arXiv:2609.31491v2 Announce Type: new Abstract: Forecasting short-horizon mid-price movements from limit order book (LOB) data is central to algorithmic trading, yet most deep LOB forecasters are point predictors: they output a direction or a displacement, but never indicate...",
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974091+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425562+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1408,8 +1476,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979951+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431421+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1424,8 +1492,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974217+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425675+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1440,8 +1508,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974260+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425720+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1456,8 +1524,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974398+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425859+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1472,8 +1540,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974458+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425918+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1484,12 +1552,12 @@
       "id": "6e423447ae51",
       "title": "Coding Agents Aren't Enough! Evaluating an Enterprise Security Brain for Agentic Cloud Investigations",
       "url": "https://arxiv.org/abs/2609.30345",
-      "summary": "arXiv:2609.30345v1 Announce Type: cross Abstract: Cloud-security investigation is dominated by population tasks: which identities can read a data store, how many resources fail a control, which assets are reachable from another account. These resolve against a complete...",
+      "summary": "arXiv:2609.30345v2 Announce Type: cross Abstract: Cloud-security investigation is dominated by population tasks: which identities can read a data store, how many resources fail a control, what is reachable from another account. These resolve against a complete inventory, not a...",
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974524+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.425973+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1504,8 +1572,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974569+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426013+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1520,8 +1588,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974606+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426050+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1536,8 +1604,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974650+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426093+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1552,8 +1620,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974687+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426130+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1568,8 +1636,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977057+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428529+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1584,8 +1652,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.974970+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426424+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1600,8 +1668,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975018+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426472+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1616,8 +1684,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975074+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426529+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1632,8 +1700,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975130+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426594+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1648,8 +1716,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975175+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426638+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1664,8 +1732,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975250+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426702+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1680,8 +1748,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975298+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426754+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1696,8 +1764,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975350+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426802+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1712,8 +1780,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980577+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432024+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1728,8 +1796,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975485+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426945+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1744,8 +1812,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975528+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.426989+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1760,8 +1828,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975574+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427033+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1776,8 +1844,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975627+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427085+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1792,8 +1860,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978632+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430060+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1808,8 +1876,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975876+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427330+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1824,8 +1892,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.975921+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427380+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1840,8 +1908,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976023+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427487+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1856,8 +1924,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976060+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427525+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1872,8 +1940,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976273+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427733+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1888,8 +1956,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976367+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427828+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1904,8 +1972,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976406+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.427868+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1916,12 +1984,12 @@
       "id": "88f814dd3ce7",
       "title": "Cognitive Skills in the Age of AI: Computing Students and Experts Perceptions",
       "url": "https://arxiv.org/abs/2609.31272",
-      "summary": "arXiv:2609.31272v1 Announce Type: cross Abstract: AI is becoming increasingly integrated into daily workflows, especially in computing. We are gradually shifting towards an AI-rich future, an impending yet unknown one. One important emerging concern is whether we are accordingly...",
+      "summary": "arXiv:2609.31272v2 Announce Type: cross Abstract: AI is becoming increasingly integrated into daily workflows, especially in computing. We are gradually shifting towards an AI-rich future, an impending yet unknown one. One important emerging concern is whether we are accordingly...",
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976547+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428001+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1936,8 +2004,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976587+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428041+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1952,8 +2020,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976653+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428107+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1968,8 +2036,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976771+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428221+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -1984,8 +2052,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976813+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428263+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2000,8 +2068,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979600+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431015+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2016,8 +2084,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976906+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428355+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2032,8 +2100,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.976961+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428431+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2048,8 +2116,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977006+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428476+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2064,8 +2132,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979411+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430830+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2080,8 +2148,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977242+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428701+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2096,8 +2164,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977279+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428738+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2112,8 +2180,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977324+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428783+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2128,8 +2196,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977361+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428821+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2144,8 +2212,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977403+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428862+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2160,8 +2228,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980167+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431638+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2176,8 +2244,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977508+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.428953+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2192,8 +2260,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977558+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429000+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2208,8 +2276,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977664+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429100+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2224,8 +2292,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977844+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429276+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2240,8 +2308,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.977953+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429391+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2256,8 +2324,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978065+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429499+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2272,8 +2340,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978175+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429617+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2288,8 +2356,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978224+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429658+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2304,8 +2372,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978273+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429706+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2320,8 +2388,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978327+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429762+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2336,8 +2404,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978382+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429812+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2352,8 +2420,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978422+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429853+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2368,8 +2436,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978535+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.429964+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2384,8 +2452,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978578+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430007+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2400,8 +2468,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978685+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430112+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2416,8 +2484,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978720+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430147+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2432,8 +2500,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978814+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430239+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2448,8 +2516,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978875+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430298+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2464,8 +2532,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.978977+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430407+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2480,8 +2548,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979026+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430456+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2496,8 +2564,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979151+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430578+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2512,8 +2580,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979271+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430689+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2528,8 +2596,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979366+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430782+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2544,8 +2612,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979467+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430886+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2560,8 +2628,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979511+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430929+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2576,8 +2644,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979555+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.430973+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2592,8 +2660,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979703+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431117+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2608,8 +2676,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979752+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431166+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2624,8 +2692,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979810+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431270+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2640,8 +2708,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979906+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431373+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2656,8 +2724,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.979999+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431468+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2672,8 +2740,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980044+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431513+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2688,8 +2756,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980107+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431572+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2704,8 +2772,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980261+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431724+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2720,8 +2788,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980375+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431835+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2736,8 +2804,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980456+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431913+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2752,8 +2820,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980525+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.431973+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2768,8 +2836,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980679+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432077+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2784,8 +2852,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980831+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432225+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2800,8 +2868,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980961+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432353+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2816,8 +2884,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.980994+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432394+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2832,8 +2900,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.981030+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432431+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -2848,8 +2916,8 @@
       "source": "ArXiv CS.AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-09-28",
-      "scraped_at": "2026-09-28T10:07:01.981083+00:00",
+      "date": "2026-09-29",
+      "scraped_at": "2026-09-29T10:05:02.432480+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
