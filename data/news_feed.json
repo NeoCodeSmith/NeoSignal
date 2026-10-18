@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T08:00:13.764331+00:00",
-    "article_count": 29,
-    "raw_count": 42,
+    "generated_at": "2026-10-18T08:17:12.067975+00:00",
+    "article_count": 34,
+    "raw_count": 46,
     "config_version": "4.0"
   },
   "articles": [
@@ -14,13 +14,29 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.283363+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.608839+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
         "The Verge AI",
         "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "b8c94b8aeefc",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "summary": "(credits to Fable 5.1)",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 285,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:50.926338+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
       ]
     },
     {
@@ -30,9 +46,9 @@
       "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 216,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:51.172936+00:00",
+      "score": 243,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:51.339146+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -47,8 +63,24 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 121,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:55.035410+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:54.117413+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "c640896ef22b",
+      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "url": "https://clova.email/",
+      "summary": "Infinite inboxes, including prefixes where you don't have to create inboxes before you use them -- they self create when you add a suffix. Three types of inboxes: - One sender. Locks to the first domain to send email (except gmail, outlook, etc where it locks to an email account...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 114,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:53.512058+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -59,12 +91,12 @@
       "id": "49c173a7a4bb",
       "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
       "url": "https://parsimony.lasu.dev/",
-      "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already...",
+      "summary": "Hi HN, I am a facial cosmetic surgeon and have been practicing for just over 20 years. I work in Beverly Hills and Miami and my practice is both surgical and non-surgical (ie fillers) and I specialize in very natural results. I always tell patients: the procedures are easy to do...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 77,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:55.779844+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:54.534965+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -72,47 +104,31 @@
       ]
     },
     {
-      "id": "b8c94b8aeefc",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "url": "https://llmspeed.dev/",
-      "summary": "(credits to Fable 5.1)",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 45,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:50.961633+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "ff8cec64295a",
-      "title": "Show HN: Weatherdeck – a read-only status board for AI coding agent lanes",
-      "url": "https://github.com/Moshik21/weatherdeck",
-      "summary": "Offline-first notepad calculator: unit-aware math, uncertainty propagation, and rate reasoning.",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 8,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:52.484302+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "a814c327b61c",
-      "title": "Show HN: Camera Controls and Motion for AI Video Prompts",
-      "url": "https://www.kapwing.com/ai/prompt-generator/camera",
+      "id": "7bb0431f0b61",
+      "title": "Show HN: Ask a technical question, get an animated explainer you can interrupt",
+      "url": "https://openlume.com/examples/3f65f6ce-87bf-4c81-a34b-3a1ec82f0ed1",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 6,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:52.166759+00:00",
+      "score": 17,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.116142+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "e13483e6f9c6",
+      "title": "Show HN: BlastLoop, a structure-first coding method for AI agents",
+      "url": "https://github.com/rlshaw-ml/BlastLoop",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 15,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.454371+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -127,8 +143,24 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 5,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:53.966016+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.031933+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "01e0bbca5737",
+      "title": "Show HN: Play a 5 minutes match of CS 1.6 1v1 while you wait for your agent",
+      "url": "https://csfor.fun/",
+      "summary": "I just made it and I think it's fun to play while I wait for claude, but I need more users to play with",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 5,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.630702+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -142,9 +174,9 @@
       "summary": "I have this boiler at a rental property I own. It has 3 smart thermostats (Ecobee). They're great and give the individual tenants zone control, but they only notify me something is wrong when it's already too late as they rely on observing the 'call for heat' and a ongoing...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 2,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:56.199371+00:00",
+      "score": 4,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:54.945612+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -152,15 +184,79 @@
       ]
     },
     {
-      "id": "c6e110d0fc03",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "id": "0ebb7530f056",
+      "title": "Show HN: Would You Merge It? – 24 bugs AI assistants write, as fix-it katas",
+      "url": "https://github.com/SohailKhan0525/would-you-merge",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:53.258982+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "e1184c15e3df",
+      "title": "Show HN: Calcy – unit-aware, uncertainty-propagating math",
+      "url": "https://habitathq.github.io/calcy/",
+      "summary": "Offline-first notepad calculator: unit-aware math, uncertainty propagation, and rate reasoning.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 3,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:54.864908+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "f67ba74ec9c8",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681600+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880140+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "954210f2072a",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880241+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "15c759c0ac32",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880278+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -175,8 +271,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681644+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880305+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -191,8 +287,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681695+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880391+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -207,8 +303,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681729+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880473+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -223,8 +319,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681748+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880507+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -239,8 +335,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681764+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880536+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -255,8 +351,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681780+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880571+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -271,8 +367,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681803+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880602+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -287,8 +383,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681828+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880636+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -303,8 +399,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681862+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880681+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -319,8 +415,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681880+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880706+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -335,24 +431,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681921+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "c28547d24582",
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping,...",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T07:59:57.681955+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:16:55.880763+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -367,8 +447,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.212650+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.524995+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -383,12 +463,28 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.212713+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.525062+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "173c0e72549e",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.608488+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -399,8 +495,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.283182+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.608577+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -415,8 +511,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.283245+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.608671+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -431,8 +527,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.283299+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.608748+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -447,24 +543,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.283330+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "23d51766ee28",
-      "title": "Friends don&#8217;t let friends feed their data to AI agents",
-      "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-      "summary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-10-17",
-      "scraped_at": "2026-10-17T08:00:13.283392+00:00",
+      "date": "2026-10-18",
+      "scraped_at": "2026-10-18T08:17:11.608796+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
