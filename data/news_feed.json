@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T10:37:13.639089+00:00",
-    "article_count": 29,
+    "generated_at": "2026-11-08T10:42:12.694139+00:00",
+    "article_count": 30,
     "raw_count": 38,
     "config_version": "4.0"
   },
@@ -14,8 +14,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.273852+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.113105+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
@@ -31,13 +31,30 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.251493+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.023814+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
         "TechCrunch AI",
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "dee235675026",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.112985+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "TechCrunch AI",
+        "The Verge AI"
       ]
     },
     {
@@ -47,9 +64,9 @@
       "summary": "My brother and I run a 2-person lab that trains our own generative video models from scratch. The ultimate goal is a set of creative tools that make it easier for anyone to make animation. Video models today are too slow/expensive and lack sufficient controls. Creativity is an...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 274,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:49.926530+00:00",
+      "score": 283,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:49.571824+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -64,8 +81,8 @@
       "source": "HackerNews",
       "source_type": "community",
       "score": 127,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:51.679152+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:51.474216+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -76,13 +93,45 @@
       "id": "2fb682242839",
       "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
       "url": "https://github.com/finic-ai/kairos",
-      "summary": "hey hn, sven from Reason Machines (YC F26). we've been experimenting with how fast we can push our ci/cd and code storage systems when swarms of coding agents are all pushing at once. turns out giving 100 agents git push basically ddos'es normal git servers. so we wrote aspen:...",
+      "summary": "Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to train on and dealing...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 104,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.303770+00:00",
+      "score": 106,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:52.917079+00:00",
       "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "982f70f0bc35",
+      "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+      "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 66,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:48.497312+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "4be311c459f6",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "url": "https://eyesrhythm.com/",
+      "summary": "Profession like software engineer, mechanical / graphics designer takes a lot of strain on your eyes, observing minute details for hours and hours on screen can significantly reduce the blink rate which you might not even notice until it gets irreversibly painful, leaving you...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 31,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:48.363029+00:00",
+      "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "HackerNews"
@@ -95,9 +144,9 @@
       "summary": "Hi HN, I’m Jan. I am co-author of the Agentic Identity Broker (AIB), an MIT-licensed OAuth2 broker in the Zalando Incubator, that lets a user give an AI agent scoped, revocable access to MCP services. The broker solves three major challenges that are especially relevant in...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 22,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:50.060587+00:00",
+      "score": 23,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:51.208353+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -108,12 +157,12 @@
       "id": "1ab03dd26390",
       "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
       "url": "https://adikshatriyag-crypto.github.io/aegis-kernel/",
-      "summary": "Hello HN, I'm Nik. I built Infinity for myself because I tend to love to rabbit-hole on various subjects. I usually have 3-4 windows open for ChatGPT desktop + Claude + Ollama. Typically, I'd ask a question, see something interesting in the answer, and then keep expanding on it....",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 12,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:49.796109+00:00",
+      "score": 13,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:51.067543+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -127,9 +176,25 @@
       "summary": "Hi HN, I've been fascinated by aviation for some time now. Inspired by Fugleramme, I wanted a framed print of a cluster of aircraft over my house or a busy airport. So I built Overhead. (Photos in the README) The hero photo shows planes departing and landing in Changi,...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 9,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:51.010500+00:00",
+      "score": 13,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:51.740749+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "d3417423c33c",
+      "title": "Show HN: LLM weight editing tool made by a 15-year-old",
+      "url": "https://github.com/Miyamoto-Renya/LaplacesScissors",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 8,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:48.230681+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -144,8 +209,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916375+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640308+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -160,8 +225,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916436+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640366+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -176,8 +241,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916505+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640435+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -192,8 +257,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916545+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640470+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -208,8 +273,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916567+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640489+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -224,8 +289,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916591+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640515+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -240,24 +305,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916614+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "16ed2d76357b",
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916663+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640538+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -272,8 +321,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916691+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640601+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,8 +337,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916714+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640621+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -304,40 +353,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916738+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "94ce8fd14ff2",
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916759+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "0c579f5eb628",
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:36:57.916777+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:41:56.640644+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -352,8 +369,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.251358+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.023683+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -368,12 +385,44 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.251567+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.023884+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "59a5d2ae0738",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.112889+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "1d15913883c1",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.113040+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -384,8 +433,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.273920+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.113155+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -400,8 +449,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.273972+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.113199+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,8 +465,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.274039+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.113241+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -432,40 +481,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.274085+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "9d75237a0741",
-      "title": "How Akai and Moog are embracing vibe-coded mods",
-      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
-      "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.274140+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "24f84b28e1d9",
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-07",
-      "scraped_at": "2026-11-07T10:37:13.274205+00:00",
+      "date": "2026-11-08",
+      "scraped_at": "2026-11-08T10:42:12.113280+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
