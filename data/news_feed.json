@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-15T11:25:02.494620+00:00",
-    "article_count": 24,
-    "raw_count": 30,
+    "generated_at": "2026-11-15T20:29:52.091087+00:00",
+    "article_count": 21,
+    "raw_count": 31,
     "config_version": "4.0"
   },
   "articles": [
@@ -15,24 +15,24 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.150906+00:00",
+      "scraped_at": "2026-11-15T20:29:51.561478+00:00",
       "authenticity_score": 0.8,
       "source_count": 2,
       "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TechCrunch AI"
       ]
     },
     {
       "id": "f400159c9dd5",
       "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
       "url": "https://tinyvalencia.com/",
-      "summary": "I've been developing applications for a long time and have turned to game development as well lately. One of the things that frustrated me the most was that using AI agents for game development is very annoying in the art department. Your only options right now are to either use...",
+      "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 261,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:42.657326+00:00",
+      "scraped_at": "2026-11-15T20:29:33.911046+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -43,12 +43,12 @@
       "id": "c49bf2cfcb87",
       "title": "Show HN: Ghanaian street games you can play in the browser",
       "url": "https://www.ghanastreetgames.com/",
-      "summary": "Hello HN! I made a daily word game where you find words on a hexagonal grid, without crossing walls. Feedback is very welcome!",
+      "summary": "Hey folks. Most all the apps I see for agent harnesses are typescript based, and involve either electron or some form of IPC to function as a desktop app. In the age of LLM's, I thought it would be cool to build out a prototype of what a modern desktop application would like for...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 116,
+      "score": 117,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:44.534389+00:00",
+      "scraped_at": "2026-11-15T20:29:35.617992+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -62,9 +62,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 110,
+      "score": 113,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:41.469164+00:00",
+      "scraped_at": "2026-11-15T20:29:31.693610+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -78,9 +78,25 @@
       "summary": "Yes, i really hate \"dict[str, ANY]\"",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 55,
+      "score": 67,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:40.603760+00:00",
+      "scraped_at": "2026-11-15T20:29:31.829783+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "5eb107cad0f3",
+      "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+      "url": "https://github.com/db-branch/db-branch",
+      "summary": "Hi HN, I made Pizza, an open-source, event-driven AI agent. No `while true`. Each turn is a state machine. Conversations and tool calls go into an immutable SQLite log. The UI, model context, and session tree are built from that log. The model gets one tool: a CLI. Reading...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 25,
+      "date": "2026-11-15",
+      "scraped_at": "2026-11-15T20:29:27.914345+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -96,55 +112,7 @@
       "source_type": "community",
       "score": 12,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:43.435210+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "c1e265b46033",
-      "title": "Show HN: Log every LLM call with tokens, cost, latency, and time to first token",
-      "url": "https://github.com/garritfra/llmtee",
-      "summary": "Hi HN, Llmtee is a lightweight llm proxy. I built this project because I needed a simple way to log llm calls across my agents. Existing options require running Postgres, ClickHouse and Redis, or have me use an SDK. llmtree is just a single binary. You point your provider base...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 10,
-      "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:44.709775+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "2fca50ba26d9",
-      "title": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
-      "url": "https://www.shotoku.dev/",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 9,
-      "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:42.317454+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "HackerNews"
-      ]
-    },
-    {
-      "id": "f219f9148932",
-      "title": "Show HN: Timon, an open-source AI workstation for coordinating agents",
-      "url": "https://github.com/ai-timon/timon",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 7,
-      "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:45.407861+00:00",
+      "scraped_at": "2026-11-15T20:29:35.481787+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -160,7 +128,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:46.537275+00:00",
+      "scraped_at": "2026-11-15T20:29:36.096279+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -176,7 +144,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:46.537337+00:00",
+      "scraped_at": "2026-11-15T20:29:36.096351+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -192,7 +160,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:46.537356+00:00",
+      "scraped_at": "2026-11-15T20:29:36.096382+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -208,7 +176,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:46.537374+00:00",
+      "scraped_at": "2026-11-15T20:29:36.096412+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -224,23 +192,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:46.537480+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "3e0e74f404d3",
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:24:46.537502+00:00",
+      "scraped_at": "2026-11-15T20:29:36.096614+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -256,7 +208,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.075849+00:00",
+      "scraped_at": "2026-11-15T20:29:51.487360+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -272,7 +224,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.075913+00:00",
+      "scraped_at": "2026-11-15T20:29:51.487468+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,7 +240,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.075985+00:00",
+      "scraped_at": "2026-11-15T20:29:51.487550+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -304,11 +256,27 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.076014+00:00",
+      "scraped_at": "2026-11-15T20:29:51.487596+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "a4dc5c281419",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-15",
+      "scraped_at": "2026-11-15T20:29:51.561269+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -320,7 +288,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.150811+00:00",
+      "scraped_at": "2026-11-15T20:29:51.561377+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -336,7 +304,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.150967+00:00",
+      "scraped_at": "2026-11-15T20:29:51.561556+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -352,7 +320,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.150998+00:00",
+      "scraped_at": "2026-11-15T20:29:51.561604+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -368,23 +336,7 @@
       "source_type": "media",
       "score": 0,
       "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.151030+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "605c12bbfe6e",
-      "title": "No, AI agents did not discover a previously unknown Maya site",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-15",
-      "scraped_at": "2026-11-15T11:25:02.151075+00:00",
+      "scraped_at": "2026-11-15T20:29:51.561650+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
