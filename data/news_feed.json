@@ -1,55 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T11:38:59.158395+00:00",
-    "article_count": 31,
-    "raw_count": 35,
+    "generated_at": "2026-11-22T11:52:45.468070+00:00",
+    "article_count": 30,
+    "raw_count": 32,
     "config_version": "4.0"
   },
   "articles": [
     {
-      "id": "33c1f67ec8c6",
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.786001+00:00",
-      "authenticity_score": 0.8,
-      "source_count": 2,
-      "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "345df5749537",
-      "title": "Anthropic starts trading on Wall Street",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.786107+00:00",
-      "authenticity_score": 0.8,
-      "source_count": 2,
-      "all_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
-      ]
-    },
-    {
       "id": "a68013119d9e",
       "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
       "url": "https://github.com/RunanywhereAI/trnrt",
-      "summary": "I’m writing my first novel and could not find an app that fit my workflow: quiet like iA Writer, organized like Scrivener, and with AI so I can discuss my book while I write it. It allows me to feel less “alone” and have a sounding board while I write. - A book is a folder of...",
+      "summary": "Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTime, our inference engine for AWS Trainium. We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models support...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 54,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:40.046096+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:27.220682+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -57,15 +23,15 @@
       ]
     },
     {
-      "id": "04d36175b090",
-      "title": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware",
-      "url": "https://github.com/XiaoMi/bsworld",
+      "id": "4f3b913a58aa",
+      "title": "Show HN: agent-mcts – Monte Carlo tree search on top of Claude Code",
+      "url": "https://github.com/natsu0529/agent-mcts",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 5,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:42.714655+00:00",
+      "score": 15,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:24.726319+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -79,9 +45,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 4,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:35.701185+00:00",
+      "score": 8,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:26.541919+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -89,15 +55,15 @@
       ]
     },
     {
-      "id": "82e55bfaca5f",
-      "title": "Show HN: SaturnSQL Context, telling AI tools what the database means",
-      "url": "https://saturnsql.com/context-layer",
-      "summary": "I've seen a rising demand for context when AI queries data from different places, so I built a way to provide it. You basically describe the tables, write free-form markdown notes and set definitions (e.g. the SQL for how to calculate an active user, so everyone in the company...",
+      "id": "69c644d44452",
+      "title": "Show HN: Musset, open-source Scrivener alternative with an AI that never writes",
+      "url": "https://github.com/Musset-App/musset",
+      "summary": "I’m writing my first novel and could not find an app that fit my workflow: quiet like iA Writer, organized like Scrivener, and with AI so I can discuss my book while I write it. It allows me to feel less “alone” and have a sounding board while I write. - A book is a folder of...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:38.669128+00:00",
+      "score": 5,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:28.143665+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -105,15 +71,15 @@
       ]
     },
     {
-      "id": "8567407b0ff7",
-      "title": "Show HN: Luminol: see what AI evidence a Windows PC holds and when it expires",
-      "url": "https://github.com/adilshadowaiforensics/luminol/releases/tag/v0.1.1",
+      "id": "9c4d86e95b04",
+      "title": "Show HN: Pencil – LLM writes whiteboard lessons as JSON, a browser draws them",
+      "url": "https://github.com/VBS2004/pencil",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
       "score": 3,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:39.349179+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:26.199429+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -121,35 +87,51 @@
       ]
     },
     {
-      "id": "e64fa7f1726a",
-      "title": "Show HN: ArkViz – AI generated software architecture diagrams",
-      "url": "https://arkviz.io",
-      "summary": "Hi HN, I’m Bryant, founder of ArkViz ( https://arkviz.io ). ArkViz is a product to automatically generate architecture diagrams from your codebase using AI. The vision behind ArkViz is to supercharge both AI agents and humans by providing AI agents deeper relational context...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:39.932784+00:00",
+      "id": "2a8441adb608",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192830+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "869499515e9c",
-      "title": "Show HN: Full Production Studio, 77 open-source AI skills for video creators",
-      "url": "https://github.com/alfaris/full-production-studio",
-      "summary": "",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:40.155503+00:00",
+      "id": "ca5fa4c8d431",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192891+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "cbafe19bf6b1",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192914+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -160,8 +142,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.006926+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192929+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -176,8 +158,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.006977+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192942+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -192,8 +174,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007015+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192970+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -201,15 +183,15 @@
       ]
     },
     {
-      "id": "3963d1c298f1",
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "id": "2e288d045b58",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007197+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.192995+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -224,8 +206,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007076+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193020+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -240,8 +222,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007099+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193037+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -256,8 +238,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007115+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193049+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -272,8 +254,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007135+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193061+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -288,8 +270,24 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007150+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193073+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "e923ff49c18d",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193086+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -304,40 +302,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007179+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "ff2a67f6a68d",
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007220+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "74a17ac425e4",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:43.007236+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:29.193097+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -352,8 +318,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.686580+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.886647+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -368,8 +334,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.686656+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.886723+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -384,8 +350,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.686697+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.886756+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -400,8 +366,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.686725+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.886776+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -416,12 +382,44 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.686753+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.886798+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "cc81600be1e8",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.985223+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "a9d88102848e",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.985296+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -432,8 +430,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.785856+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.985335+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -448,8 +446,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.785923+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.985366+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -464,8 +462,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.785969+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.985395+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -473,31 +471,15 @@
       ]
     },
     {
-      "id": "11b3f1ed5275",
-      "title": "Google is putting AI chats right on the homepage",
-      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar...",
+      "id": "33c1f67ec8c6",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to...",
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.786049+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "070118d845e9",
-      "title": "Gemini on Mac can now use your computer",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms,...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-21",
-      "scraped_at": "2026-11-21T11:38:58.786079+00:00",
+      "date": "2026-11-22",
+      "scraped_at": "2026-11-22T11:52:44.985417+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
