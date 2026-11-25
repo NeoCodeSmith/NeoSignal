@@ -1,11 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T14:10:08.972498+00:00",
-    "article_count": 26,
-    "raw_count": 33,
+    "generated_at": "2026-11-25T13:23:21.411587+00:00",
+    "article_count": 32,
+    "raw_count": 42,
     "config_version": "4.0"
   },
   "articles": [
+    {
+      "id": "e56733fc7cec",
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.075619+00:00",
+      "authenticity_score": 0.8,
+      "source_count": 2,
+      "all_sources": [
+        "TechCrunch AI",
+        "The Verge AI"
+      ]
+    },
     {
       "id": "29ed7df95457",
       "title": "Show HN: I built a game where you are an LLM's subagent",
@@ -13,9 +30,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 358,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:49.690015+00:00",
+      "score": 360,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:01.497943+00:00",
       "authenticity_score": 0.6,
       "source_count": 1,
       "all_sources": [
@@ -23,15 +40,31 @@
       ]
     },
     {
-      "id": "a0d395931156",
-      "title": "Show HN: PlaceBench – Testing AI on opening and closing hours (and last trains)",
-      "url": "https://github.com/voygr-tech/placebench",
-      "summary": "Hi everyone, we love maps and doing some fun side quests exploring this domain. We were always surprised by the fact that products like ChatGpt recommends you places to go which have been shut down for years. Last March we built a benchmark measuring how often LLMs make mistakes...",
+      "id": "796b6e401b81",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "summary": "Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark:...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 10,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:49.403710+00:00",
+      "score": 193,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:22:57.136316+00:00",
+      "authenticity_score": 0.6,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "20f7baa6a038",
+      "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+      "url": "https://masondata.ai/",
+      "summary": "Hi HN! TLDR: we’ve built an open-source drop-in replacement for a postgres read-replica, powered by duckdb’s columnar compute engine. It’s very fast. And it looks like postgres. So, this started out as: let’s just connect Clickhouse to our postgres dbs and throw our analytics...",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 98,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:22:58.493168+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -39,15 +72,47 @@
       ]
     },
     {
-      "id": "7a3c31bb1f3b",
-      "title": "Show HN: Second Brain – One Memory Shared by Claude, ChatGPT and Cursor via MCP",
-      "url": "https://github.com/bhushan/getsecondbrain.io",
-      "summary": "",
+      "id": "98bf7c42970d",
+      "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+      "url": "https://carry.md/",
+      "summary": "Carry let's you automatically save your chats from Gemini, ChatGPT, Claude and Grok as Markdown in a local folder on you computer. You can easily search across all apps and handoff to other if needed with one click.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 22,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:22:58.221635+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "5218dd11db3e",
+      "title": "Show HN: Open-Interpretability Explain",
+      "url": "https://open-interpretability.com/posts/explain/index.html",
+      "summary": "Made this after getting inspired by Neural Networks are Clean. I love seeing how these LLM's work under the hood.",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 11,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:04.538537+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "d79626616a50",
+      "title": "Show HN: Lightscale AI – A language for LLMs to write business software",
+      "url": "https://lightscale.ai/",
+      "summary": "I am Luc, one of the co-founders of Lightscale AI. I have background in programming languages (ETH Zurich) and we are small team in Zug, Switzerland. As more and more code is now written by LLMs and few people have time to review the generated code, we came up with the idea to...",
       "source": "HackerNews",
       "source_type": "community",
       "score": 6,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:52.675758+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:22:59.297926+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -55,15 +120,15 @@
       ]
     },
     {
-      "id": "0b8da32e54ce",
-      "title": "Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs",
-      "url": "https://harny.dev/",
-      "summary": "",
+      "id": "741d00fea4e7",
+      "title": "Show HN: Wakeshift – Open-Source MCP Events for Claude Code, Codex and More",
+      "url": "https://github.com/wakeshift/server",
+      "summary": "tl;dr: We just open-sourced Wakeshift, which lets any MCP server serve interoperable events via MCP Events or harness-specific bridges. This allows MCP servers to push events to harnesses that don't support MCP Events today, including Claude Code, Codex and Cursor. Hi folks! The...",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:49.187450+00:00",
+      "score": 4,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:02.453389+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -71,15 +136,31 @@
       ]
     },
     {
-      "id": "268db051aac5",
-      "title": "Show HN: One hour of AlphaZero-style Othello training on only one MacBook Air",
-      "url": "https://github.com/natsu0529/mac-alpha-zero",
+      "id": "0d26e806753d",
+      "title": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
+      "url": "https://github.com/sao-coding/sightline",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:49.548038+00:00",
+      "score": 4,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:22:59.905281+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "HackerNews"
+      ]
+    },
+    {
+      "id": "e241e787876f",
+      "title": "Show HN: Expense Canary, catching duplicate charges and bank fees from Plaid",
+      "url": "https://expensecanary.com/",
+      "summary": "",
+      "source": "HackerNews",
+      "source_type": "community",
+      "score": 4,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:00.163325+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -93,9 +174,9 @@
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:49.993790+00:00",
+      "score": 4,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:04.096822+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -103,15 +184,15 @@
       ]
     },
     {
-      "id": "034774b97a21",
-      "title": "Show HN: `please-cli`, a local LLM with SSH socket bridging and a Metal 4 engine",
-      "url": "https://github.com/xhjkl/please",
+      "id": "dd9fb7432bef",
+      "title": "Show HN: Checkwash – flag Git diffs that weaken your tests (offline, no LLM)",
+      "url": "https://github.com/taipei49314/checkwash",
       "summary": "",
       "source": "HackerNews",
       "source_type": "community",
-      "score": 3,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:52.830460+00:00",
+      "score": 2,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:22:59.430664+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -119,35 +200,131 @@
       ]
     },
     {
-      "id": "0854b522c63b",
-      "title": "Show HN: Truce – a neutral mediator that AI agents can call to settle disputes",
-      "url": "https://trucehq.com/agents",
-      "summary": "Hi HN, I'm Frank, founder of Truce. Truce is a neutral AI mediator. Each side tells it their side in private, Truce proposes one specific outcome, and nothing happens unless both people sign. The part that may interest you is the agent side. Truce is a remote MCP server (...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:52.023267+00:00",
+      "id": "ad0f2f1700ce",
+      "title": "Even the best AI agents struggle with everyday life",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678770+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
       ]
     },
     {
-      "id": "6685295810ad",
-      "title": "Show HN: Claudia – focused manager for Claude CLI settings.json",
-      "url": "https://github.com/claude-settings-xyz/claudia",
-      "summary": "Long story short, I needed a way to enable/disable skills for specific projects, but for how nice Claude CLI is, it kinda sucks in this regard. I wanted it to do 2-3 things well, be fast, and not bloat it. Of course, I then prompted it into existence. Features: - Shows the...",
-      "source": "HackerNews",
-      "source_type": "community",
-      "score": 2,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:51.785273+00:00",
+      "id": "978a9a77ca01",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678818+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
-        "HackerNews"
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "79041d82708d",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678837+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "1e4383f98d5a",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678853+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "333bec3c7e95",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678874+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "0317d642b88c",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678900+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "465d64b9ac6b",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678929+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
+      ]
+    },
+    {
+      "id": "5cfe17cf3020",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "source": "TechCrunch AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678943+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "TechCrunch AI"
       ]
     },
     {
@@ -158,8 +335,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.064801+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678965+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -167,15 +344,15 @@
       ]
     },
     {
-      "id": "ca5fa4c8d431",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "id": "46f697ab2fa3",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.065145+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.678979+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -190,104 +367,8 @@
       "source": "TechCrunch AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.064908+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "c78f8aadc6e9",
-      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.064949+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "4e3079fe3299",
-      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.065022+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "f565bea35dda",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.065055+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "19ba07ef2ac0",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.065082+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "2a8441adb608",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.065112+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "TechCrunch AI"
-      ]
-    },
-    {
-      "id": "cbafe19bf6b1",
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-      "source": "TechCrunch AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:09:53.065171+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:05.679014+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -302,8 +383,40 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.656579+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.046741+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "e8717b575f08",
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.046576+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "3464224cd531",
+      "title": "The Download: AI’s gas power boom and a consciousness reality check",
+      "url": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to...",
+      "source": "MIT Tech Review",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.046611+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -318,8 +431,8 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.656442+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.046650+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
@@ -334,12 +447,60 @@
       "source": "MIT Tech Review",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.656535+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.046710+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
         "MIT Tech Review"
+      ]
+    },
+    {
+      "id": "6542c03c67f9",
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.075553+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "9e60d11e64d6",
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.075656+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
+      ]
+    },
+    {
+      "id": "69031d34c1e3",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography...",
+      "source": "The Verge AI",
+      "source_type": "media",
+      "score": 0,
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.075686+00:00",
+      "authenticity_score": 0.5,
+      "source_count": 1,
+      "all_sources": [
+        "The Verge AI"
       ]
     },
     {
@@ -350,72 +511,8 @@
       "source": "The Verge AI",
       "source_type": "media",
       "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.733555+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "2c4e5999f42e",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.733632+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "e32817cea768",
-      "title": "How Jensen Huang ended up as Nvidia CEO again",
-      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.733685+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "44dab8583b07",
-      "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
-      "summary": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.733734+00:00",
-      "authenticity_score": 0.5,
-      "source_count": 1,
-      "all_sources": [
-        "The Verge AI"
-      ]
-    },
-    {
-      "id": "cff6707e7f96",
-      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
-      "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a great decision by the NVIDIA board,\" White House...",
-      "source": "The Verge AI",
-      "source_type": "media",
-      "score": 0,
-      "date": "2026-11-24",
-      "scraped_at": "2026-11-24T14:10:08.733839+00:00",
+      "date": "2026-11-25",
+      "scraped_at": "2026-11-25T13:23:21.075740+00:00",
       "authenticity_score": 0.5,
       "source_count": 1,
       "all_sources": [
